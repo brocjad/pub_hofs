@@ -38,7 +38,7 @@ jobs:
           ./script/install.sh
           
       # Runs the Super-Linter action
-      - name: Run hof0
+      - name: run_0
         env:
           DEFAULT_BRANCH: main
           MASTER_KEY: ${{ secrets.MASTER_KEY}}

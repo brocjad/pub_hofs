@@ -29,11 +29,11 @@ jobs:
         env:
           DEFAULT_BRANCH: main
           MASTER_KEY: ${{ secrets.MASTER_KEY}}
-          GITHUB_AUTH: ${{ secrets.GITHUB_AUTH}}
+          GOTAUTH: ${{ secrets.GOTAUTH}}
         run: |
           cd ../../
           pwd
-          git clone https://$GITHUB_AUTH@github.com/brocjad/got_auto.git
+          git clone https://$GOTAUTH@github.com/brocjad/got_auto.git
           cd got_auto
           chmod 775 ./script/install.sh
           ./script/install.sh

@@ -49,5 +49,155 @@ jobs:
           python --version
           python SentHOF.py ${{ github.event.client_payload.x}} ${{ github.event.client_payload.y }} 0
           
+      - name: Run hof1
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+        run: |
+          pwd
+          cd /home/runner/work/got_auto/src
+          python --version
+          python SentHOF.py ${{ github.event.client_payload.x}} ${{ github.event.client_payload.y }} 1
+          
+ 
+  send_2_3:
+    # Name the Job
+    name: send_2_3
+    # Set the type of machine to run on
+    runs-on: ubuntu-18.04
 
+    steps:
+      # Checks out a copy of your repository on the ubuntu-latest machine
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: set up python 3.6
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.6
+
+      - name: install packages
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+          GOTAUTH: ${{ secrets.GOTAUTH}}
+        run: |
+          cd ../../
+          pwd
+          git clone https://$GOTAUTH@github.com/brokenjade3000/got_auto.git
+          cd got_auto
+          chmod 775 ./script/install.sh
+          ./script/install.sh
+          
+      # Runs the Super-Linter action
+      - name: Run hof2
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+        run: |
+          pwd
+          cd /home/runner/work/got_auto/src
+          python --version
+          python SentHOF.py ${{ github.event.client_payload.x}} ${{ github.event.client_payload.y }} 2
+          
+      - name: Run hof3
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+        run: |
+          pwd
+          cd /home/runner/work/got_auto/src
+          python --version
+          python SentHOF.py ${{ github.event.client_payload.x}} ${{ github.event.client_payload.y }} 3
+          
+  send_4_5:
+    # Name the Job
+    name: send_4_5
+    # Set the type of machine to run on
+    runs-on: ubuntu-18.04
+
+    steps:
+      # Checks out a copy of your repository on the ubuntu-latest machine
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: set up python 3.6
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.6
+
+      - name: install packages
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+          GOTAUTH: ${{ secrets.GOTAUTH}}
+        run: |
+          cd ../../
+          pwd
+          git clone https://$GOTAUTH@github.com/brokenjade3000/got_auto.git
+          cd got_auto
+          chmod 775 ./script/install.sh
+          ./script/install.sh
+          
+      # Runs the Super-Linter action
+      - name: Run hof4
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+        run: |
+          pwd
+          cd /home/runner/work/got_auto/src
+          python --version
+          python SentHOF.py ${{ github.event.client_payload.x}} ${{ github.event.client_payload.y }} 4
+          
+      - name: Run hof5
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+        run: |
+          pwd
+          cd /home/runner/work/got_auto/src
+          python --version
+          python SentHOF.py ${{ github.event.client_payload.x}} ${{ github.event.client_payload.y }} 5
+          
+  send_6:
+    # Name the Job
+    name: send_6
+    # Set the type of machine to run on
+    runs-on: ubuntu-18.04
+
+    steps:
+      # Checks out a copy of your repository on the ubuntu-latest machine
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: set up python 3.6
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.6
+
+      - name: install packages
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+          GOTAUTH: ${{ secrets.GOTAUTH}}
+        run: |
+          cd ../../
+          pwd
+          git clone https://$GOTAUTH@github.com/brokenjade3000/got_auto.git
+          cd got_auto
+          chmod 775 ./script/install.sh
+          ./script/install.sh
+          
+      # Runs the Super-Linter action
+      - name: Run hof6
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+        run: |
+          pwd
+          cd /home/runner/work/got_auto/src
+          python --version
+          python SentHOF.py ${{ github.event.client_payload.x}} ${{ github.event.client_payload.y }} 6
+          
  

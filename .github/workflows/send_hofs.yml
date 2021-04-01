@@ -45,7 +45,7 @@ jobs:
           MASTER_KEY: ${{ secrets.MASTER_KEY}}
         run: |
           pwd
-          cd src
+          cd /home/runner/work/got_auto/src
           python --version
           python SentHOF.py ${{ github.event.client_payload.x}} ${{ github.event.client_payload.y }} 0
           

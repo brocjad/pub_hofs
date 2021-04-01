@@ -1,0 +1,64 @@
+name: send_hofs
+
+# Run this workflow every time a new commit pushed to your repository
+on:
+  repository_dispatch:
+    types: hof
+
+
+jobs:
+  # Set the job key. The key is displayed as the job name
+  # when a job name is not provided
+  send_0_1:
+    # Name the Job
+    name: send_0_1
+    # Set the type of machine to run on
+    runs-on: ubuntu-18.04
+
+    steps:
+      # Checks out a copy of your repository on the ubuntu-latest machine
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: set up python 3.6
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.6
+
+      - name: install packages
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+          GITHUB_AUTH: ${{ secrets.GITHUB_TOKEN}}
+        run: |
+          cd ../../
+          pwd
+          git clone https://brocjad:$GITHUB_TOKEN@github.com/brocjad/got_auto.git
+          cd got_auto
+          chmod 775 ./script/install.sh
+          ./script/install.sh
+          
+      # Runs the Super-Linter action
+      - name: Run hof0
+        env:
+          DEFAULT_BRANCH: main
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+        run: |
+          pwd
+          cd src
+          python --version
+          python SentHOF.py ${{ github.event.client_payload.x}} ${{ github.event.client_payload.y }} 0
+          
+      - name: Run hof1
+        env:
+          DEFAULT_BRANCH: main
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+        run: |
+          pwd
+          cd src
+          python --version
+          python SentHOF.py ${{ github.event.client_payload.x}} ${{ github.event.client_payload.y }} 1
+          
+ 

@@ -128,8 +128,6 @@ jobs:
           python --version
           python run_daily_hof.py 5,6         
 
- 
- 
    run_78:
     # Name the Job
     name: run_78

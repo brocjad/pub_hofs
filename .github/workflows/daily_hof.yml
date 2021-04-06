@@ -128,7 +128,7 @@ jobs:
           python --version
           python run_daily_hof.py 5,6         
 
-   run_78:
+  run_78:
     # Name the Job
     name: run_78
     # Set the type of machine to run on
@@ -168,7 +168,7 @@ jobs:
           python --version
           python run_daily_hof.py 7,8
           
-   run_910:
+  run_910:
     # Name the Job
     name: run_910
     # Set the type of machine to run on
@@ -209,7 +209,7 @@ jobs:
           python run_daily_hof.py 9,10          
           
           
-   run_1112:
+  run_1112:
     # Name the Job
     name: run_1112
     # Set the type of machine to run on
@@ -250,7 +250,7 @@ jobs:
           python run_daily_hof.py 11,12          
           
           
-   run_1314:
+  run_1314:
     # Name the Job
     name: run_1314
     # Set the type of machine to run on
@@ -291,7 +291,7 @@ jobs:
           python run_daily_hof.py 13,14           
           
           
-   run_1516:
+  run_1516:
     # Name the Job
     name: run_1516
     # Set the type of machine to run on
@@ -331,7 +331,7 @@ jobs:
           python --version
           python run_daily_hof.py 15,16          
           
-   run_1718:
+  run_1718:
     # Name the Job
     name: run_1718
     # Set the type of machine to run on
@@ -371,7 +371,7 @@ jobs:
           python --version
           python run_daily_hof.py 17,18                 
           
-   run_1920:
+  run_1920:
     # Name the Job
     name: run_1920
     # Set the type of machine to run on

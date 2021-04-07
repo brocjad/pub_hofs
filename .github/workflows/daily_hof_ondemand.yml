@@ -1,6 +1,6 @@
 
 
-name: daily_hof
+name: daily_hof_ondemand
 
 # Run this workflow every time a new commit pushed to your repository
 on:

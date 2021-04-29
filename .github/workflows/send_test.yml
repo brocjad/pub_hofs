@@ -32,10 +32,8 @@ jobs:
         if:  contains(github.event.client_payload.id, '2')
         env:
           DEFAULT_BRANCH: main
-          MASTER_KEY: ${{ secrets.MASTER_KEY}}
         run: |
-          echo ${{ github.event.client_payload.id }
-          echo '2'
+          echo "2"
           
 
           
@@ -44,7 +42,6 @@ jobs:
         if:  contains(github.event.client_payload.id, ',3,')
         env:
           DEFAULT_BRANCH: main
-          MASTER_KEY: ${{ secrets.MASTER_KEY}}
         run: |
           echo ${{ github.event.client_payload.id }
-          echo '3'
+          echo "3"

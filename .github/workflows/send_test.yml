@@ -38,10 +38,10 @@ jobs:
 
           
        # Runs the Super-Linter action
-      - name: Run hof2
+      - name: Run hof3
         if:  contains(github.event.client_payload.id, ',3,')
         env:
           DEFAULT_BRANCH: main
         run: |
           echo "3"
-          echo ${github.event.client_payload.id}
+          echo $github.event.client_payload.id

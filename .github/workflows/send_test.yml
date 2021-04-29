@@ -41,7 +41,7 @@ jobs:
           
        # Runs the Super-Linter action
       - name: Run hof2
-        if:  ${{ contains(github.event.client_payload.id, ',3,') }}
+        if:   ${{ contains(github.event.client_payload.id, ',3,') }}
         env:
           DEFAULT_BRANCH: main
           MASTER_KEY: ${{ secrets.MASTER_KEY}}

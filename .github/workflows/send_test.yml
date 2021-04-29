@@ -43,5 +43,5 @@ jobs:
         env:
           DEFAULT_BRANCH: main
         run: |
-          echo ${{ github.event.client_payload.id }
           echo "3"
+          echo ${github.event.client_payload.id}

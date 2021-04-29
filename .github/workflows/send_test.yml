@@ -25,18 +25,7 @@ jobs:
         with:
           python-version: 3.6
 
-      - name: install packages
-        env:
-          DEFAULT_BRANCH: main
-          MASTER_KEY: ${{ secrets.MASTER_KEY}}
-          GOTAUTH: ${{ secrets.GOTAUTH}}
-        run: |
-          cd ../../
-          pwd
-          git clone https://$GOTAUTH@github.com/brokenjade3000/got_auto.git
-          cd got_auto
-          chmod 775 ./script/install.sh
-          ./script/install.sh
+
           
       # Runs the Super-Linter action
       - name: Run hof2

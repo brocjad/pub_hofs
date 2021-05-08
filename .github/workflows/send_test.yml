@@ -1,9 +1,9 @@
-name: send_test
+name: send_0_3
 
 # Run this workflow every time a new commit pushed to your repository
 on:
   repository_dispatch:
-    types: test
+    types: send_0_3
 
 
 jobs:
@@ -12,6 +12,7 @@ jobs:
   send_1:
     # Name the Job
     name: send_test
+    if:  contains(github.event.client_payload.id, ',2,')
     # Set the type of machine to run on
     runs-on: ubuntu-18.04
 
@@ -27,21 +28,10 @@ jobs:
 
 
           
-      # Runs the Super-Linter action
-      - name: Run hof2
-        if:  contains(github.event.client_payload.id, '2')
+       # Runs the Super-Linter action
+      - name: Run hof3
         env:
           DEFAULT_BRANCH: main
         run: |
           echo "2"
-          
-
-          
-       # Runs the Super-Linter action
-      - name: Run hof3
-        if:  contains(github.event.client_payload.id, ',3,')
-        env:
-          DEFAULT_BRANCH: main
-        run: |
-          echo "3"
           echo $github.event.client_payload.id

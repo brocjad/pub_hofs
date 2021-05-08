@@ -1,9 +1,9 @@
-name: send_0_3
+name: send_multiple
 
 # Run this workflow every time a new commit pushed to your repository
 on:
   repository_dispatch:
-    types: send_0_3
+    types: send_multiple
 
 
 jobs:
@@ -210,3 +210,647 @@ jobs:
           cd /home/runner/work/got_auto/src
           python --version
           python SentHOF.py ${{ github.event.client_payload.x}} ${{ github.event.client_payload.y }} 4
+
+  send_5:
+    # Name the Job
+    name: send5
+    if:  contains(github.event.client_payload.id, ',5,')
+    # Set the type of machine to run on
+    runs-on: ubuntu-18.04
+
+    steps:
+      # Checks out a copy of your repository on the ubuntu-latest machine
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: set up python 3.6
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.6
+
+      - name: install packages
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+          GOTAUTH: ${{ secrets.GOTAUTH}}
+        run: |
+          cd ../../
+          pwd
+          git clone https://$GOTAUTH@github.com/brokenjade3000/got_auto.git
+          cd got_auto
+          chmod 775 ./script/install.sh
+          ./script/install.sh
+
+      - name: Run hof5
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+        run: |
+          pwd
+          cd /home/runner/work/got_auto/src
+          python --version
+          python SentHOF.py ${{ github.event.client_payload.x}} ${{ github.event.client_payload.y }} 5
+
+  send_6:
+    # Name the Job
+    name: send6
+    if:  contains(github.event.client_payload.id, ',6,')
+    # Set the type of machine to run on
+    runs-on: ubuntu-18.04
+
+    steps:
+      # Checks out a copy of your repository on the ubuntu-latest machine
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: set up python 3.6
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.6
+
+      - name: install packages
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+          GOTAUTH: ${{ secrets.GOTAUTH}}
+        run: |
+          cd ../../
+          pwd
+          git clone https://$GOTAUTH@github.com/brokenjade3000/got_auto.git
+          cd got_auto
+          chmod 775 ./script/install.sh
+          ./script/install.sh
+
+      - name: Run hof6
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+        run: |
+          pwd
+          cd /home/runner/work/got_auto/src
+          python --version
+          python SentHOF.py ${{ github.event.client_payload.x}} ${{ github.event.client_payload.y }} 6
+
+
+  send_7:
+    # Name the Job
+    name: send7
+    if:  contains(github.event.client_payload.id, ',7,')
+    # Set the type of machine to run on
+    runs-on: ubuntu-18.04
+
+    steps:
+      # Checks out a copy of your repository on the ubuntu-latest machine
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: set up python 3.6
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.6
+
+      - name: install packages
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+          GOTAUTH: ${{ secrets.GOTAUTH}}
+        run: |
+          cd ../../
+          pwd
+          git clone https://$GOTAUTH@github.com/brokenjade3000/got_auto.git
+          cd got_auto
+          chmod 775 ./script/install.sh
+          ./script/install.sh
+
+      - name: Run hof7
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+        run: |
+          pwd
+          cd /home/runner/work/got_auto/src
+          python --version
+          python SentHOF.py ${{ github.event.client_payload.x}} ${{ github.event.client_payload.y }} 7
+
+
+  send_8:
+    # Name the Job
+    name: send8
+    if:  contains(github.event.client_payload.id, ',8,')
+    # Set the type of machine to run on
+    runs-on: ubuntu-18.04
+
+    steps:
+      # Checks out a copy of your repository on the ubuntu-latest machine
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: set up python 3.6
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.6
+
+      - name: install packages
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+          GOTAUTH: ${{ secrets.GOTAUTH}}
+        run: |
+          cd ../../
+          pwd
+          git clone https://$GOTAUTH@github.com/brokenjade3000/got_auto.git
+          cd got_auto
+          chmod 775 ./script/install.sh
+          ./script/install.sh
+
+      - name: Run hof8
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+        run: |
+          pwd
+          cd /home/runner/work/got_auto/src
+          python --version
+          python SentHOF.py ${{ github.event.client_payload.x}} ${{ github.event.client_payload.y }} 8
+
+
+  send_9:
+    # Name the Job
+    name: send9
+    if:  contains(github.event.client_payload.id, ',9,')
+    # Set the type of machine to run on
+    runs-on: ubuntu-18.04
+
+    steps:
+      # Checks out a copy of your repository on the ubuntu-latest machine
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: set up python 3.6
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.6
+
+      - name: install packages
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+          GOTAUTH: ${{ secrets.GOTAUTH}}
+        run: |
+          cd ../../
+          pwd
+          git clone https://$GOTAUTH@github.com/brokenjade3000/got_auto.git
+          cd got_auto
+          chmod 775 ./script/install.sh
+          ./script/install.sh
+
+      - name: Run hof9
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+        run: |
+          pwd
+          cd /home/runner/work/got_auto/src
+          python --version
+          python SentHOF.py ${{ github.event.client_payload.x}} ${{ github.event.client_payload.y }} 9
+
+  send_10:
+    # Name the Job
+    name: send10
+    if:  contains(github.event.client_payload.id, ',10,')
+    # Set the type of machine to run on
+    runs-on: ubuntu-18.04
+
+    steps:
+      # Checks out a copy of your repository on the ubuntu-latest machine
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: set up python 3.6
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.6
+
+      - name: install packages
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+          GOTAUTH: ${{ secrets.GOTAUTH}}
+        run: |
+          cd ../../
+          pwd
+          git clone https://$GOTAUTH@github.com/brokenjade3000/got_auto.git
+          cd got_auto
+          chmod 775 ./script/install.sh
+          ./script/install.sh
+
+      - name: Run hof10
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+        run: |
+          pwd
+          cd /home/runner/work/got_auto/src
+          python --version
+          python SentHOF.py ${{ github.event.client_payload.x}} ${{ github.event.client_payload.y }} 10
+
+  send_11:
+    # Name the Job
+    name: send11
+    if:  contains(github.event.client_payload.id, ',11,')
+    # Set the type of machine to run on
+    runs-on: ubuntu-18.04
+
+    steps:
+      # Checks out a copy of your repository on the ubuntu-latest machine
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: set up python 3.6
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.6
+
+      - name: install packages
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+          GOTAUTH: ${{ secrets.GOTAUTH}}
+        run: |
+          cd ../../
+          pwd
+          git clone https://$GOTAUTH@github.com/brokenjade3000/got_auto.git
+          cd got_auto
+          chmod 775 ./script/install.sh
+          ./script/install.sh
+
+      - name: Run hof11
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+        run: |
+          pwd
+          cd /home/runner/work/got_auto/src
+          python --version
+          python SentHOF.py ${{ github.event.client_payload.x}} ${{ github.event.client_payload.y }} 11
+
+
+  send_12:
+    # Name the Job
+    name: send12
+    if:  contains(github.event.client_payload.id, ',12,')
+    # Set the type of machine to run on
+    runs-on: ubuntu-18.04
+
+    steps:
+      # Checks out a copy of your repository on the ubuntu-latest machine
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: set up python 3.6
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.6
+
+      - name: install packages
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+          GOTAUTH: ${{ secrets.GOTAUTH}}
+        run: |
+          cd ../../
+          pwd
+          git clone https://$GOTAUTH@github.com/brokenjade3000/got_auto.git
+          cd got_auto
+          chmod 775 ./script/install.sh
+          ./script/install.sh
+
+      - name: Run hof12
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+        run: |
+          pwd
+          cd /home/runner/work/got_auto/src
+          python --version
+          python SentHOF.py ${{ github.event.client_payload.x}} ${{ github.event.client_payload.y }} 12
+
+  send_13:
+    # Name the Job
+    name: send13
+    if:  contains(github.event.client_payload.id, ',13,')
+    # Set the type of machine to run on
+    runs-on: ubuntu-18.04
+
+    steps:
+      # Checks out a copy of your repository on the ubuntu-latest machine
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: set up python 3.6
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.6
+
+      - name: install packages
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+          GOTAUTH: ${{ secrets.GOTAUTH}}
+        run: |
+          cd ../../
+          pwd
+          git clone https://$GOTAUTH@github.com/brokenjade3000/got_auto.git
+          cd got_auto
+          chmod 775 ./script/install.sh
+          ./script/install.sh
+
+      - name: Run hof13
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+        run: |
+          pwd
+          cd /home/runner/work/got_auto/src
+          python --version
+          python SentHOF.py ${{ github.event.client_payload.x}} ${{ github.event.client_payload.y }} 13
+
+  send_14:
+    # Name the Job
+    name: send13
+    if:  contains(github.event.client_payload.id, ',14,')
+    # Set the type of machine to run on
+    runs-on: ubuntu-18.04
+
+    steps:
+      # Checks out a copy of your repository on the ubuntu-latest machine
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: set up python 3.6
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.6
+
+      - name: install packages
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+          GOTAUTH: ${{ secrets.GOTAUTH}}
+        run: |
+          cd ../../
+          pwd
+          git clone https://$GOTAUTH@github.com/brokenjade3000/got_auto.git
+          cd got_auto
+          chmod 775 ./script/install.sh
+          ./script/install.sh
+
+      - name: Run hof14
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+        run: |
+          pwd
+          cd /home/runner/work/got_auto/src
+          python --version
+          python SentHOF.py ${{ github.event.client_payload.x}} ${{ github.event.client_payload.y }} 14
+
+  send_15:
+    # Name the Job
+    name: send15
+    if:  contains(github.event.client_payload.id, ',15,')
+    # Set the type of machine to run on
+    runs-on: ubuntu-18.04
+
+    steps:
+      # Checks out a copy of your repository on the ubuntu-latest machine
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: set up python 3.6
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.6
+
+      - name: install packages
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+          GOTAUTH: ${{ secrets.GOTAUTH}}
+        run: |
+          cd ../../
+          pwd
+          git clone https://$GOTAUTH@github.com/brokenjade3000/got_auto.git
+          cd got_auto
+          chmod 775 ./script/install.sh
+          ./script/install.sh
+
+      - name: Run hof15
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+        run: |
+          pwd
+          cd /home/runner/work/got_auto/src
+          python --version
+          python SentHOF.py ${{ github.event.client_payload.x}} ${{ github.event.client_payload.y }} 15
+
+  send_16:
+    # Name the Job
+    name: send16
+    if:  contains(github.event.client_payload.id, ',16,')
+    # Set the type of machine to run on
+    runs-on: ubuntu-18.04
+
+    steps:
+      # Checks out a copy of your repository on the ubuntu-latest machine
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: set up python 3.6
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.6
+
+      - name: install packages
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+          GOTAUTH: ${{ secrets.GOTAUTH}}
+        run: |
+          cd ../../
+          pwd
+          git clone https://$GOTAUTH@github.com/brokenjade3000/got_auto.git
+          cd got_auto
+          chmod 775 ./script/install.sh
+          ./script/install.sh
+
+      - name: Run hof16
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+        run: |
+          pwd
+          cd /home/runner/work/got_auto/src
+          python --version
+          python SentHOF.py ${{ github.event.client_payload.x}} ${{ github.event.client_payload.y }} 16
+
+  send_17:
+    # Name the Job
+    name: send17
+    if:  contains(github.event.client_payload.id, ',17,')
+    # Set the type of machine to run on
+    runs-on: ubuntu-18.04
+
+    steps:
+      # Checks out a copy of your repository on the ubuntu-latest machine
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: set up python 3.6
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.6
+
+      - name: install packages
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+          GOTAUTH: ${{ secrets.GOTAUTH}}
+        run: |
+          cd ../../
+          pwd
+          git clone https://$GOTAUTH@github.com/brokenjade3000/got_auto.git
+          cd got_auto
+          chmod 775 ./script/install.sh
+          ./script/install.sh
+
+      - name: Run hof17
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+        run: |
+          pwd
+          cd /home/runner/work/got_auto/src
+          python --version
+          python SentHOF.py ${{ github.event.client_payload.x}} ${{ github.event.client_payload.y }} 17
+
+  send_18:
+    # Name the Job
+    name: send18
+    if:  contains(github.event.client_payload.id, ',18,')
+    # Set the type of machine to run on
+    runs-on: ubuntu-18.04
+
+    steps:
+      # Checks out a copy of your repository on the ubuntu-latest machine
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: set up python 3.6
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.6
+
+      - name: install packages
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+          GOTAUTH: ${{ secrets.GOTAUTH}}
+        run: |
+          cd ../../
+          pwd
+          git clone https://$GOTAUTH@github.com/brokenjade3000/got_auto.git
+          cd got_auto
+          chmod 775 ./script/install.sh
+          ./script/install.sh
+
+      - name: Run hof18
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+        run: |
+          pwd
+          cd /home/runner/work/got_auto/src
+          python --version
+          python SentHOF.py ${{ github.event.client_payload.x}} ${{ github.event.client_payload.y }} 18
+
+  send_19:
+    # Name the Job
+    name: send19
+    if:  contains(github.event.client_payload.id, ',19,')
+    # Set the type of machine to run on
+    runs-on: ubuntu-18.04
+
+    steps:
+      # Checks out a copy of your repository on the ubuntu-latest machine
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: set up python 3.6
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.6
+
+      - name: install packages
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+          GOTAUTH: ${{ secrets.GOTAUTH}}
+        run: |
+          cd ../../
+          pwd
+          git clone https://$GOTAUTH@github.com/brokenjade3000/got_auto.git
+          cd got_auto
+          chmod 775 ./script/install.sh
+          ./script/install.sh
+
+      - name: Run hof19
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+        run: |
+          pwd
+          cd /home/runner/work/got_auto/src
+          python --version
+          python SentHOF.py ${{ github.event.client_payload.x}} ${{ github.event.client_payload.y }} 19
+
+  send_20:
+    # Name the Job
+    name: send20
+    if:  contains(github.event.client_payload.id, ',20,')
+    # Set the type of machine to run on
+    runs-on: ubuntu-18.04
+
+    steps:
+      # Checks out a copy of your repository on the ubuntu-latest machine
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: set up python 3.6
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.6
+
+      - name: install packages
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+          GOTAUTH: ${{ secrets.GOTAUTH}}
+        run: |
+          cd ../../
+          pwd
+          git clone https://$GOTAUTH@github.com/brokenjade3000/got_auto.git
+          cd got_auto
+          chmod 775 ./script/install.sh
+          ./script/install.sh
+
+      - name: Run hof20
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+        run: |
+          pwd
+          cd /home/runner/work/got_auto/src
+          python --version
+          python SentHOF.py ${{ github.event.client_payload.x}} ${{ github.event.client_payload.y }} 20

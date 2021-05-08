@@ -93,7 +93,7 @@ jobs:
   send_2:
     # Name the Job
     name: send2
-    if:  contains(github.event.client_payload.id, ',1,')
+    if:  contains(github.event.client_payload.id, ',2,')
     # Set the type of machine to run on
     runs-on: ubuntu-18.04
 
@@ -133,7 +133,7 @@ jobs:
   send_3:
     # Name the Job
     name: send3
-    if:  contains(github.event.client_payload.id, ',1,')
+    if:  contains(github.event.client_payload.id, ',3,')
     # Set the type of machine to run on
     runs-on: ubuntu-18.04
 

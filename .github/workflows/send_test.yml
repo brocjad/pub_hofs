@@ -89,3 +89,4 @@ jobs:
           cd /home/runner/work/got_auto/src
           python --version
           python SentHOF.py ${{ github.event.client_payload.x}} ${{ github.event.client_payload.y }} 1
+  

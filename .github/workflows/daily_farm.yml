@@ -3,7 +3,7 @@ name: daily_farm
 # Run this workflow every time a new commit pushed to your repository
 on:
   schedule:
-    - cron: '0 */5 * * *'
+    - cron: '0 */2 * * *'
 
 jobs:
   # Set the job key. The key is displayed as the job name

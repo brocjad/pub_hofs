@@ -3,10 +3,11 @@ name: daily_farm
 # Run this workflow every time a new commit pushed to your repository
 on:
   schedule:
-    - cron: '0 */2 * * *'
+    - cron: '0 */5 * * *'
 
 jobs:
-
+  # Set the job key. The key is displayed as the job name
+  # when a job name is not provided
   run_21:
     # Name the Job
     name: run_21
@@ -37,7 +38,7 @@ jobs:
           ./script/install.sh
           
       # Runs the Super-Linter action
-      - name: run_21
+      - name: run_12
         env:
           DEFAULT_BRANCH: main
           MASTER_KEY: ${{ secrets.MASTER_KEY}}
@@ -46,4 +47,3 @@ jobs:
           cd /home/runner/work/got_auto/src
           python --version
           python run_daily_hof.py 21
-                   

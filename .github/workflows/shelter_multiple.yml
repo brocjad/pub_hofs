@@ -1,0 +1,812 @@
+name: shelter_multiple
+
+# Run this workflow every time a new commit pushed to your repository
+on:
+  repository_dispatch:
+    types: shelter_multiple
+
+
+jobs:
+  # Set the job key. The key is displayed as the job name
+  # when a job name is not provided
+  shelter_0:
+    # Name the Job
+    name: shelter0
+    if:  contains(github.event.client_payload.id, ',0,')
+    # Set the type of machine to run on
+    runs-on: ubuntu-18.04
+
+    steps:
+      # Checks out a copy of your repository on the ubuntu-latest machine
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: set up python 3.6
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.6
+
+      - name: install packages
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+          GOTAUTH: ${{ secrets.GOTAUTH}}
+        run: |
+          cd ../../
+          pwd
+          git clone https://$GOTAUTH@github.com/brokenjade3000/got_auto.git
+          cd got_auto
+          chmod 775 ./script/install.sh
+          ./script/install.sh
+      - name: Run hof0
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+        run: |
+          pwd
+          cd /home/runner/work/got_auto/src
+          python --version
+          python shelter_hof.py ${{ github.event.client_payload.x}} ${{ github.event.client_payload.y }} 0
+          
+  shelter_1:
+    # Name the Job
+    name: shelter1
+    if:  contains(github.event.client_payload.id, ',1,')
+    # Set the type of machine to run on
+    runs-on: ubuntu-18.04
+
+    steps:
+      # Checks out a copy of your repository on the ubuntu-latest machine
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: set up python 3.6
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.6
+
+      - name: install packages
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+          GOTAUTH: ${{ secrets.GOTAUTH}}
+        run: |
+          cd ../../
+          pwd
+          git clone https://$GOTAUTH@github.com/brokenjade3000/got_auto.git
+          cd got_auto
+          chmod 775 ./script/install.sh
+          ./script/install.sh
+      - name: Run hof1
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+        run: |
+          pwd
+          cd /home/runner/work/got_auto/src
+          python --version
+          python shelter_hof.py ${{ github.event.client_payload.x}} ${{ github.event.client_payload.y }} 1
+  
+  shelter_2:
+    # Name the Job
+    name: shelter2
+    if:  contains(github.event.client_payload.id, ',2,')
+    # Set the type of machine to run on
+    runs-on: ubuntu-18.04
+
+    steps:
+      # Checks out a copy of your repository on the ubuntu-latest machine
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: set up python 3.6
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.6
+
+      - name: install packages
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+          GOTAUTH: ${{ secrets.GOTAUTH}}
+        run: |
+          cd ../../
+          pwd
+          git clone https://$GOTAUTH@github.com/brokenjade3000/got_auto.git
+          cd got_auto
+          chmod 775 ./script/install.sh
+          ./script/install.sh
+      - name: Run hof2
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+        run: |
+          pwd
+          cd /home/runner/work/got_auto/src
+          python --version
+          python shelter_hof.py ${{ github.event.client_payload.x}} ${{ github.event.client_payload.y }} 2
+          
+  shelter_3:
+    # Name the Job
+    name: shelter3
+    if:  contains(github.event.client_payload.id, ',3,')
+    # Set the type of machine to run on
+    runs-on: ubuntu-18.04
+
+    steps:
+      # Checks out a copy of your repository on the ubuntu-latest machine
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: set up python 3.6
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.6
+
+      - name: install packages
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+          GOTAUTH: ${{ secrets.GOTAUTH}}
+        run: |
+          cd ../../
+          pwd
+          git clone https://$GOTAUTH@github.com/brokenjade3000/got_auto.git
+          cd got_auto
+          chmod 775 ./script/install.sh
+          ./script/install.sh
+      - name: Run hof3
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+        run: |
+          pwd
+          cd /home/runner/work/got_auto/src
+          python --version
+          python shelter_hof.py ${{ github.event.client_payload.x}} ${{ github.event.client_payload.y }} 3          
+  shelter_4:
+    # Name the Job
+    name: shelter4
+    if:  contains(github.event.client_payload.id, ',4,')
+    # Set the type of machine to run on
+    runs-on: ubuntu-18.04
+
+    steps:
+      # Checks out a copy of your repository on the ubuntu-latest machine
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: set up python 3.6
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.6
+
+      - name: install packages
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+          GOTAUTH: ${{ secrets.GOTAUTH}}
+        run: |
+          cd ../../
+          pwd
+          git clone https://$GOTAUTH@github.com/brokenjade3000/got_auto.git
+          cd got_auto
+          chmod 775 ./script/install.sh
+          ./script/install.sh
+      - name: Run hof4
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+        run: |
+          pwd
+          cd /home/runner/work/got_auto/src
+          python --version
+          python shelter_hof.py ${{ github.event.client_payload.x}} ${{ github.event.client_payload.y }} 4
+  shelter_5:
+    # Name the Job
+    name: shelter5
+    if:  contains(github.event.client_payload.id, ',5,')
+    # Set the type of machine to run on
+    runs-on: ubuntu-18.04
+
+    steps:
+      # Checks out a copy of your repository on the ubuntu-latest machine
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: set up python 3.6
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.6
+
+      - name: install packages
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+          GOTAUTH: ${{ secrets.GOTAUTH}}
+        run: |
+          cd ../../
+          pwd
+          git clone https://$GOTAUTH@github.com/brokenjade3000/got_auto.git
+          cd got_auto
+          chmod 775 ./script/install.sh
+          ./script/install.sh
+      - name: Run hof5
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+        run: |
+          pwd
+          cd /home/runner/work/got_auto/src
+          python --version
+          python shelter_hof.py ${{ github.event.client_payload.x}} ${{ github.event.client_payload.y }} 5
+  shelter_6:
+    # Name the Job
+    name: shelter6
+    if:  contains(github.event.client_payload.id, ',6,')
+    # Set the type of machine to run on
+    runs-on: ubuntu-18.04
+
+    steps:
+      # Checks out a copy of your repository on the ubuntu-latest machine
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: set up python 3.6
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.6
+
+      - name: install packages
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+          GOTAUTH: ${{ secrets.GOTAUTH}}
+        run: |
+          cd ../../
+          pwd
+          git clone https://$GOTAUTH@github.com/brokenjade3000/got_auto.git
+          cd got_auto
+          chmod 775 ./script/install.sh
+          ./script/install.sh
+      - name: Run hof6
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+        run: |
+          pwd
+          cd /home/runner/work/got_auto/src
+          python --version
+          python shelter_hof.py ${{ github.event.client_payload.x}} ${{ github.event.client_payload.y }} 6
+  shelter_7:
+    # Name the Job
+    name: shelter7
+    if:  contains(github.event.client_payload.id, ',7,')
+    # Set the type of machine to run on
+    runs-on: ubuntu-18.04
+
+    steps:
+      # Checks out a copy of your repository on the ubuntu-latest machine
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: set up python 3.6
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.6
+
+      - name: install packages
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+          GOTAUTH: ${{ secrets.GOTAUTH}}
+        run: |
+          cd ../../
+          pwd
+          git clone https://$GOTAUTH@github.com/brokenjade3000/got_auto.git
+          cd got_auto
+          chmod 775 ./script/install.sh
+          ./script/install.sh
+      - name: Run hof7
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+        run: |
+          pwd
+          cd /home/runner/work/got_auto/src
+          python --version
+          python shelter_hof.py ${{ github.event.client_payload.x}} ${{ github.event.client_payload.y }} 7
+  shelter_8:
+    # Name the Job
+    name: shelter8
+    if:  contains(github.event.client_payload.id, ',8,')
+    # Set the type of machine to run on
+    runs-on: ubuntu-18.04
+
+    steps:
+      # Checks out a copy of your repository on the ubuntu-latest machine
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: set up python 3.6
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.6
+
+      - name: install packages
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+          GOTAUTH: ${{ secrets.GOTAUTH}}
+        run: |
+          cd ../../
+          pwd
+          git clone https://$GOTAUTH@github.com/brokenjade3000/got_auto.git
+          cd got_auto
+          chmod 775 ./script/install.sh
+          ./script/install.sh
+      - name: Run hof8
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+        run: |
+          pwd
+          cd /home/runner/work/got_auto/src
+          python --version
+          python shelter_hof.py ${{ github.event.client_payload.x}} ${{ github.event.client_payload.y }} 8
+  shelter_9:
+    # Name the Job
+    name: shelter9
+    if:  contains(github.event.client_payload.id, ',9,')
+    # Set the type of machine to run on
+    runs-on: ubuntu-18.04
+
+    steps:
+      # Checks out a copy of your repository on the ubuntu-latest machine
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: set up python 3.6
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.6
+
+      - name: install packages
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+          GOTAUTH: ${{ secrets.GOTAUTH}}
+        run: |
+          cd ../../
+          pwd
+          git clone https://$GOTAUTH@github.com/brokenjade3000/got_auto.git
+          cd got_auto
+          chmod 775 ./script/install.sh
+          ./script/install.sh
+      - name: Run hof9
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+        run: |
+          pwd
+          cd /home/runner/work/got_auto/src
+          python --version
+          python shelter_hof.py ${{ github.event.client_payload.x}} ${{ github.event.client_payload.y }} 9
+  shelter_10:
+    # Name the Job
+    name: shelter10
+    if:  contains(github.event.client_payload.id, ',10,')
+    # Set the type of machine to run on
+    runs-on: ubuntu-18.04
+
+    steps:
+      # Checks out a copy of your repository on the ubuntu-latest machine
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: set up python 3.6
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.6
+
+      - name: install packages
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+          GOTAUTH: ${{ secrets.GOTAUTH}}
+        run: |
+          cd ../../
+          pwd
+          git clone https://$GOTAUTH@github.com/brokenjade3000/got_auto.git
+          cd got_auto
+          chmod 775 ./script/install.sh
+          ./script/install.sh
+      - name: Run hof10
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+        run: |
+          pwd
+          cd /home/runner/work/got_auto/src
+          python --version
+          python shelter_hof.py ${{ github.event.client_payload.x}} ${{ github.event.client_payload.y }} 10
+  shelter_11:
+    # Name the Job
+    name: shelter11
+    if:  contains(github.event.client_payload.id, ',11,')
+    # Set the type of machine to run on
+    runs-on: ubuntu-18.04
+
+    steps:
+      # Checks out a copy of your repository on the ubuntu-latest machine
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: set up python 3.6
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.6
+
+      - name: install packages
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+          GOTAUTH: ${{ secrets.GOTAUTH}}
+        run: |
+          cd ../../
+          pwd
+          git clone https://$GOTAUTH@github.com/brokenjade3000/got_auto.git
+          cd got_auto
+          chmod 775 ./script/install.sh
+          ./script/install.sh
+      - name: Run hof11
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+        run: |
+          pwd
+          cd /home/runner/work/got_auto/src
+          python --version
+          python shelter_hof.py ${{ github.event.client_payload.x}} ${{ github.event.client_payload.y }} 11
+  shelter_12:
+    # Name the Job
+    name: shelter12
+    if:  contains(github.event.client_payload.id, ',12,')
+    # Set the type of machine to run on
+    runs-on: ubuntu-18.04
+
+    steps:
+      # Checks out a copy of your repository on the ubuntu-latest machine
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: set up python 3.6
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.6
+
+      - name: install packages
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+          GOTAUTH: ${{ secrets.GOTAUTH}}
+        run: |
+          cd ../../
+          pwd
+          git clone https://$GOTAUTH@github.com/brokenjade3000/got_auto.git
+          cd got_auto
+          chmod 775 ./script/install.sh
+          ./script/install.sh
+      - name: Run hof12
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+        run: |
+          pwd
+          cd /home/runner/work/got_auto/src
+          python --version
+          python shelter_hof.py ${{ github.event.client_payload.x}} ${{ github.event.client_payload.y }} 12
+  shelter_13:
+    # Name the Job
+    name: shelter13
+    if:  contains(github.event.client_payload.id, ',13,')
+    # Set the type of machine to run on
+    runs-on: ubuntu-18.04
+
+    steps:
+      # Checks out a copy of your repository on the ubuntu-latest machine
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: set up python 3.6
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.6
+
+      - name: install packages
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+          GOTAUTH: ${{ secrets.GOTAUTH}}
+        run: |
+          cd ../../
+          pwd
+          git clone https://$GOTAUTH@github.com/brokenjade3000/got_auto.git
+          cd got_auto
+          chmod 775 ./script/install.sh
+          ./script/install.sh
+      - name: Run hof13
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+        run: |
+          pwd
+          cd /home/runner/work/got_auto/src
+          python --version
+          python shelter_hof.py ${{ github.event.client_payload.x}} ${{ github.event.client_payload.y }} 13
+  shelter_14:
+    # Name the Job
+    name: shelter14
+    if:  contains(github.event.client_payload.id, ',14,')
+    # Set the type of machine to run on
+    runs-on: ubuntu-18.04
+
+    steps:
+      # Checks out a copy of your repository on the ubuntu-latest machine
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: set up python 3.6
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.6
+
+      - name: install packages
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+          GOTAUTH: ${{ secrets.GOTAUTH}}
+        run: |
+          cd ../../
+          pwd
+          git clone https://$GOTAUTH@github.com/brokenjade3000/got_auto.git
+          cd got_auto
+          chmod 775 ./script/install.sh
+          ./script/install.sh
+      - name: Run hof14
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+        run: |
+          pwd
+          cd /home/runner/work/got_auto/src
+          python --version
+          python shelter_hof.py ${{ github.event.client_payload.x}} ${{ github.event.client_payload.y }} 14
+  shelter_15:
+    # Name the Job
+    name: shelter15
+    if:  contains(github.event.client_payload.id, ',15,')
+    # Set the type of machine to run on
+    runs-on: ubuntu-18.04
+
+    steps:
+      # Checks out a copy of your repository on the ubuntu-latest machine
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: set up python 3.6
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.6
+
+      - name: install packages
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+          GOTAUTH: ${{ secrets.GOTAUTH}}
+        run: |
+          cd ../../
+          pwd
+          git clone https://$GOTAUTH@github.com/brokenjade3000/got_auto.git
+          cd got_auto
+          chmod 775 ./script/install.sh
+          ./script/install.sh
+      - name: Run hof15
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+        run: |
+          pwd
+          cd /home/runner/work/got_auto/src
+          python --version
+          python shelter_hof.py ${{ github.event.client_payload.x}} ${{ github.event.client_payload.y }} 15
+  shelter_16:
+    # Name the Job
+    name: shelter16
+    if:  contains(github.event.client_payload.id, ',16,')
+    # Set the type of machine to run on
+    runs-on: ubuntu-18.04
+
+    steps:
+      # Checks out a copy of your repository on the ubuntu-latest machine
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: set up python 3.6
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.6
+
+      - name: install packages
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+          GOTAUTH: ${{ secrets.GOTAUTH}}
+        run: |
+          cd ../../
+          pwd
+          git clone https://$GOTAUTH@github.com/brokenjade3000/got_auto.git
+          cd got_auto
+          chmod 775 ./script/install.sh
+          ./script/install.sh
+      - name: Run hof16
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+        run: |
+          pwd
+          cd /home/runner/work/got_auto/src
+          python --version
+          python shelter_hof.py ${{ github.event.client_payload.x}} ${{ github.event.client_payload.y }} 16
+  shelter_17:
+    # Name the Job
+    name: shelter17
+    if:  contains(github.event.client_payload.id, ',17,')
+    # Set the type of machine to run on
+    runs-on: ubuntu-18.04
+
+    steps:
+      # Checks out a copy of your repository on the ubuntu-latest machine
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: set up python 3.6
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.6
+
+      - name: install packages
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+          GOTAUTH: ${{ secrets.GOTAUTH}}
+        run: |
+          cd ../../
+          pwd
+          git clone https://$GOTAUTH@github.com/brokenjade3000/got_auto.git
+          cd got_auto
+          chmod 775 ./script/install.sh
+          ./script/install.sh
+      - name: Run hof17
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+        run: |
+          pwd
+          cd /home/runner/work/got_auto/src
+          python --version
+          python shelter_hof.py ${{ github.event.client_payload.x}} ${{ github.event.client_payload.y }} 17
+  shelter_18:
+    # Name the Job
+    name: shelter18
+    if:  contains(github.event.client_payload.id, ',18,')
+    # Set the type of machine to run on
+    runs-on: ubuntu-18.04
+
+    steps:
+      # Checks out a copy of your repository on the ubuntu-latest machine
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: set up python 3.6
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.6
+
+      - name: install packages
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+          GOTAUTH: ${{ secrets.GOTAUTH}}
+        run: |
+          cd ../../
+          pwd
+          git clone https://$GOTAUTH@github.com/brokenjade3000/got_auto.git
+          cd got_auto
+          chmod 775 ./script/install.sh
+          ./script/install.sh
+      - name: Run hof18
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+        run: |
+          pwd
+          cd /home/runner/work/got_auto/src
+          python --version
+          python shelter_hof.py ${{ github.event.client_payload.x}} ${{ github.event.client_payload.y }} 18
+  shelter_19:
+    # Name the Job
+    name: shelter19
+    if:  contains(github.event.client_payload.id, ',19,')
+    # Set the type of machine to run on
+    runs-on: ubuntu-18.04
+
+    steps:
+      # Checks out a copy of your repository on the ubuntu-latest machine
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: set up python 3.6
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.6
+
+      - name: install packages
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+          GOTAUTH: ${{ secrets.GOTAUTH}}
+        run: |
+          cd ../../
+          pwd
+          git clone https://$GOTAUTH@github.com/brokenjade3000/got_auto.git
+          cd got_auto
+          chmod 775 ./script/install.sh
+          ./script/install.sh
+      - name: Run hof19
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+        run: |
+          pwd
+          cd /home/runner/work/got_auto/src
+          python --version
+          python shelter_hof.py ${{ github.event.client_payload.x}} ${{ github.event.client_payload.y }} 19
+  shelter_20:
+    # Name the Job
+    name: shelter20
+    if:  contains(github.event.client_payload.id, ',20,')
+    # Set the type of machine to run on
+    runs-on: ubuntu-18.04
+
+    steps:
+      # Checks out a copy of your repository on the ubuntu-latest machine
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: set up python 3.6
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.6
+
+      - name: install packages
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+          GOTAUTH: ${{ secrets.GOTAUTH}}
+        run: |
+          cd ../../
+          pwd
+          git clone https://$GOTAUTH@github.com/brokenjade3000/got_auto.git
+          cd got_auto
+          chmod 775 ./script/install.sh
+          ./script/install.sh
+      - name: Run hof20
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+        run: |
+          pwd
+          cd /home/runner/work/got_auto/src
+          python --version
+          python shelter_hof.py ${{ github.event.client_payload.x}} ${{ github.event.client_payload.y }} 20

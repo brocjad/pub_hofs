@@ -1,0 +1,809 @@
+name: bulb_multiple
+
+on:
+  repository_dispatch:
+    types: bulb_multiple
+
+
+jobs:
+  # Set the job key. The key is displayed as the job name
+
+
+  bulb_1:
+    # Name the Job
+    name: bulb_1
+    if:  contains(github.event.client_payload.id, ',1,')
+    # Set the type of machine to run on
+    runs-on: ubuntu-18.04
+
+    steps:
+      # Checks out a copy of your repository on the ubuntu-latest machine
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: set up python 3.6
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.6
+
+      - name: install packages
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${ secrets.MASTER_KEY}
+          GOTAUTH: ${ secrets.GOTAUTH}
+        run: |
+          cd ../../
+          pwd
+          git clone https://$GOTAUTH@github.com/brokenjade3000/got_auto.git
+          cd got_auto
+          chmod 775 ./script/install.sh
+          ./script/install.sh
+      - name: Run bulb_1
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${ secrets.MASTER_KEY}
+        run: |
+          pwd
+          cd /home/runner/work/got_auto/src
+          python --version
+          python run_bulb_hof.py 1
+
+
+  bulb_2:
+    # Name the Job
+    name: bulb_2
+    if:  contains(github.event.client_payload.id, ',2,')
+    # Set the type of machine to run on
+    runs-on: ubuntu-18.04
+
+    steps:
+      # Checks out a copy of your repository on the ubuntu-latest machine
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: set up python 3.6
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.6
+
+      - name: install packages
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${ secrets.MASTER_KEY}
+          GOTAUTH: ${ secrets.GOTAUTH}
+        run: |
+          cd ../../
+          pwd
+          git clone https://$GOTAUTH@github.com/brokenjade3000/got_auto.git
+          cd got_auto
+          chmod 775 ./script/install.sh
+          ./script/install.sh
+      - name: Run bulb_2
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${ secrets.MASTER_KEY}
+        run: |
+          pwd
+          cd /home/runner/work/got_auto/src
+          python --version
+          python run_bulb_hof.py 2
+
+
+  bulb_3:
+    # Name the Job
+    name: bulb_3
+    if:  contains(github.event.client_payload.id, ',3,')
+    # Set the type of machine to run on
+    runs-on: ubuntu-18.04
+
+    steps:
+      # Checks out a copy of your repository on the ubuntu-latest machine
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: set up python 3.6
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.6
+
+      - name: install packages
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${ secrets.MASTER_KEY}
+          GOTAUTH: ${ secrets.GOTAUTH}
+        run: |
+          cd ../../
+          pwd
+          git clone https://$GOTAUTH@github.com/brokenjade3000/got_auto.git
+          cd got_auto
+          chmod 775 ./script/install.sh
+          ./script/install.sh
+      - name: Run bulb_3
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${ secrets.MASTER_KEY}
+        run: |
+          pwd
+          cd /home/runner/work/got_auto/src
+          python --version
+          python run_bulb_hof.py 3
+
+
+  bulb_4:
+    # Name the Job
+    name: bulb_4
+    if:  contains(github.event.client_payload.id, ',4,')
+    # Set the type of machine to run on
+    runs-on: ubuntu-18.04
+
+    steps:
+      # Checks out a copy of your repository on the ubuntu-latest machine
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: set up python 3.6
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.6
+
+      - name: install packages
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${ secrets.MASTER_KEY}
+          GOTAUTH: ${ secrets.GOTAUTH}
+        run: |
+          cd ../../
+          pwd
+          git clone https://$GOTAUTH@github.com/brokenjade3000/got_auto.git
+          cd got_auto
+          chmod 775 ./script/install.sh
+          ./script/install.sh
+      - name: Run bulb_4
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${ secrets.MASTER_KEY}
+        run: |
+          pwd
+          cd /home/runner/work/got_auto/src
+          python --version
+          python run_bulb_hof.py 4
+
+
+  bulb_5:
+    # Name the Job
+    name: bulb_5
+    if:  contains(github.event.client_payload.id, ',5,')
+    # Set the type of machine to run on
+    runs-on: ubuntu-18.04
+
+    steps:
+      # Checks out a copy of your repository on the ubuntu-latest machine
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: set up python 3.6
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.6
+
+      - name: install packages
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${ secrets.MASTER_KEY}
+          GOTAUTH: ${ secrets.GOTAUTH}
+        run: |
+          cd ../../
+          pwd
+          git clone https://$GOTAUTH@github.com/brokenjade3000/got_auto.git
+          cd got_auto
+          chmod 775 ./script/install.sh
+          ./script/install.sh
+      - name: Run bulb_5
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${ secrets.MASTER_KEY}
+        run: |
+          pwd
+          cd /home/runner/work/got_auto/src
+          python --version
+          python run_bulb_hof.py 5
+
+
+  bulb_6:
+    # Name the Job
+    name: bulb_6
+    if:  contains(github.event.client_payload.id, ',6,')
+    # Set the type of machine to run on
+    runs-on: ubuntu-18.04
+
+    steps:
+      # Checks out a copy of your repository on the ubuntu-latest machine
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: set up python 3.6
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.6
+
+      - name: install packages
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${ secrets.MASTER_KEY}
+          GOTAUTH: ${ secrets.GOTAUTH}
+        run: |
+          cd ../../
+          pwd
+          git clone https://$GOTAUTH@github.com/brokenjade3000/got_auto.git
+          cd got_auto
+          chmod 775 ./script/install.sh
+          ./script/install.sh
+      - name: Run bulb_6
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${ secrets.MASTER_KEY}
+        run: |
+          pwd
+          cd /home/runner/work/got_auto/src
+          python --version
+          python run_bulb_hof.py 6
+
+
+  bulb_7:
+    # Name the Job
+    name: bulb_7
+    if:  contains(github.event.client_payload.id, ',7,')
+    # Set the type of machine to run on
+    runs-on: ubuntu-18.04
+
+    steps:
+      # Checks out a copy of your repository on the ubuntu-latest machine
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: set up python 3.6
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.6
+
+      - name: install packages
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${ secrets.MASTER_KEY}
+          GOTAUTH: ${ secrets.GOTAUTH}
+        run: |
+          cd ../../
+          pwd
+          git clone https://$GOTAUTH@github.com/brokenjade3000/got_auto.git
+          cd got_auto
+          chmod 775 ./script/install.sh
+          ./script/install.sh
+      - name: Run bulb_7
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${ secrets.MASTER_KEY}
+        run: |
+          pwd
+          cd /home/runner/work/got_auto/src
+          python --version
+          python run_bulb_hof.py 7
+
+
+  bulb_8:
+    # Name the Job
+    name: bulb_8
+    if:  contains(github.event.client_payload.id, ',8,')
+    # Set the type of machine to run on
+    runs-on: ubuntu-18.04
+
+    steps:
+      # Checks out a copy of your repository on the ubuntu-latest machine
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: set up python 3.6
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.6
+
+      - name: install packages
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${ secrets.MASTER_KEY}
+          GOTAUTH: ${ secrets.GOTAUTH}
+        run: |
+          cd ../../
+          pwd
+          git clone https://$GOTAUTH@github.com/brokenjade3000/got_auto.git
+          cd got_auto
+          chmod 775 ./script/install.sh
+          ./script/install.sh
+      - name: Run bulb_8
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${ secrets.MASTER_KEY}
+        run: |
+          pwd
+          cd /home/runner/work/got_auto/src
+          python --version
+          python run_bulb_hof.py 8
+
+
+  bulb_9:
+    # Name the Job
+    name: bulb_9
+    if:  contains(github.event.client_payload.id, ',9,')
+    # Set the type of machine to run on
+    runs-on: ubuntu-18.04
+
+    steps:
+      # Checks out a copy of your repository on the ubuntu-latest machine
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: set up python 3.6
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.6
+
+      - name: install packages
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${ secrets.MASTER_KEY}
+          GOTAUTH: ${ secrets.GOTAUTH}
+        run: |
+          cd ../../
+          pwd
+          git clone https://$GOTAUTH@github.com/brokenjade3000/got_auto.git
+          cd got_auto
+          chmod 775 ./script/install.sh
+          ./script/install.sh
+      - name: Run bulb_9
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${ secrets.MASTER_KEY}
+        run: |
+          pwd
+          cd /home/runner/work/got_auto/src
+          python --version
+          python run_bulb_hof.py 9
+
+
+  bulb_10:
+    # Name the Job
+    name: bulb_10
+    if:  contains(github.event.client_payload.id, ',10,')
+    # Set the type of machine to run on
+    runs-on: ubuntu-18.04
+
+    steps:
+      # Checks out a copy of your repository on the ubuntu-latest machine
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: set up python 3.6
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.6
+
+      - name: install packages
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${ secrets.MASTER_KEY}
+          GOTAUTH: ${ secrets.GOTAUTH}
+        run: |
+          cd ../../
+          pwd
+          git clone https://$GOTAUTH@github.com/brokenjade3000/got_auto.git
+          cd got_auto
+          chmod 775 ./script/install.sh
+          ./script/install.sh
+      - name: Run bulb_10
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${ secrets.MASTER_KEY}
+        run: |
+          pwd
+          cd /home/runner/work/got_auto/src
+          python --version
+          python run_bulb_hof.py 10
+
+
+  bulb_11:
+    # Name the Job
+    name: bulb_11
+    if:  contains(github.event.client_payload.id, ',11,')
+    # Set the type of machine to run on
+    runs-on: ubuntu-18.04
+
+    steps:
+      # Checks out a copy of your repository on the ubuntu-latest machine
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: set up python 3.6
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.6
+
+      - name: install packages
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${ secrets.MASTER_KEY}
+          GOTAUTH: ${ secrets.GOTAUTH}
+        run: |
+          cd ../../
+          pwd
+          git clone https://$GOTAUTH@github.com/brokenjade3000/got_auto.git
+          cd got_auto
+          chmod 775 ./script/install.sh
+          ./script/install.sh
+      - name: Run bulb_11
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${ secrets.MASTER_KEY}
+        run: |
+          pwd
+          cd /home/runner/work/got_auto/src
+          python --version
+          python run_bulb_hof.py 11
+
+
+  bulb_12:
+    # Name the Job
+    name: bulb_12
+    if:  contains(github.event.client_payload.id, ',12,')
+    # Set the type of machine to run on
+    runs-on: ubuntu-18.04
+
+    steps:
+      # Checks out a copy of your repository on the ubuntu-latest machine
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: set up python 3.6
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.6
+
+      - name: install packages
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${ secrets.MASTER_KEY}
+          GOTAUTH: ${ secrets.GOTAUTH}
+        run: |
+          cd ../../
+          pwd
+          git clone https://$GOTAUTH@github.com/brokenjade3000/got_auto.git
+          cd got_auto
+          chmod 775 ./script/install.sh
+          ./script/install.sh
+      - name: Run bulb_12
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${ secrets.MASTER_KEY}
+        run: |
+          pwd
+          cd /home/runner/work/got_auto/src
+          python --version
+          python run_bulb_hof.py 12
+
+
+  bulb_13:
+    # Name the Job
+    name: bulb_13
+    if:  contains(github.event.client_payload.id, ',13,')
+    # Set the type of machine to run on
+    runs-on: ubuntu-18.04
+
+    steps:
+      # Checks out a copy of your repository on the ubuntu-latest machine
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: set up python 3.6
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.6
+
+      - name: install packages
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${ secrets.MASTER_KEY}
+          GOTAUTH: ${ secrets.GOTAUTH}
+        run: |
+          cd ../../
+          pwd
+          git clone https://$GOTAUTH@github.com/brokenjade3000/got_auto.git
+          cd got_auto
+          chmod 775 ./script/install.sh
+          ./script/install.sh
+      - name: Run bulb_13
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${ secrets.MASTER_KEY}
+        run: |
+          pwd
+          cd /home/runner/work/got_auto/src
+          python --version
+          python run_bulb_hof.py 13
+
+
+  bulb_14:
+    # Name the Job
+    name: bulb_14
+    if:  contains(github.event.client_payload.id, ',14,')
+    # Set the type of machine to run on
+    runs-on: ubuntu-18.04
+
+    steps:
+      # Checks out a copy of your repository on the ubuntu-latest machine
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: set up python 3.6
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.6
+
+      - name: install packages
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${ secrets.MASTER_KEY}
+          GOTAUTH: ${ secrets.GOTAUTH}
+        run: |
+          cd ../../
+          pwd
+          git clone https://$GOTAUTH@github.com/brokenjade3000/got_auto.git
+          cd got_auto
+          chmod 775 ./script/install.sh
+          ./script/install.sh
+      - name: Run bulb_14
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${ secrets.MASTER_KEY}
+        run: |
+          pwd
+          cd /home/runner/work/got_auto/src
+          python --version
+          python run_bulb_hof.py 14
+
+
+  bulb_15:
+    # Name the Job
+    name: bulb_15
+    if:  contains(github.event.client_payload.id, ',15,')
+    # Set the type of machine to run on
+    runs-on: ubuntu-18.04
+
+    steps:
+      # Checks out a copy of your repository on the ubuntu-latest machine
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: set up python 3.6
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.6
+
+      - name: install packages
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${ secrets.MASTER_KEY}
+          GOTAUTH: ${ secrets.GOTAUTH}
+        run: |
+          cd ../../
+          pwd
+          git clone https://$GOTAUTH@github.com/brokenjade3000/got_auto.git
+          cd got_auto
+          chmod 775 ./script/install.sh
+          ./script/install.sh
+      - name: Run bulb_15
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${ secrets.MASTER_KEY}
+        run: |
+          pwd
+          cd /home/runner/work/got_auto/src
+          python --version
+          python run_bulb_hof.py 15
+
+
+  bulb_16:
+    # Name the Job
+    name: bulb_16
+    if:  contains(github.event.client_payload.id, ',16,')
+    # Set the type of machine to run on
+    runs-on: ubuntu-18.04
+
+    steps:
+      # Checks out a copy of your repository on the ubuntu-latest machine
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: set up python 3.6
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.6
+
+      - name: install packages
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${ secrets.MASTER_KEY}
+          GOTAUTH: ${ secrets.GOTAUTH}
+        run: |
+          cd ../../
+          pwd
+          git clone https://$GOTAUTH@github.com/brokenjade3000/got_auto.git
+          cd got_auto
+          chmod 775 ./script/install.sh
+          ./script/install.sh
+      - name: Run bulb_16
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${ secrets.MASTER_KEY}
+        run: |
+          pwd
+          cd /home/runner/work/got_auto/src
+          python --version
+          python run_bulb_hof.py 16
+
+
+  bulb_17:
+    # Name the Job
+    name: bulb_17
+    if:  contains(github.event.client_payload.id, ',17,')
+    # Set the type of machine to run on
+    runs-on: ubuntu-18.04
+
+    steps:
+      # Checks out a copy of your repository on the ubuntu-latest machine
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: set up python 3.6
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.6
+
+      - name: install packages
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${ secrets.MASTER_KEY}
+          GOTAUTH: ${ secrets.GOTAUTH}
+        run: |
+          cd ../../
+          pwd
+          git clone https://$GOTAUTH@github.com/brokenjade3000/got_auto.git
+          cd got_auto
+          chmod 775 ./script/install.sh
+          ./script/install.sh
+      - name: Run bulb_17
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${ secrets.MASTER_KEY}
+        run: |
+          pwd
+          cd /home/runner/work/got_auto/src
+          python --version
+          python run_bulb_hof.py 17
+
+
+  bulb_18:
+    # Name the Job
+    name: bulb_18
+    if:  contains(github.event.client_payload.id, ',18,')
+    # Set the type of machine to run on
+    runs-on: ubuntu-18.04
+
+    steps:
+      # Checks out a copy of your repository on the ubuntu-latest machine
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: set up python 3.6
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.6
+
+      - name: install packages
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${ secrets.MASTER_KEY}
+          GOTAUTH: ${ secrets.GOTAUTH}
+        run: |
+          cd ../../
+          pwd
+          git clone https://$GOTAUTH@github.com/brokenjade3000/got_auto.git
+          cd got_auto
+          chmod 775 ./script/install.sh
+          ./script/install.sh
+      - name: Run bulb_18
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${ secrets.MASTER_KEY}
+        run: |
+          pwd
+          cd /home/runner/work/got_auto/src
+          python --version
+          python run_bulb_hof.py 18
+
+
+  bulb_19:
+    # Name the Job
+    name: bulb_19
+    if:  contains(github.event.client_payload.id, ',19,')
+    # Set the type of machine to run on
+    runs-on: ubuntu-18.04
+
+    steps:
+      # Checks out a copy of your repository on the ubuntu-latest machine
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: set up python 3.6
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.6
+
+      - name: install packages
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${ secrets.MASTER_KEY}
+          GOTAUTH: ${ secrets.GOTAUTH}
+        run: |
+          cd ../../
+          pwd
+          git clone https://$GOTAUTH@github.com/brokenjade3000/got_auto.git
+          cd got_auto
+          chmod 775 ./script/install.sh
+          ./script/install.sh
+      - name: Run bulb_19
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${ secrets.MASTER_KEY}
+        run: |
+          pwd
+          cd /home/runner/work/got_auto/src
+          python --version
+          python run_bulb_hof.py 19
+
+
+  bulb_20:
+    # Name the Job
+    name: bulb_20
+    if:  contains(github.event.client_payload.id, ',20,')
+    # Set the type of machine to run on
+    runs-on: ubuntu-18.04
+
+    steps:
+      # Checks out a copy of your repository on the ubuntu-latest machine
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: set up python 3.6
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.6
+
+      - name: install packages
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${ secrets.MASTER_KEY}
+          GOTAUTH: ${ secrets.GOTAUTH}
+        run: |
+          cd ../../
+          pwd
+          git clone https://$GOTAUTH@github.com/brokenjade3000/got_auto.git
+          cd got_auto
+          chmod 775 ./script/install.sh
+          ./script/install.sh
+      - name: Run bulb_20
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${ secrets.MASTER_KEY}
+        run: |
+          pwd
+          cd /home/runner/work/got_auto/src
+          python --version
+          python run_bulb_hof.py 20

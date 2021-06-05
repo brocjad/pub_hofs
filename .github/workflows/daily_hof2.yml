@@ -1,4 +1,4 @@
-name: daily_hof1
+name: daily_hof2
 
 # Run this workflow every time a new commit pushed to your repository
 on:

@@ -206,7 +206,7 @@ jobs:
           ./script/install.sh
           
       # Runs the Super-Linter action
-      - name: run_1718
+      - name: run_1011
         env:
           DEFAULT_BRANCH: main
           MASTER_KEY: ${{ secrets.MASTER_KEY}}

@@ -29,8 +29,8 @@ jobs:
       - name: install packages
         env:
           DEFAULT_BRANCH: main
-          MASTER_KEY: ${ secrets.MASTER_KEY}
-          GOTAUTH: ${ secrets.GOTAUTH}
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+          GOTAUTH: ${{ secrets.GOTAUTH}}
         run: |
           cd ../../
           pwd
@@ -38,10 +38,11 @@ jobs:
           cd got_auto
           chmod 775 ./script/install.sh
           ./script/install.sh
+
       - name: Run bulb_1
         env:
           DEFAULT_BRANCH: main
-          MASTER_KEY: ${ secrets.MASTER_KEY}
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
         run: |
           pwd
           cd /home/runner/work/got_auto/src
@@ -69,8 +70,8 @@ jobs:
       - name: install packages
         env:
           DEFAULT_BRANCH: main
-          MASTER_KEY: ${ secrets.MASTER_KEY}
-          GOTAUTH: ${ secrets.GOTAUTH}
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+          GOTAUTH: ${{ secrets.GOTAUTH}}
         run: |
           cd ../../
           pwd
@@ -78,10 +79,11 @@ jobs:
           cd got_auto
           chmod 775 ./script/install.sh
           ./script/install.sh
+
       - name: Run bulb_2
         env:
           DEFAULT_BRANCH: main
-          MASTER_KEY: ${ secrets.MASTER_KEY}
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
         run: |
           pwd
           cd /home/runner/work/got_auto/src
@@ -109,8 +111,8 @@ jobs:
       - name: install packages
         env:
           DEFAULT_BRANCH: main
-          MASTER_KEY: ${ secrets.MASTER_KEY}
-          GOTAUTH: ${ secrets.GOTAUTH}
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+          GOTAUTH: ${{ secrets.GOTAUTH}}
         run: |
           cd ../../
           pwd
@@ -118,10 +120,11 @@ jobs:
           cd got_auto
           chmod 775 ./script/install.sh
           ./script/install.sh
+
       - name: Run bulb_3
         env:
           DEFAULT_BRANCH: main
-          MASTER_KEY: ${ secrets.MASTER_KEY}
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
         run: |
           pwd
           cd /home/runner/work/got_auto/src
@@ -149,8 +152,8 @@ jobs:
       - name: install packages
         env:
           DEFAULT_BRANCH: main
-          MASTER_KEY: ${ secrets.MASTER_KEY}
-          GOTAUTH: ${ secrets.GOTAUTH}
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+          GOTAUTH: ${{ secrets.GOTAUTH}}
         run: |
           cd ../../
           pwd
@@ -158,10 +161,11 @@ jobs:
           cd got_auto
           chmod 775 ./script/install.sh
           ./script/install.sh
+
       - name: Run bulb_4
         env:
           DEFAULT_BRANCH: main
-          MASTER_KEY: ${ secrets.MASTER_KEY}
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
         run: |
           pwd
           cd /home/runner/work/got_auto/src
@@ -189,8 +193,8 @@ jobs:
       - name: install packages
         env:
           DEFAULT_BRANCH: main
-          MASTER_KEY: ${ secrets.MASTER_KEY}
-          GOTAUTH: ${ secrets.GOTAUTH}
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+          GOTAUTH: ${{ secrets.GOTAUTH}}
         run: |
           cd ../../
           pwd
@@ -198,10 +202,11 @@ jobs:
           cd got_auto
           chmod 775 ./script/install.sh
           ./script/install.sh
+
       - name: Run bulb_5
         env:
           DEFAULT_BRANCH: main
-          MASTER_KEY: ${ secrets.MASTER_KEY}
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
         run: |
           pwd
           cd /home/runner/work/got_auto/src
@@ -229,8 +234,8 @@ jobs:
       - name: install packages
         env:
           DEFAULT_BRANCH: main
-          MASTER_KEY: ${ secrets.MASTER_KEY}
-          GOTAUTH: ${ secrets.GOTAUTH}
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+          GOTAUTH: ${{ secrets.GOTAUTH}}
         run: |
           cd ../../
           pwd
@@ -238,10 +243,11 @@ jobs:
           cd got_auto
           chmod 775 ./script/install.sh
           ./script/install.sh
+
       - name: Run bulb_6
         env:
           DEFAULT_BRANCH: main
-          MASTER_KEY: ${ secrets.MASTER_KEY}
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
         run: |
           pwd
           cd /home/runner/work/got_auto/src
@@ -269,8 +275,8 @@ jobs:
       - name: install packages
         env:
           DEFAULT_BRANCH: main
-          MASTER_KEY: ${ secrets.MASTER_KEY}
-          GOTAUTH: ${ secrets.GOTAUTH}
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+          GOTAUTH: ${{ secrets.GOTAUTH}}
         run: |
           cd ../../
           pwd
@@ -278,10 +284,11 @@ jobs:
           cd got_auto
           chmod 775 ./script/install.sh
           ./script/install.sh
+
       - name: Run bulb_7
         env:
           DEFAULT_BRANCH: main
-          MASTER_KEY: ${ secrets.MASTER_KEY}
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
         run: |
           pwd
           cd /home/runner/work/got_auto/src
@@ -309,8 +316,8 @@ jobs:
       - name: install packages
         env:
           DEFAULT_BRANCH: main
-          MASTER_KEY: ${ secrets.MASTER_KEY}
-          GOTAUTH: ${ secrets.GOTAUTH}
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+          GOTAUTH: ${{ secrets.GOTAUTH}}
         run: |
           cd ../../
           pwd
@@ -318,10 +325,11 @@ jobs:
           cd got_auto
           chmod 775 ./script/install.sh
           ./script/install.sh
+
       - name: Run bulb_8
         env:
           DEFAULT_BRANCH: main
-          MASTER_KEY: ${ secrets.MASTER_KEY}
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
         run: |
           pwd
           cd /home/runner/work/got_auto/src
@@ -349,8 +357,8 @@ jobs:
       - name: install packages
         env:
           DEFAULT_BRANCH: main
-          MASTER_KEY: ${ secrets.MASTER_KEY}
-          GOTAUTH: ${ secrets.GOTAUTH}
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+          GOTAUTH: ${{ secrets.GOTAUTH}}
         run: |
           cd ../../
           pwd
@@ -358,10 +366,11 @@ jobs:
           cd got_auto
           chmod 775 ./script/install.sh
           ./script/install.sh
+
       - name: Run bulb_9
         env:
           DEFAULT_BRANCH: main
-          MASTER_KEY: ${ secrets.MASTER_KEY}
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
         run: |
           pwd
           cd /home/runner/work/got_auto/src
@@ -389,8 +398,8 @@ jobs:
       - name: install packages
         env:
           DEFAULT_BRANCH: main
-          MASTER_KEY: ${ secrets.MASTER_KEY}
-          GOTAUTH: ${ secrets.GOTAUTH}
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+          GOTAUTH: ${{ secrets.GOTAUTH}}
         run: |
           cd ../../
           pwd
@@ -398,10 +407,11 @@ jobs:
           cd got_auto
           chmod 775 ./script/install.sh
           ./script/install.sh
+
       - name: Run bulb_10
         env:
           DEFAULT_BRANCH: main
-          MASTER_KEY: ${ secrets.MASTER_KEY}
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
         run: |
           pwd
           cd /home/runner/work/got_auto/src
@@ -429,8 +439,8 @@ jobs:
       - name: install packages
         env:
           DEFAULT_BRANCH: main
-          MASTER_KEY: ${ secrets.MASTER_KEY}
-          GOTAUTH: ${ secrets.GOTAUTH}
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+          GOTAUTH: ${{ secrets.GOTAUTH}}
         run: |
           cd ../../
           pwd
@@ -438,10 +448,11 @@ jobs:
           cd got_auto
           chmod 775 ./script/install.sh
           ./script/install.sh
+
       - name: Run bulb_11
         env:
           DEFAULT_BRANCH: main
-          MASTER_KEY: ${ secrets.MASTER_KEY}
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
         run: |
           pwd
           cd /home/runner/work/got_auto/src
@@ -469,8 +480,8 @@ jobs:
       - name: install packages
         env:
           DEFAULT_BRANCH: main
-          MASTER_KEY: ${ secrets.MASTER_KEY}
-          GOTAUTH: ${ secrets.GOTAUTH}
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+          GOTAUTH: ${{ secrets.GOTAUTH}}
         run: |
           cd ../../
           pwd
@@ -478,10 +489,11 @@ jobs:
           cd got_auto
           chmod 775 ./script/install.sh
           ./script/install.sh
+
       - name: Run bulb_12
         env:
           DEFAULT_BRANCH: main
-          MASTER_KEY: ${ secrets.MASTER_KEY}
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
         run: |
           pwd
           cd /home/runner/work/got_auto/src
@@ -509,8 +521,8 @@ jobs:
       - name: install packages
         env:
           DEFAULT_BRANCH: main
-          MASTER_KEY: ${ secrets.MASTER_KEY}
-          GOTAUTH: ${ secrets.GOTAUTH}
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+          GOTAUTH: ${{ secrets.GOTAUTH}}
         run: |
           cd ../../
           pwd
@@ -518,10 +530,11 @@ jobs:
           cd got_auto
           chmod 775 ./script/install.sh
           ./script/install.sh
+
       - name: Run bulb_13
         env:
           DEFAULT_BRANCH: main
-          MASTER_KEY: ${ secrets.MASTER_KEY}
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
         run: |
           pwd
           cd /home/runner/work/got_auto/src
@@ -549,8 +562,8 @@ jobs:
       - name: install packages
         env:
           DEFAULT_BRANCH: main
-          MASTER_KEY: ${ secrets.MASTER_KEY}
-          GOTAUTH: ${ secrets.GOTAUTH}
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+          GOTAUTH: ${{ secrets.GOTAUTH}}
         run: |
           cd ../../
           pwd
@@ -558,10 +571,11 @@ jobs:
           cd got_auto
           chmod 775 ./script/install.sh
           ./script/install.sh
+
       - name: Run bulb_14
         env:
           DEFAULT_BRANCH: main
-          MASTER_KEY: ${ secrets.MASTER_KEY}
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
         run: |
           pwd
           cd /home/runner/work/got_auto/src
@@ -589,8 +603,8 @@ jobs:
       - name: install packages
         env:
           DEFAULT_BRANCH: main
-          MASTER_KEY: ${ secrets.MASTER_KEY}
-          GOTAUTH: ${ secrets.GOTAUTH}
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+          GOTAUTH: ${{ secrets.GOTAUTH}}
         run: |
           cd ../../
           pwd
@@ -598,10 +612,11 @@ jobs:
           cd got_auto
           chmod 775 ./script/install.sh
           ./script/install.sh
+
       - name: Run bulb_15
         env:
           DEFAULT_BRANCH: main
-          MASTER_KEY: ${ secrets.MASTER_KEY}
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
         run: |
           pwd
           cd /home/runner/work/got_auto/src
@@ -629,8 +644,8 @@ jobs:
       - name: install packages
         env:
           DEFAULT_BRANCH: main
-          MASTER_KEY: ${ secrets.MASTER_KEY}
-          GOTAUTH: ${ secrets.GOTAUTH}
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+          GOTAUTH: ${{ secrets.GOTAUTH}}
         run: |
           cd ../../
           pwd
@@ -638,10 +653,11 @@ jobs:
           cd got_auto
           chmod 775 ./script/install.sh
           ./script/install.sh
+
       - name: Run bulb_16
         env:
           DEFAULT_BRANCH: main
-          MASTER_KEY: ${ secrets.MASTER_KEY}
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
         run: |
           pwd
           cd /home/runner/work/got_auto/src
@@ -669,8 +685,8 @@ jobs:
       - name: install packages
         env:
           DEFAULT_BRANCH: main
-          MASTER_KEY: ${ secrets.MASTER_KEY}
-          GOTAUTH: ${ secrets.GOTAUTH}
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+          GOTAUTH: ${{ secrets.GOTAUTH}}
         run: |
           cd ../../
           pwd
@@ -678,10 +694,11 @@ jobs:
           cd got_auto
           chmod 775 ./script/install.sh
           ./script/install.sh
+
       - name: Run bulb_17
         env:
           DEFAULT_BRANCH: main
-          MASTER_KEY: ${ secrets.MASTER_KEY}
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
         run: |
           pwd
           cd /home/runner/work/got_auto/src
@@ -709,8 +726,8 @@ jobs:
       - name: install packages
         env:
           DEFAULT_BRANCH: main
-          MASTER_KEY: ${ secrets.MASTER_KEY}
-          GOTAUTH: ${ secrets.GOTAUTH}
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+          GOTAUTH: ${{ secrets.GOTAUTH}}
         run: |
           cd ../../
           pwd
@@ -718,10 +735,11 @@ jobs:
           cd got_auto
           chmod 775 ./script/install.sh
           ./script/install.sh
+
       - name: Run bulb_18
         env:
           DEFAULT_BRANCH: main
-          MASTER_KEY: ${ secrets.MASTER_KEY}
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
         run: |
           pwd
           cd /home/runner/work/got_auto/src
@@ -749,8 +767,8 @@ jobs:
       - name: install packages
         env:
           DEFAULT_BRANCH: main
-          MASTER_KEY: ${ secrets.MASTER_KEY}
-          GOTAUTH: ${ secrets.GOTAUTH}
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+          GOTAUTH: ${{ secrets.GOTAUTH}}
         run: |
           cd ../../
           pwd
@@ -758,10 +776,11 @@ jobs:
           cd got_auto
           chmod 775 ./script/install.sh
           ./script/install.sh
+
       - name: Run bulb_19
         env:
           DEFAULT_BRANCH: main
-          MASTER_KEY: ${ secrets.MASTER_KEY}
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
         run: |
           pwd
           cd /home/runner/work/got_auto/src
@@ -789,8 +808,8 @@ jobs:
       - name: install packages
         env:
           DEFAULT_BRANCH: main
-          MASTER_KEY: ${ secrets.MASTER_KEY}
-          GOTAUTH: ${ secrets.GOTAUTH}
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+          GOTAUTH: ${{ secrets.GOTAUTH}}
         run: |
           cd ../../
           pwd
@@ -798,10 +817,11 @@ jobs:
           cd got_auto
           chmod 775 ./script/install.sh
           ./script/install.sh
+
       - name: Run bulb_20
         env:
           DEFAULT_BRANCH: main
-          MASTER_KEY: ${ secrets.MASTER_KEY}
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
         run: |
           pwd
           cd /home/runner/work/got_auto/src

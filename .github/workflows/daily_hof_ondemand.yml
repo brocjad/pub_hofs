@@ -1,6 +1,6 @@
 
 
-name: daily_hof_ondemand
+name: daily_hof1_ondemand
 
 # Run this workflow every time a new commit pushed to your repository
 on:
@@ -9,9 +9,9 @@ on:
 jobs:
   # Set the job key. The key is displayed as the job name
   # when a job name is not provided
-  run_12:
+  run_23:
     # Name the Job
-    name: run_12
+    name: run_23
     # Set the type of machine to run on
     runs-on: ubuntu-18.04
 
@@ -39,7 +39,7 @@ jobs:
           ./script/install.sh
           
       # Runs the Super-Linter action
-      - name: run_12
+      - name: run_23
         env:
           DEFAULT_BRANCH: main
           MASTER_KEY: ${{ secrets.MASTER_KEY}}
@@ -47,14 +47,14 @@ jobs:
           pwd
           cd /home/runner/work/got_auto/src
           python --version
-          python run_daily_hof.py 1,2,3,4
+          python run_daily_hof.py 2,3
 
 
  
 
-  run_56:
+  run_45:
     # Name the Job
-    name: run_56
+    name: run_45
     # Set the type of machine to run on
     runs-on: ubuntu-18.04
 
@@ -82,7 +82,7 @@ jobs:
           ./script/install.sh
           
       # Runs the Super-Linter action
-      - name: run_56
+      - name: run_45
         env:
           DEFAULT_BRANCH: main
           MASTER_KEY: ${{ secrets.MASTER_KEY}}
@@ -90,12 +90,12 @@ jobs:
           pwd
           cd /home/runner/work/got_auto/src
           python --version
-          python run_daily_hof.py 5,6,7,8         
+          python run_daily_hof.py 4,5         
 
             
-  run_910:
+  run_67:
     # Name the Job
-    name: run_910
+    name: run_67
     # Set the type of machine to run on
     runs-on: ubuntu-18.04
 
@@ -123,7 +123,7 @@ jobs:
           ./script/install.sh
           
       # Runs the Super-Linter action
-      - name: run_910
+      - name: run_67
         env:
           DEFAULT_BRANCH: main
           MASTER_KEY: ${{ secrets.MASTER_KEY}}
@@ -131,13 +131,13 @@ jobs:
           pwd
           cd /home/runner/work/got_auto/src
           python --version
-          python run_daily_hof.py 9,10,11,12          
+          python run_daily_hof.py 6,7          
           
           
           
-  run_1314:
+  run_89:
     # Name the Job
-    name: run_1314
+    name: run_89
     # Set the type of machine to run on
     runs-on: ubuntu-18.04
 
@@ -165,7 +165,7 @@ jobs:
           ./script/install.sh
           
       # Runs the Super-Linter action
-      - name: run_1314
+      - name: run_89
         env:
           DEFAULT_BRANCH: main
           MASTER_KEY: ${{ secrets.MASTER_KEY}}
@@ -173,13 +173,13 @@ jobs:
           pwd
           cd /home/runner/work/got_auto/src
           python --version
-          python run_daily_hof.py 13,14,15,16           
+          python run_daily_hof.py 8,9           
           
           
 
-  run_1718:
+  run_1011:
     # Name the Job
-    name: run_1718
+    name: run_1011
     # Set the type of machine to run on
     runs-on: ubuntu-18.04
 
@@ -215,5 +215,5 @@ jobs:
           pwd
           cd /home/runner/work/got_auto/src
           python --version
-          python run_daily_hof.py 21,17,18,19,20
+          python run_daily_hof.py 10,11
                    

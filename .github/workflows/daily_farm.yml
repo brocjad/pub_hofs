@@ -13,6 +13,7 @@ jobs:
     name: run_21
     # Set the type of machine to run on
     runs-on: ubuntu-18.04
+    timeout-minutes: 120
 
     steps:
       # Checks out a copy of your repository on the ubuntu-latest machine
@@ -53,6 +54,7 @@ jobs:
     name: run_1
     # Set the type of machine to run on
     runs-on: ubuntu-18.04
+    timeout-minutes: 120
 
     steps:
       # Checks out a copy of your repository on the ubuntu-latest machine

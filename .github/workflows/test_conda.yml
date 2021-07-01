@@ -1,0 +1,29 @@
+name: two_hourly
+
+# Run this workflow every time a new commit pushed to your repository
+on:
+  workflow_dispatch
+  
+jobs:
+  # Set the job key. The key is displayed as the job name
+  # when a job name is not provided
+  run_5k:
+    # Name the Job
+    name: run_5k
+    # Set the type of machine to run on
+    runs-on: ubuntu-18.04
+    timeout-minutes: 120
+
+    steps:
+      - uses: actions/checkout@v1
+      - name: Update Conda environment with "requirements.yml"
+        uses: matthewrmshin/conda-action@v1
+        with:
+          args: conda env update -f ./requirements.yml
+          
+      - name: Run "pytest" with the Conda environment
+        uses: matthewrmshin/conda-action@v1
+        with:
+          args: pytest
+
+      

@@ -47,6 +47,7 @@ jobs:
           pwd
           cd /home/runner/work/got_auto/src
           python --version
+          python -c 'import numpy; print(numpy.__version__)'
           python run_daily_hof.py 2,3
 
 

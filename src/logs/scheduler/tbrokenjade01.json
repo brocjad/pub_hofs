@@ -22,5 +22,17 @@
             "resize": 0.25,
             "reset_threshold": 8
         }
+    },
+    "up_command": {
+        "next": 1625210305,
+        "param": {
+            "name": "sheila",
+            "step_width": 2,
+            "max_try": 8,
+            "track": true,
+            "resize": 0.25,
+            "trigger": 110
+        },
+        "func": "upgrade_commanders"
     }
 }

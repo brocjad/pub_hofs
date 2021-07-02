@@ -1,0 +1,11 @@
+{
+    "heal_500": {
+        "next": 1625250103,
+        "param": {
+            "track": true,
+            "resize": 0.25,
+            "max_to_heal": 500
+        },
+        "func": "heal_max"
+    }
+}

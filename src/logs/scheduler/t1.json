@@ -28,5 +28,13 @@
             "track": true,
             "resize": 0.25
         }
+    },
+    "sheltering": {
+        "next": 1625221230,
+        "param": {
+            "track": true,
+            "resize": 0.25,
+            "reset_threshold": 8
+        }
     }
 }

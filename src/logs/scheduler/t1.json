@@ -48,5 +48,13 @@
             "trigger": 110
         },
         "func": "upgrade_commanders"
+    },
+    "get_taven": {
+        "next": 1625207223,
+        "param": {
+            "track": true,
+            "resize": 0.25,
+            "leave_noclick": 1
+        }
     }
 }

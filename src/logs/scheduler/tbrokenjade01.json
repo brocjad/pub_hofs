@@ -5,5 +5,14 @@
             "track": true,
             "resize": 0.25
         }
+    },
+    "heal_100": {
+        "next": 1625206586,
+        "param": {
+            "track": true,
+            "resize": 0.25,
+            "max_to_heal": 100
+        },
+        "func": "heal_max"
     }
 }

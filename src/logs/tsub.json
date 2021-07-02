@@ -217,5 +217,27 @@
             "resize": 0.3
         },
         "func": "farm_around"
+    },
+    "gather_mine_quar": {
+        "next": 1625209381,
+        "param": {
+            "levels": [
+                4,
+                3
+            ],
+            "rtypes": [
+                "mine",
+                "quar"
+            ],
+            "max_distance": 75,
+            "direct_send": 50,
+            "troop_size": 0,
+            "use_dragon": false,
+            "max_troops": 6,
+            "low_troop": true,
+            "track": true,
+            "resize": 0.3
+        },
+        "func": "farm_around"
     }
 }

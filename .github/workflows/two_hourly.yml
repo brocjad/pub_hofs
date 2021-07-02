@@ -30,6 +30,7 @@ jobs:
           DEFAULT_BRANCH: main
           MASTER_KEY: ${{ secrets.MASTER_KEY}}
           GOTAUTH: ${{ secrets.GOTAUTH}}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           cd ../../
           pwd
@@ -43,6 +44,7 @@ jobs:
         env:
           DEFAULT_BRANCH: main
           MASTER_KEY: ${{ secrets.MASTER_KEY}}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           pwd
           cd /home/runner/work/got_auto/src

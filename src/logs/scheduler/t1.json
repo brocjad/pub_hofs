@@ -153,5 +153,12 @@
             "track": true,
             "resize": 0.25
         }
+    },
+    "daily_msg": {
+        "next": 1625355243,
+        "param": {
+            "track": true,
+            "resize": 0.25
+        }
     }
 }

@@ -96,5 +96,17 @@
             "resize": 0.25,
             "leave_noclick": 1
         }
+    },
+    "up_command": {
+        "next": 1625297801,
+        "param": {
+            "name": "haley",
+            "step_width": 3,
+            "max_try": 8,
+            "track": true,
+            "resize": 0.25,
+            "trigger": 110
+        },
+        "func": "upgrade_commanders"
     }
 }

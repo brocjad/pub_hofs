@@ -143,5 +143,17 @@
             "track": true,
             "resize": 0.25
         }
+    },
+    "schedule_leader": {
+        "next": 1625351864,
+        "param": {
+            "side": "right",
+            "level": 1,
+            "track": true,
+            "resize": 0.25,
+            "hits": 3,
+            "cost": 540,
+            "toadd_motiv": 0
+        }
     }
 }

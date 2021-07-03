@@ -1,30 +1,20 @@
 {
-    "check_box": {
-        "next": 1625343961,
+    "get_vip_shop": {
+        "next": 1625149116,
         "param": {
             "track": true,
-            "resize": 0.25
+            "resize": 0.3
         }
     },
-    "heal_100": {
-        "next": 1625235318,
+    "get_vip_box": {
+        "next": 1625013811,
         "param": {
             "track": true,
-            "resize": 0.25,
-            "max_to_heal": 100
-        },
-        "func": "heal_max"
-    },
-    "sheltering": {
-        "next": 1625343380,
-        "param": {
-            "track": true,
-            "resize": 0.25,
-            "reset_threshold": 8
+            "resize": 0.3
         }
     },
     "up_command": {
-        "next": 1625343382,
+        "next": 1625177408,
         "param": {
             "name": "sheila",
             "step_width": 2,
@@ -35,133 +25,64 @@
         },
         "func": "upgrade_commanders"
     },
-    "get_taven": {
-        "next": 1625347229,
+    "check_box": {
+        "next": 1625345322,
         "param": {
             "track": true,
-            "resize": 0.25,
-            "leave_noclick": 1
+            "resize": 0.3
         }
     },
-    "trade": {
-        "next": 1625343748,
+    "bank_claim": {
+        "next": 1625177316,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
+    "heal_100": {
+        "next": 1625177406,
+        "param": {
+            "track": true,
+            "resize": 0.25,
+            "max_to_heal": 100
+        },
+        "func": "heal_max"
+    },
+    "sheltering": {
+        "next": 1625177407,
+        "param": {
+            "track": true,
+            "resize": 0.25,
+            "reset_threshold": 8
+        }
+    },
+    "get_taven": {
+        "next": 1625147175,
+        "param": {
+            "track": true,
+            "resize": 0.3,
+            "leave_noclick": 1
+        }
+    },
+    "trade": {
+        "next": 1625144555,
+        "param": {
+            "track": true,
+            "resize": 0.3
+        }
+    },
     "get_amethyst": {
-        "next": 1625347345,
+        "next": 1625148442,
         "param": {
             "track": true,
             "resize": 0.3
         }
     },
     "get_dragonforged": {
-        "next": 1625347392,
+        "next": 1625148598,
         "param": {
             "track": true,
             "resize": 0.3
         }
-    },
-    "get_vip_shop": {
-        "next": 1625347435,
-        "param": {
-            "track": true,
-            "resize": 0.3
-        }
-    },
-    "complete_all_trials": {
-        "next": 1625293715,
-        "param": {
-            "track": true,
-            "resize": 0.25
-        }
-    },
-    "get_salary": {
-        "next": 1625293716,
-        "param": {
-            "track": true,
-            "resize": 0.25
-        }
-    },
-    "get_bonus": {
-        "next": 1625357402,
-        "param": {
-            "track": true,
-            "resize": 0.25
-        }
-    },
-    "get_knight": {
-        "next": 1625293741,
-        "param": {
-            "track": true,
-            "resize": 0.25
-        }
-    },
-    "get_list": {
-        "next": 1625297358,
-        "param": {
-            "track": true,
-            "resize": 0.25,
-            "items": [
-                "vip",
-                "amethyst",
-                "dragon"
-            ]
-        }
-    },
-    "soldiers": {},
-    "train_mil": {
-        "next": 1625336837,
-        "param": {
-            "track": true,
-            "resize": 0.25,
-            "level": 1,
-            "soldiers": {
-                "cav": 500,
-                "inf": 500,
-                "spe": 500,
-                "bow": 500
-            }
-        }
-    },
-    "explore_drag": {
-        "next": 1625338075,
-        "param": {
-            "track": true,
-            "resize": 0.25,
-            "hours": 1,
-            "buy": 0,
-            "dragon_id": 0
-        }
-    },
-    "schedule_leader": {
-        "next": 1625337342,
-        "param": {
-            "side": "right",
-            "level": 1,
-            "track": true,
-            "resize": 0.25,
-            "hits": 3,
-            "cost": 540,
-            "toadd_motiv": 0
-        }
-    },
-    "bank_claim": {
-        "next": 1625346887,
-        "param": {
-            "track": true,
-            "resize": 0.25
-        }
-    },
-    "heal_500": {
-        "next": 1625343378,
-        "param": {
-            "track": true,
-            "resize": 0.25,
-            "max_to_heal": 500
-        },
-        "func": "heal_max"
     }
 }

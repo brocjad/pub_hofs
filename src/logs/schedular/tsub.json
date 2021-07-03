@@ -39,5 +39,12 @@
                 "bow": 500
             }
         }
+    },
+    "trade": {
+        "next": 1625287948,
+        "param": {
+            "track": true,
+            "resize": 0.25
+        }
     }
 }

@@ -7,5 +7,12 @@
             "max_to_heal": 500
         },
         "func": "heal_max"
+    },
+    "continue_bub": {
+        "next": 1625300966,
+        "param": {
+            "track": true,
+            "resize": 0.25
+        }
     }
 }

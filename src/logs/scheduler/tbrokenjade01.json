@@ -26,10 +26,10 @@
         "func": "upgrade_commanders"
     },
     "check_box": {
-        "next": 1625345322,
+        "next": 1625352165,
         "param": {
             "track": true,
-            "resize": 0.3
+            "resize": 0.25
         }
     },
     "bank_claim": {

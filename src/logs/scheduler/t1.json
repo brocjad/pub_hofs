@@ -38,9 +38,9 @@
         }
     },
     "up_command": {
-        "next": 1625340284,
+        "next": 1625347224,
         "param": {
-            "name": "jeane",
+            "name": "soren",
             "step_width": 3,
             "max_try": 8,
             "track": true,

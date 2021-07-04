@@ -1,6 +1,6 @@
 {
     "heal_500": {
-        "next": 1625365860,
+        "next": 1625364885,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -9,14 +9,14 @@
         "func": "heal_max"
     },
     "continue_bub": {
-        "next": 1625365865,
+        "next": 1625369616,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "check_box": {
-        "next": 1625367687,
+        "next": 1625361246,
         "param": {
             "track": true,
             "resize": 0.25
@@ -26,13 +26,12 @@
         "bow": 500
     },
     "train_mil": {
-        "next": 1625366090,
+        "next": 1625366565,
         "param": {
             "track": true,
             "resize": 0.25,
             "level": 1,
             "soldiers": {
-                "inf": 500,
                 "cav": 500,
                 "spe": 500,
                 "bow": 500
@@ -82,14 +81,14 @@
         }
     },
     "get_vip_shop": {
-        "next": 1625364536,
+        "next": 1625369221,
         "param": {
             "track": true,
             "resize": 0.3
         }
     },
     "get_taven": {
-        "next": 1625364562,
+        "next": 1625369252,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -218,7 +217,7 @@
         "func": "farm_around"
     },
     "gather_mine_quar": {
-        "next": 1625364835,
+        "next": 1625369777,
         "param": {
             "levels": [
                 3,

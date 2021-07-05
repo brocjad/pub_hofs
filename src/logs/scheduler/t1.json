@@ -7,7 +7,7 @@
         }
     },
     "bank_claim": {
-        "next": 1625455526,
+        "next": 1625462190,
         "param": {
             "track": true,
             "resize": 0.25
@@ -23,7 +23,7 @@
         "func": "heal_max"
     },
     "continue_bub": {
-        "next": 1625466563,
+        "next": 1625458596,
         "param": {
             "track": true,
             "resize": 0.25

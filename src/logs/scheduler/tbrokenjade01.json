@@ -122,7 +122,7 @@
         "func": "heal_max"
     },
     "training_ground": {
-        "next": 1625611400,
+        "next": 1625654818,
         "param": {
             "track": true,
             "resize": 0.25

@@ -242,7 +242,7 @@
         "func": "farm_around"
     },
     "training_ground": {
-        "next": 1626013661,
+        "next": 1626097986,
         "param": {
             "track": true,
             "resize": 0.25

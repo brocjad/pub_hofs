@@ -238,7 +238,7 @@
         "func": "farm_around"
     },
     "training_ground": {
-        "next": 1626078210,
+        "next": 1625999613,
         "param": {
             "track": true,
             "resize": 0.25

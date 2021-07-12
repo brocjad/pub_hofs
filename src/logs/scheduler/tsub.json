@@ -1,6 +1,6 @@
 {
     "heal_500": {
-        "next": 1626057038,
+        "next": 1626056046,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -9,14 +9,14 @@
         "func": "heal_max"
     },
     "continue_bub": {
-        "next": 1626057151,
+        "next": 1626056533,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "check_box": {
-        "next": 1626059543,
+        "next": 1626052207,
         "param": {
             "track": true,
             "resize": 0.25
@@ -90,7 +90,7 @@
         }
     },
     "get_taven": {
-        "next": 1626055499,
+        "next": 1626060405,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -98,7 +98,7 @@
         }
     },
     "up_command": {
-        "next": 1626055522,
+        "next": 1626060896,
         "param": {
             "name": "haley",
             "step_width": 3,

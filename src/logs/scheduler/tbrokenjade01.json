@@ -1,6 +1,6 @@
 {
     "get_vip_shop": {
-        "next": 1626089111,
+        "next": 1626096667,
         "param": {
             "track": true,
             "resize": 0.3
@@ -119,7 +119,7 @@
         "func": "heal_max"
     },
     "training_ground": {
-        "next": 1626086756,
+        "next": 1626094309,
         "param": {
             "track": true,
             "resize": 0.25

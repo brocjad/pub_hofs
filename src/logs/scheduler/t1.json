@@ -126,13 +126,13 @@
         }
     },
     "explore_drag": {
-        "next": 1626212158,
+        "next": 1626216808,
         "param": {
             "track": true,
             "resize": 0.25,
             "hours": 1,
             "buy": 0,
-            "dragon_id": 0
+            "dragon_id": 1
         }
     },
     "schedule_leader": {

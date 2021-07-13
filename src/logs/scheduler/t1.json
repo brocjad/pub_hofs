@@ -38,9 +38,9 @@
         }
     },
     "up_command": {
-        "next": 1626211326,
+        "next": 1626218562,
         "param": {
-            "name": "soren",
+            "name": "feis",
             "step_width": 3,
             "max_try": 8,
             "track": true,

@@ -132,5 +132,12 @@
             "trigger": 110
         },
         "func": "upgrade_commanders"
+    },
+    "continue_bub": {
+        "next": 1626409258,
+        "param": {
+            "track": true,
+            "resize": 0.25
+        }
     }
 }

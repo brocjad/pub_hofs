@@ -1,6 +1,6 @@
 {
     "heal_500": {
-        "next": 1626315992,
+        "next": 1626316321,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -106,7 +106,7 @@
         "func": "upgrade_commanders"
     },
     "explore_drag": {
-        "next": 1626319679,
+        "next": 1626315114,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -175,7 +175,7 @@
         "func": "farm_around"
     },
     "gather_quar": {
-        "next": 1626319784,
+        "next": 1626315135,
         "param": {
             "levels": [
                 2

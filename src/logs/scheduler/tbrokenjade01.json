@@ -137,14 +137,14 @@
         }
     },
     "daily_msg": {
-        "next": 1626359618,
+        "next": 1626431853,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "schedule_leader": {
-        "next": 1626359799,
+        "next": 1626367489,
         "param": {
             "side": "right",
             "level": 1,

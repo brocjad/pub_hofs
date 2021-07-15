@@ -1,20 +1,13 @@
 {
     "check_box": {
-        "next": 1626373068,
-        "param": {
-            "track": true,
-            "resize": 0.25
-        }
-    },
-    "bank_claim": {
-        "next": 1626376662,
+        "next": 1625336059,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "heal_130": {
-        "next": 1626373131,
+        "next": 1623194667,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -22,35 +15,16 @@
         },
         "func": "heal_max"
     },
-    "continue_bub": {
-        "next": 1626409258,
-        "param": {
-            "track": true,
-            "resize": 0.25
-        }
-    },
     "sheltering": {
-        "next": 1626366391,
+        "next": 1623210265,
         "param": {
             "track": true,
             "resize": 0.25,
             "reset_threshold": 8
         }
     },
-    "up_command": {
-        "next": 1626377275,
-        "param": {
-            "name": "feis",
-            "step_width": 3,
-            "max_try": 8,
-            "track": true,
-            "resize": 0.25,
-            "trigger": 110
-        },
-        "func": "upgrade_commanders"
-    },
     "get_taven": {
-        "next": 1626370332,
+        "next": 1623200144,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -58,63 +32,75 @@
         }
     },
     "trade": {
-        "next": 1626366846,
+        "next": 1623207684,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_amethyst": {
-        "next": 1626370438,
+        "next": 1623200800,
         "param": {
             "track": true,
             "resize": 0.3
         }
     },
     "get_dragonforged": {
-        "next": 1626370485,
+        "next": 1623201021,
         "param": {
             "track": true,
             "resize": 0.3
         }
     },
     "get_vip_shop": {
-        "next": 1626370529,
+        "next": 1623201238,
         "param": {
             "track": true,
             "resize": 0.3
         }
     },
+    "schedule_leader": {
+        "next": 1623191609,
+        "param": {
+            "side": "right",
+            "level": 1,
+            "track": true,
+            "resize": 0.25,
+            "hits": 3,
+            "cost": 540,
+            "toadd_motiv": 0
+        }
+    },
     "complete_all_trials": {
-        "next": 1626327122,
+        "next": 1623201341,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_salary": {
-        "next": 1626394202,
+        "next": 1623283824,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_bonus": {
-        "next": 1626394201,
+        "next": 1623201610,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_knight": {
-        "next": 1626394199,
+        "next": 1623241391,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_list": {
-        "next": 1626327263,
+        "next": 1623201862,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -126,39 +112,25 @@
         }
     },
     "explore_drag": {
-        "next": 1626368377,
+        "next": 1623202552,
         "param": {
             "track": true,
             "resize": 0.25,
             "hours": 1,
             "buy": 0,
-            "dragon_id": 1
+            "dragon_id": 0
         }
     },
-    "schedule_leader": {
-        "next": 1626369523,
+    "up_command": {
+        "next": 1626378177,
         "param": {
-            "side": "right",
-            "level": 2,
+            "name": "feis",
+            "step_width": 3,
+            "max_try": 8,
             "track": true,
-            "resize": 0.25,
-            "hits": 3,
-            "cost": 540,
-            "toadd_motiv": 0
-        }
-    },
-    "training_ground": {
-        "next": 1626368177,
-        "param": {
-            "track": true,
-            "resize": 0.25
-        }
-    },
-    "daily_msg": {
-        "next": 1626432092,
-        "param": {
-            "track": true,
-            "resize": 0.25
-        }
+            "resize": 0.3,
+            "trigger": 110
+        },
+        "func": "upgrade_commanders"
     }
 }

@@ -1,6 +1,6 @@
 {
     "get_vip_shop": {
-        "next": 1626391634,
+        "next": 1625149116,
         "param": {
             "track": true,
             "resize": 0.3
@@ -14,26 +14,26 @@
         }
     },
     "up_command": {
-        "next": 1626391224,
+        "next": 1626401304,
         "param": {
             "name": "sheila",
             "step_width": 2,
             "max_try": 8,
             "track": true,
-            "resize": 0.25,
-            "trigger": 110
+            "resize": 0.3,
+            "trigger": 50
         },
         "func": "upgrade_commanders"
     },
     "check_box": {
-        "next": 1626388470,
+        "next": 1625345322,
         "param": {
             "track": true,
-            "resize": 0.25
+            "resize": 0.3
         }
     },
     "bank_claim": {
-        "next": 1626390905,
+        "next": 1625177316,
         "param": {
             "track": true,
             "resize": 0.25
@@ -49,7 +49,7 @@
         "func": "heal_max"
     },
     "sheltering": {
-        "next": 1626387606,
+        "next": 1625177407,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -57,139 +57,50 @@
         }
     },
     "get_taven": {
-        "next": 1626391445,
+        "next": 1625147175,
         "param": {
             "track": true,
-            "resize": 0.25,
+            "resize": 0.3,
             "leave_noclick": 1
         }
     },
     "trade": {
-        "next": 1626387961,
+        "next": 1625144555,
         "param": {
             "track": true,
-            "resize": 0.25
+            "resize": 0.3
         }
     },
     "get_amethyst": {
-        "next": 1626391554,
+        "next": 1625148442,
         "param": {
             "track": true,
             "resize": 0.3
         }
     },
     "get_dragonforged": {
-        "next": 1626391592,
+        "next": 1625148598,
         "param": {
             "track": true,
             "resize": 0.3
         }
     },
-    "soldiers": {},
+    "soldiers": {
+        "inf": 500,
+        "spe": 500,
+        "bow": 500
+    },
     "train_mil": {
-        "next": 1626389439,
+        "next": 1625351927,
         "param": {
             "track": true,
-            "resize": 0.25,
+            "resize": 0.3,
             "level": 1,
             "soldiers": {
-                "cav": 500,
                 "inf": 500,
                 "spe": 500,
                 "bow": 500
             }
-        }
-    },
-    "continue_bub": {
-        "next": 1626459388,
-        "param": {
-            "track": true,
-            "resize": 0.25
-        }
-    },
-    "heal_500": {
-        "next": 1626387379,
-        "param": {
-            "track": true,
-            "resize": 0.25,
-            "max_to_heal": 500
-        },
-        "func": "heal_max"
-    },
-    "training_ground": {
-        "next": 1626389277,
-        "param": {
-            "track": true,
-            "resize": 0.25
-        }
-    },
-    "explore_drag": {
-        "next": 1626391917,
-        "param": {
-            "track": true,
-            "resize": 0.25,
-            "hours": 1,
-            "buy": 0,
-            "dragon_id": 0
-        }
-    },
-    "daily_msg": {
-        "next": 1626388432,
-        "param": {
-            "track": true,
-            "resize": 0.25
-        }
-    },
-    "schedule_leader": {
-        "next": 1626388556,
-        "param": {
-            "side": "right",
-            "level": 1,
-            "track": true,
-            "resize": 0.25,
-            "hits": 3,
-            "cost": 540,
-            "toadd_motiv": 0
-        }
-    },
-    "complete_all_trials": {
-        "next": 1626335710,
-        "param": {
-            "track": true,
-            "resize": 0.25
-        }
-    },
-    "get_salary": {
-        "next": 1626335723,
-        "param": {
-            "track": true,
-            "resize": 0.25
-        }
-    },
-    "get_bonus": {
-        "next": 1626335731,
-        "param": {
-            "track": true,
-            "resize": 0.25
-        }
-    },
-    "get_knight": {
-        "next": 1626335843,
-        "param": {
-            "track": true,
-            "resize": 0.25
-        }
-    },
-    "get_list": {
-        "next": 1626335907,
-        "param": {
-            "track": true,
-            "resize": 0.25,
-            "items": [
-                "vip",
-                "amethyst",
-                "dragon"
-            ]
         }
     }
 }

@@ -122,13 +122,13 @@
         }
     },
     "up_command": {
-        "next": 1626383003,
+        "next": 1626380478,
         "param": {
             "name": "feis",
             "step_width": 3,
             "max_try": 8,
             "track": true,
-            "resize": 0.3,
+            "resize": 0.25,
             "trigger": 110
         },
         "func": "upgrade_commanders"

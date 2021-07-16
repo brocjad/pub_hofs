@@ -155,7 +155,7 @@
         }
     },
     "bank_claim": {
-        "next": 1626466543,
+        "next": 1626477261,
         "param": {
             "track": true,
             "resize": 0.25

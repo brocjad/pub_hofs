@@ -14,14 +14,14 @@
         }
     },
     "up_command": {
-        "next": 1626401304,
+        "next": 1626396221,
         "param": {
             "name": "sheila",
             "step_width": 2,
             "max_try": 8,
             "track": true,
-            "resize": 0.3,
-            "trigger": 50
+            "resize": 0.25,
+            "trigger": 40
         },
         "func": "upgrade_commanders"
     },

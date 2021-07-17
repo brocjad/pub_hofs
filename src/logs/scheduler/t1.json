@@ -132,5 +132,12 @@
             "trigger": 50
         },
         "func": "upgrade_commanders"
+    },
+    "bank_claim": {
+        "next": 1626549350,
+        "param": {
+            "track": true,
+            "resize": 0.25
+        }
     }
 }

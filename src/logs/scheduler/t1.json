@@ -134,7 +134,7 @@
         "func": "upgrade_commanders"
     },
     "continue_bub": {
-        "next": 1626495609,
+        "next": 1626495505,
         "param": {
             "track": true,
             "resize": 0.25

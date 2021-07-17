@@ -122,14 +122,14 @@
         }
     },
     "up_command": {
-        "next": 1626547372,
+        "next": 1626546155,
         "param": {
-            "name": "sheila",
-            "step_width": 2,
+            "name": "feis",
+            "step_width": 3,
             "max_try": 8,
             "track": true,
-            "resize": 0.3,
-            "trigger": 50
+            "resize": 0.25,
+            "trigger": 40
         },
         "func": "upgrade_commanders"
     },

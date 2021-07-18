@@ -1,13 +1,13 @@
 {
     "check_box": {
-        "next": 1625336059,
+        "next": 1626576029,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "heal_130": {
-        "next": 1623194667,
+        "next": 1626575498,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -16,7 +16,7 @@
         "func": "heal_max"
     },
     "sheltering": {
-        "next": 1623210265,
+        "next": 1626590263,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -24,7 +24,7 @@
         }
     },
     "get_taven": {
-        "next": 1623200144,
+        "next": 1626573005,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -32,38 +32,38 @@
         }
     },
     "trade": {
-        "next": 1623207684,
+        "next": 1626569516,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_amethyst": {
-        "next": 1623200800,
+        "next": 1626573109,
         "param": {
             "track": true,
             "resize": 0.3
         }
     },
     "get_dragonforged": {
-        "next": 1623201021,
+        "next": 1626657599,
         "param": {
             "track": true,
             "resize": 0.3
         }
     },
     "get_vip_shop": {
-        "next": 1623201238,
+        "next": 1626573198,
         "param": {
             "track": true,
             "resize": 0.3
         }
     },
     "schedule_leader": {
-        "next": 1623191609,
+        "next": 1626573957,
         "param": {
             "side": "right",
-            "level": 1,
+            "level": 2,
             "track": true,
             "resize": 0.25,
             "hits": 3,
@@ -72,35 +72,35 @@
         }
     },
     "complete_all_trials": {
-        "next": 1623201341,
+        "next": 1626573531,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_salary": {
-        "next": 1623283824,
+        "next": 1626653402,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_bonus": {
-        "next": 1623201610,
+        "next": 1626573592,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_knight": {
-        "next": 1623241391,
+        "next": 1626613291,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_list": {
-        "next": 1623201862,
+        "next": 1626573711,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -112,45 +112,53 @@
         }
     },
     "explore_drag": {
-        "next": 1623202552,
+        "next": 1626570432,
         "param": {
             "track": true,
             "resize": 0.25,
             "hours": 1,
             "buy": 0,
-            "dragon_id": 0
+            "dragon_id": 1
         }
     },
     "up_command": {
-        "next": 1626547372,
+        "next": 1626579870,
         "param": {
-            "name": "sheila",
-            "step_width": 2,
+            "name": "feis",
+            "step_width": 3,
             "max_try": 8,
             "track": true,
-            "resize": 0.3,
-            "trigger": 50
+            "resize": 0.25,
+            "trigger": 40
         },
         "func": "upgrade_commanders"
     },
-    "gather_mine": {
-        "next": 1626575805,
+    "bank_claim": {
+        "next": 1626579018,
         "param": {
-            "levels": [
-                1
-            ],
-            "rtypes": [
-                "mine"
-            ],
-            "max_distance": 95,
-            "direct_send": 50,
-            "troop_size": 0,
-            "use_dragon": false,
-            "max_troops": 3,
-            "low_troop": true,
             "track": true,
-            "resize": 0.3
-        },
-        "func": "farm_around"
+            "resize": 0.25
+        }
+    },
+    "continue_bub": {
+        "next": 1626587158,
+        "param": {
+            "track": true,
+            "resize": 0.25
+        }
+    },
+    "training_ground": {
+        "next": 1626562168,
+        "param": {
+            "track": true,
+            "resize": 0.25
+        }
+    },
+    "daily_msg": {
+        "next": 1626635237,
+        "param": {
+            "track": true,
+            "resize": 0.25
+        }
     }
 }

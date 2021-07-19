@@ -134,7 +134,7 @@
         "func": "upgrade_commanders"
     },
     "bank_claim": {
-        "next": 1626650110,
+        "next": 1626658659,
         "param": {
             "track": true,
             "resize": 0.25

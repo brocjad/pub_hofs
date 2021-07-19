@@ -55,7 +55,7 @@
         }
     },
     "get_bonus": {
-        "next": 1626712756,
+        "next": 1626718435,
         "param": {
             "track": true,
             "resize": 0.25

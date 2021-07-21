@@ -85,15 +85,18 @@
             "resize": 0.3
         }
     },
-    "soldiers": {},
+    "soldiers": {
+        "inf": 500,
+        "spe": 500,
+        "bow": 500
+    },
     "train_mil": {
-        "next": 1626865375,
+        "next": 1626873816,
         "param": {
             "track": true,
             "resize": 0.25,
             "level": 1,
             "soldiers": {
-                "cav": 500,
                 "inf": 500,
                 "spe": 500,
                 "bow": 500

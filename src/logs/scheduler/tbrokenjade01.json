@@ -26,7 +26,7 @@
         "func": "upgrade_commanders"
     },
     "check_box": {
-        "next": 1626843338,
+        "next": 1626849550,
         "param": {
             "track": true,
             "resize": 0.25

@@ -14,7 +14,7 @@
         }
     },
     "up_command": {
-        "next": 1626925208,
+        "next": 1626945899,
         "param": {
             "name": "sheila",
             "step_width": 2,
@@ -113,7 +113,7 @@
         "func": "heal_max"
     },
     "continue_bub": {
-        "next": 1626956585,
+        "next": 1626942248,
         "param": {
             "track": true,
             "resize": 0.25

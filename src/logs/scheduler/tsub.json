@@ -1,6 +1,6 @@
 {
     "heal_500": {
-        "next": 1626921366,
+        "next": 1626915603,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -9,14 +9,14 @@
         "func": "heal_max"
     },
     "continue_bub": {
-        "next": 1626921372,
+        "next": 1626964394,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "check_box": {
-        "next": 1626922617,
+        "next": 1626918229,
         "param": {
             "track": true,
             "resize": 0.25
@@ -27,7 +27,7 @@
         "bow": 500
     },
     "train_mil": {
-        "next": 1626921758,
+        "next": 1626918811,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -219,7 +219,7 @@
         "func": "farm_around"
     },
     "gather_mine_quar": {
-        "next": 1626912679,
+        "next": 1626927795,
         "param": {
             "levels": [
                 3,

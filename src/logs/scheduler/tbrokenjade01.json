@@ -176,7 +176,7 @@
         }
     },
     "schedule_leader": {
-        "next": 1627139447,
+        "next": 1627145603,
         "param": {
             "side": "right",
             "level": 2,
@@ -204,7 +204,7 @@
         "func": "heal_max"
     },
     "sell_quick_box": {
-        "next": 1627139902,
+        "next": 1627147238,
         "param": {
             "track": true,
             "resize": 0.25,

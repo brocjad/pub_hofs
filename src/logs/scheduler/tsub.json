@@ -1,6 +1,6 @@
 {
     "heal_500": {
-        "next": 1627179963,
+        "next": 1627180337,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -69,7 +69,7 @@
         }
     },
     "get_amethyst": {
-        "next": 1627183776,
+        "next": 1627179227,
         "param": {
             "track": true,
             "resize": 0.3
@@ -127,7 +127,7 @@
         }
     },
     "schedule_leader": {
-        "next": 1627180113,
+        "next": 1627179077,
         "param": {
             "side": "right",
             "level": 3,

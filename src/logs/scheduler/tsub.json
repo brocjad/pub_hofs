@@ -178,10 +178,10 @@
         "func": "farm_around"
     },
     "gather_quar": {
-        "next": 1627275317,
+        "next": 1627274855,
         "param": {
             "levels": [
-                2
+                3
             ],
             "rtypes": [
                 "quar"

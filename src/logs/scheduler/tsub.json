@@ -126,9 +126,9 @@
         }
     },
     "schedule_leader": {
-        "next": 1627273040,
+        "next": 1627274915,
         "param": {
-            "side": "left",
+            "side": "right",
             "level": 3,
             "track": true,
             "resize": 0.25,

@@ -122,9 +122,9 @@
         }
     },
     "up_command": {
-        "next": 1627489739,
+        "next": 1627507311,
         "param": {
-            "name": "sansa",
+            "name": "robb",
             "step_width": 3,
             "max_try": 8,
             "track": true,

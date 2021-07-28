@@ -122,9 +122,9 @@
         }
     },
     "up_command": {
-        "next": 1627450047,
+        "next": 1627464566,
         "param": {
-            "name": "feis",
+            "name": "sansa",
             "step_width": 3,
             "max_try": 8,
             "track": true,

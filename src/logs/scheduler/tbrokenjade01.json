@@ -1,6 +1,6 @@
 {
     "get_vip_shop": {
-        "next": 1627544231,
+        "next": 1627551153,
         "param": {
             "track": true,
             "resize": 0.3
@@ -26,7 +26,7 @@
         "func": "upgrade_commanders"
     },
     "check_box": {
-        "next": 1627547084,
+        "next": 1627547706,
         "param": {
             "track": true,
             "resize": 0.25

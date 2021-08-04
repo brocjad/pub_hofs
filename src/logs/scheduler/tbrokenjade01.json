@@ -202,7 +202,7 @@
         "func": "heal_max"
     },
     "sell_quick_box": {
-        "next": 1628041286,
+        "next": 1628047904,
         "param": {
             "track": true,
             "resize": 0.25,

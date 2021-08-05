@@ -1,6 +1,6 @@
 {
     "continue_bub": {
-        "next": 1628127189,
+        "next": 1628130733,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -8,7 +8,7 @@
         }
     },
     "sell_quick_box": {
-        "next": 1628127429,
+        "next": 1628111949,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -16,7 +16,7 @@
         }
     },
     "check_box": {
-        "next": 1628127431,
+        "next": 1628112888,
         "param": {
             "track": true,
             "resize": 0.25
@@ -27,7 +27,7 @@
         "bow": 500
     },
     "train_mil": {
-        "next": 1628129436,
+        "next": 1628114007,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -61,7 +61,7 @@
         "func": "train_mil"
     },
     "trade": {
-        "next": 1628125285,
+        "next": 1628109714,
         "param": {
             "track": true,
             "resize": 0.25
@@ -101,7 +101,7 @@
         }
     },
     "get_taven": {
-        "next": 1628128885,
+        "next": 1628113340,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -109,7 +109,7 @@
         }
     },
     "up_command": {
-        "next": 1628128922,
+        "next": 1628113389,
         "param": {
             "name": "arslan",
             "step_width": 3,
@@ -121,7 +121,7 @@
         "func": "upgrade_commanders"
     },
     "gather_mint": {
-        "next": 1628129089,
+        "next": 1628096326,
         "param": {
             "levels": [
                 4
@@ -133,7 +133,7 @@
             "direct_send": 100,
             "troop_size": 0,
             "use_dragon": true,
-            "max_troops": 3,
+            "max_troops": 2,
             "low_troop": true,
             "track": true,
             "resize": 0.3
@@ -221,7 +221,7 @@
         "func": "quick_change_eqips"
     },
     "explore_drag": {
-        "next": 1628129146,
+        "next": 1628113675,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -251,14 +251,7 @@
         "func": "farm_around"
     },
     "daily_msg": {
-        "next": 1628125730,
-        "param": {
-            "track": true,
-            "resize": 0.25
-        }
-    },
-    "training_ground": {
-        "next": 1628169380,
+        "next": 1628110236,
         "param": {
             "track": true,
             "resize": 0.25

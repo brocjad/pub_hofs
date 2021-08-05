@@ -121,7 +121,7 @@
         "func": "upgrade_commanders"
     },
     "gather_mint": {
-        "next": 1628096326,
+        "next": 1628129089,
         "param": {
             "levels": [
                 4
@@ -133,7 +133,7 @@
             "direct_send": 100,
             "troop_size": 0,
             "use_dragon": true,
-            "max_troops": 2,
+            "max_troops": 3,
             "low_troop": true,
             "track": true,
             "resize": 0.3

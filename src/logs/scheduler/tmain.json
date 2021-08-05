@@ -251,7 +251,7 @@
         "func": "farm_around"
     },
     "daily_msg": {
-        "next": 1628110236,
+        "next": 1628189925,
         "param": {
             "track": true,
             "resize": 0.25

@@ -61,7 +61,7 @@
         "func": "train_mil"
     },
     "trade": {
-        "next": 1628109714,
+        "next": 1628125285,
         "param": {
             "track": true,
             "resize": 0.25

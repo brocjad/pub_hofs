@@ -58,5 +58,12 @@
             "resize": 0.25,
             "min_level": 7
         }
+    },
+    "daily_msg": {
+        "next": 1628272183,
+        "param": {
+            "track": true,
+            "resize": 0.25
+        }
     }
 }

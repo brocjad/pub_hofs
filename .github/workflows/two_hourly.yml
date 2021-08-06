@@ -51,7 +51,7 @@ jobs:
           pwd
           cd /home/runner/work/got_auto/src
           python --version
-          python run_hourly.py 0
+          python run_hourly.py -1
 
   run_6k:
     # Name the Job

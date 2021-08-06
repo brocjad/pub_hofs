@@ -1,6 +1,6 @@
 {
     "heal_500": {
-        "next": 1628217174,
+        "next": 1628217290,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -9,14 +9,14 @@
         "func": "heal_max"
     },
     "continue_bub": {
-        "next": 1628238289,
+        "next": 1628217715,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "check_box": {
-        "next": 1628220249,
+        "next": 1628214307,
         "param": {
             "track": true,
             "resize": 0.25
@@ -27,7 +27,7 @@
         "bow": 500
     },
     "train_mil": {
-        "next": 1628235035,
+        "next": 1628220710,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -41,28 +41,28 @@
         }
     },
     "trade": {
-        "next": 1628216716,
+        "next": 1628217198,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_salary": {
-        "next": 1628217094,
+        "next": 1628221146,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_bonus": {
-        "next": 1628217103,
+        "next": 1628221161,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_knight": {
-        "next": 1628217123,
+        "next": 1628221186,
         "param": {
             "track": true,
             "resize": 0.25
@@ -110,7 +110,7 @@
         "func": "upgrade_commanders"
     },
     "explore_drag": {
-        "next": 1628217032,
+        "next": 1628218729,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -127,7 +127,7 @@
         }
     },
     "schedule_leader": {
-        "next": 1628216983,
+        "next": 1628217421,
         "param": {
             "side": "right",
             "level": 3,

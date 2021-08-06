@@ -21,5 +21,17 @@
             "track": true,
             "resize": 0.25
         }
+    },
+    "up_command": {
+        "next": 1628284985,
+        "param": {
+            "name": "robb",
+            "step_width": 3,
+            "max_try": 8,
+            "track": true,
+            "resize": 0.25,
+            "trigger": 40
+        },
+        "func": "upgrade_commanders"
     }
 }

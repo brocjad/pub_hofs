@@ -1,8 +1,8 @@
 {
     "expeditions": {
-        "next": 1628275426,
+        "next": 1628233756,
         "param": {
-            "level": 3,
+            "level": 1,
             "buy": true,
             "track": true,
             "resize": 0.3

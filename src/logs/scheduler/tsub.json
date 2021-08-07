@@ -1,6 +1,6 @@
 {
     "heal_500": {
-        "next": 1628302986,
+        "next": 1628303730,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -88,7 +88,7 @@
         }
     },
     "get_taven": {
-        "next": 1628306954,
+        "next": 1628302371,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -96,7 +96,7 @@
         }
     },
     "up_command": {
-        "next": 1628306991,
+        "next": 1628302405,
         "param": {
             "name": "haley",
             "step_width": 3,
@@ -108,7 +108,7 @@
         "func": "upgrade_commanders"
     },
     "explore_drag": {
-        "next": 1628304705,
+        "next": 1628302853,
         "param": {
             "track": true,
             "resize": 0.25,

@@ -51,7 +51,7 @@ jobs:
           pwd
           cd /home/runner/work/got_auto/src
           python --version
-          python run_daily_hof.py 21
+          python run_daily_hof.py 0
 
   run_1:
     # Name the Job

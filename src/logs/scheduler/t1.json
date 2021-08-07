@@ -169,11 +169,9 @@
             "min_level": 5
         }
     },
-    "soldiers": {
-        "bow": 500
-    },
+    "soldiers": {},
     "train_mil": {
-        "next": 1628334171,
+        "next": 1628341485,
         "param": {
             "track": true,
             "resize": 0.25,

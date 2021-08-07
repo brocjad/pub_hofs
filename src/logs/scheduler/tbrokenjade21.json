@@ -130,5 +130,12 @@
             "resize": 0.25,
             "reset_threshold": 8
         }
+    },
+    "complete_all_trials": {
+        "next": 1628302807,
+        "param": {
+            "track": true,
+            "resize": 0.25
+        }
     }
 }

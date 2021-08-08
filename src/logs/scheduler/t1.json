@@ -154,5 +154,17 @@
             "resize": 0.25,
             "min_level": 5
         }
+    },
+    "schedule_leader": {
+        "next": 1628384952,
+        "param": {
+            "side": "right",
+            "level": 2,
+            "track": true,
+            "resize": 0.25,
+            "hits": 3,
+            "cost": 540,
+            "toadd_motiv": 0
+        }
     }
 }

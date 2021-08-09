@@ -1,6 +1,6 @@
 {
     "heal_500": {
-        "next": 1628476364,
+        "next": 1628476530,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -9,14 +9,14 @@
         "func": "heal_max"
     },
     "continue_bub": {
-        "next": 1628479145,
+        "next": 1628476172,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "check_box": {
-        "next": 1628476501,
+        "next": 1628473383,
         "param": {
             "track": true,
             "resize": 0.25
@@ -26,7 +26,7 @@
         "bow": 500
     },
     "train_mil": {
-        "next": 1628476030,
+        "next": 1628479837,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -40,7 +40,7 @@
         }
     },
     "trade": {
-        "next": 1628476004,
+        "next": 1628476200,
         "param": {
             "track": true,
             "resize": 0.25
@@ -109,7 +109,7 @@
         "func": "upgrade_commanders"
     },
     "explore_drag": {
-        "next": 1628476039,
+        "next": 1628477681,
         "param": {
             "track": true,
             "resize": 0.25,

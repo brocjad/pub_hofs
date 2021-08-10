@@ -70,7 +70,7 @@
         }
     },
     "get_amethyst": {
-        "next": 1628607745,
+        "next": 1628607224,
         "param": {
             "track": true,
             "resize": 0.3

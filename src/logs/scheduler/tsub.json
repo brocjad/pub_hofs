@@ -1,6 +1,6 @@
 {
     "heal_500": {
-        "next": 1628563090,
+        "next": 1628557230,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -9,14 +9,14 @@
         "func": "heal_max"
     },
     "continue_bub": {
-        "next": 1628563096,
+        "next": 1628578964,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "check_box": {
-        "next": 1628564353,
+        "next": 1628559849,
         "param": {
             "track": true,
             "resize": 0.25
@@ -127,7 +127,7 @@
         }
     },
     "schedule_leader": {
-        "next": 1628553647,
+        "next": 1628563182,
         "param": {
             "side": "right",
             "level": 3,

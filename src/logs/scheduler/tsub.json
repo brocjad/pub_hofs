@@ -1,6 +1,6 @@
 {
     "heal_500": {
-        "next": 1628557230,
+        "next": 1628563090,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -9,31 +9,31 @@
         "func": "heal_max"
     },
     "continue_bub": {
-        "next": 1628578964,
+        "next": 1628563096,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "check_box": {
-        "next": 1628559849,
+        "next": 1628564353,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "soldiers": {
-        "cav": 500,
         "spe": 500,
         "bow": 500
     },
     "train_mil": {
-        "next": 1628560603,
+        "next": 1628566301,
         "param": {
             "track": true,
             "resize": 0.25,
             "level": 1,
             "soldiers": {
+                "inf": 500,
                 "cav": 500,
                 "spe": 500,
                 "bow": 500
@@ -127,7 +127,7 @@
         }
     },
     "schedule_leader": {
-        "next": 1628563182,
+        "next": 1628553647,
         "param": {
             "side": "right",
             "level": 3,

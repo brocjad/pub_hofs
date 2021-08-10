@@ -22,14 +22,14 @@
         }
     },
     "trade": {
-        "next": 1628608826,
+        "next": 1628610038,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_taven": {
-        "next": 1628609267,
+        "next": 1628613365,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -37,7 +37,7 @@
         }
     },
     "up_command": {
-        "next": 1628609294,
+        "next": 1628613215,
         "param": {
             "name": "arslan",
             "step_width": 3,
@@ -59,7 +59,7 @@
         }
     },
     "sell_quick_box": {
-        "next": 1628609523,
+        "next": 1628613434,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -157,7 +157,7 @@
         "func": "farm_around"
     },
     "switch_exteria": {
-        "next": 1628608628,
+        "next": 1628610086,
         "param": {
             "track": true,
             "resize": 0.25,

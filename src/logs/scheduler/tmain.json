@@ -65,5 +65,18 @@
             "resize": 0.25,
             "min_level": 7
         }
+    },
+    "soldiers": {
+        "inf": 500,
+        "cav": 500,
+        "spe": 500,
+        "bow": 500
+    },
+    "training_ground": {
+        "next": 1628721757,
+        "param": {
+            "track": true,
+            "resize": 0.25
+        }
     }
 }

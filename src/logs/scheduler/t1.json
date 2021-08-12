@@ -171,5 +171,12 @@
             "track": true,
             "resize": 0.25
         }
+    },
+    "get_alli_quest": {
+        "next": 1628784738,
+        "param": {
+            "track": true,
+            "resize": 0.25
+        }
     }
 }

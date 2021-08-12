@@ -1,11 +1,14 @@
 {
-    "expeditions": {
-        "next": 1628744698,
+    "up_command": {
+        "next": 1628758239,
         "param": {
-            "level": 2,
-            "buy": true,
+            "name": "robb",
+            "step_width": 3,
+            "max_try": 8,
             "track": true,
-            "resize": 0.3
-        }
+            "resize": 0.3,
+            "trigger": 40
+        },
+        "func": "upgrade_commanders"
     }
 }

@@ -203,7 +203,7 @@
         "func": "farm_around"
     },
     "gather_lumb": {
-        "next": 1628881812,
+        "next": 1628881270,
         "param": {
             "levels": [
                 2

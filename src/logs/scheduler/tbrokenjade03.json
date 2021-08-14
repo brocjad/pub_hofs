@@ -22,5 +22,17 @@
             "resize": 0.25,
             "reset_threshold": 8
         }
+    },
+    "up_command": {
+        "next": 1628919348,
+        "param": {
+            "name": "sansa",
+            "step_width": 2,
+            "max_try": 8,
+            "track": true,
+            "resize": 0.25,
+            "trigger": 40
+        },
+        "func": "upgrade_commanders"
     }
 }

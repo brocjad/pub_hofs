@@ -110,11 +110,9 @@
             ]
         }
     },
-    "soldiers": {
-        "bow": 500
-    },
+    "soldiers": {},
     "train_mil": {
-        "next": 1628906802,
+        "next": 1628917219,
         "param": {
             "track": true,
             "resize": 0.25,

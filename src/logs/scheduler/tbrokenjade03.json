@@ -34,5 +34,12 @@
             "trigger": 40
         },
         "func": "upgrade_commanders"
+    },
+    "get_alli_quest": {
+        "next": 1628930221,
+        "param": {
+            "track": true,
+            "resize": 0.25
+        }
     }
 }

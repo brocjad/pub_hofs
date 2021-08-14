@@ -1,6 +1,6 @@
 {
     "heal_500": {
-        "next": 1628902425,
+        "next": 1628908346,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -9,7 +9,7 @@
         "func": "heal_max"
     },
     "continue_bub": {
-        "next": 1628902431,
+        "next": 1628987690,
         "param": {
             "track": true,
             "resize": 0.25
@@ -127,7 +127,7 @@
         }
     },
     "schedule_leader": {
-        "next": 1628908362,
+        "next": 1628898409,
         "param": {
             "side": "left",
             "level": 3,

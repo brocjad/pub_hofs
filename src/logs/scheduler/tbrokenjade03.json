@@ -137,5 +137,15 @@
                 "bow": 500
             }
         }
+    },
+    "explore_drag": {
+        "next": 1628927349,
+        "param": {
+            "track": true,
+            "resize": 0.25,
+            "hours": 1,
+            "buy": 0,
+            "dragon_id": 0
+        }
     }
 }

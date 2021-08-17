@@ -92,7 +92,7 @@
         }
     },
     "get_knight": {
-        "next": 1629205536,
+        "next": 1629169220,
         "param": {
             "track": true,
             "resize": 0.25

@@ -9,7 +9,7 @@
         "func": "heal_max"
     },
     "continue_bub": {
-        "next": 1629208723,
+        "next": 1629210250,
         "param": {
             "track": true,
             "resize": 0.25

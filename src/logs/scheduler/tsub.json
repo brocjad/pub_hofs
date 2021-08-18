@@ -1,6 +1,6 @@
 {
     "heal_500": {
-        "next": 1629253090,
+        "next": 1629253961,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -75,7 +75,7 @@
         }
     },
     "get_dragonforged": {
-        "next": 1629257359,
+        "next": 1629252974,
         "param": {
             "track": true,
             "resize": 0.3
@@ -145,7 +145,7 @@
         }
     },
     "gather_mint": {
-        "next": 1629256013,
+        "next": 1629252950,
         "param": {
             "levels": [
                 2

@@ -43,7 +43,7 @@
         }
     },
     "get_taven": {
-        "next": 1629260554,
+        "next": 1629271970,
         "param": {
             "track": true,
             "resize": 0.25,

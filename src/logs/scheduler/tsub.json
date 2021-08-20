@@ -62,14 +62,14 @@
         }
     },
     "get_knight": {
-        "next": 1629470364,
+        "next": 1629504599,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_amethyst": {
-        "next": 1629474052,
+        "next": 1629481574,
         "param": {
             "track": true,
             "resize": 0.3

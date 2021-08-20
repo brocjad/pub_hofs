@@ -1,6 +1,6 @@
 {
     "heal_500": {
-        "next": 1629426475,
+        "next": 1629426791,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -98,7 +98,7 @@
         }
     },
     "up_command": {
-        "next": 1629437195,
+        "next": 1629419780,
         "param": {
             "name": "arya",
             "step_width": 3,

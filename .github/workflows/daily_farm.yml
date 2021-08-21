@@ -8,9 +8,9 @@ on:
 jobs:
   # Set the job key. The key is displayed as the job name
   # when a job name is not provided
-  run_21:
+  run_0:
     # Name the Job
-    name: run_21
+    name: run_0
     # Set the type of machine to run on
     runs-on: ubuntu-18.04
     timeout-minutes: 120
@@ -41,7 +41,7 @@ jobs:
           ./script/install.sh
           
       # Runs the Super-Linter action
-      - name: run_12
+      - name: run_0
         env:
           DEFAULT_BRANCH: main
           MASTER_KEY: ${{ secrets.MASTER_KEY}}

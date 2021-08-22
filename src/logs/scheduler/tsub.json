@@ -1,6 +1,6 @@
 {
     "heal_500": {
-        "next": 1629593768,
+        "next": 1629599525,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -139,7 +139,7 @@
         }
     },
     "training_ground": {
-        "next": 1629600481,
+        "next": 1629586486,
         "param": {
             "track": true,
             "resize": 0.25

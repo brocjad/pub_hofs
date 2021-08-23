@@ -1,6 +1,6 @@
 {
     "heal_500": {
-        "next": 1629684726,
+        "next": 1629685958,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -9,7 +9,7 @@
         "func": "heal_max"
     },
     "continue_bub": {
-        "next": 1629691159,
+        "next": 1629685964,
         "param": {
             "track": true,
             "resize": 0.25
@@ -251,7 +251,7 @@
         }
     },
     "sell_quick_box": {
-        "next": 1629687379,
+        "next": 1629683039,
         "param": {
             "track": true,
             "resize": 0.25,

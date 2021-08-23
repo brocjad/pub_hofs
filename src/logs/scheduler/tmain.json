@@ -79,11 +79,11 @@
         }
     },
     "switch_exteria": {
-        "next": 1629751587,
+        "next": 1629755687,
         "param": {
             "track": true,
             "resize": 0.25,
-            "etype": "dunesfort"
+            "etype": "crimsonfort"
         },
         "func": "use_exteria"
     },

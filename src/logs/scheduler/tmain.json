@@ -94,7 +94,7 @@
         }
     },
     "gather_mint": {
-        "next": 1629849173,
+        "next": 1629853233,
         "param": {
             "levels": [
                 4
@@ -157,7 +157,7 @@
         "func": "farm_around"
     },
     "switch_exteria": {
-        "next": 1629849100,
+        "next": 1629849552,
         "param": {
             "track": true,
             "resize": 0.25,

@@ -16,14 +16,14 @@
         "func": "heal_max"
     },
     "continue_bub": {
-        "next": 1629951713,
+        "next": 1630028267,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "up_command": {
-        "next": 1629955328,
+        "next": 1629971110,
         "param": {
             "name": "sansa",
             "step_width": 2,

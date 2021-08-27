@@ -173,7 +173,7 @@
         }
     },
     "get_alli_quest": {
-        "next": 1630073598,
+        "next": 1630059998,
         "param": {
             "track": true,
             "resize": 0.25

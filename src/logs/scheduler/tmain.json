@@ -135,7 +135,7 @@
         "func": "farm_around"
     },
     "gather_quarmine": {
-        "next": 1630207654,
+        "next": 1630227532,
         "param": {
             "levels": [
                 5

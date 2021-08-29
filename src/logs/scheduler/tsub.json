@@ -16,7 +16,7 @@
         }
     },
     "check_box": {
-        "next": 1630204571,
+        "next": 1630207562,
         "param": {
             "track": true,
             "resize": 0.25
@@ -146,7 +146,7 @@
         }
     },
     "gather_mint": {
-        "next": 1630205144,
+        "next": 1630206169,
         "param": {
             "levels": [
                 3

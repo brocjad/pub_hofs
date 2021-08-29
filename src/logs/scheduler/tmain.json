@@ -94,7 +94,7 @@
         }
     },
     "gather_mint": {
-        "next": 1630264032,
+        "next": 1630267329,
         "param": {
             "levels": [
                 4
@@ -102,8 +102,8 @@
             "rtypes": [
                 "mint"
             ],
-            "max_distance": 90,
-            "direct_send": 90,
+            "max_distance": 100,
+            "direct_send": 100,
             "troop_size": 0,
             "use_dragon": false,
             "max_troops": 6,
@@ -128,6 +128,28 @@
             "troop_size": 0,
             "use_dragon": false,
             "max_troops": 5,
+            "low_troop": true,
+            "track": true,
+            "resize": 0.3
+        },
+        "func": "farm_around"
+    },
+    "gather_quarmine": {
+        "next": 1630268337,
+        "param": {
+            "levels": [
+                5
+            ],
+            "rtypes": [
+                "quar",
+                "mine",
+                "lumb"
+            ],
+            "max_distance": 90,
+            "direct_send": 50,
+            "troop_size": 0,
+            "use_dragon": false,
+            "max_troops": 6,
             "low_troop": true,
             "track": true,
             "resize": 0.3

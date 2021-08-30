@@ -1,6 +1,6 @@
 {
     "heal_500": {
-        "next": 1630290155,
+        "next": 1630290665,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -39,7 +39,7 @@
         }
     },
     "trade": {
-        "next": 1630290520,
+        "next": 1630290014,
         "param": {
             "track": true,
             "resize": 0.25
@@ -67,7 +67,7 @@
         }
     },
     "get_amethyst": {
-        "next": 1630293993,
+        "next": 1630289983,
         "param": {
             "track": true,
             "resize": 0.3

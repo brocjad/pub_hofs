@@ -1,13 +1,13 @@
 {
     "check_box": {
-        "next": 1630441387,
+        "next": 1630440917,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "heal_500": {
-        "next": 1630439717,
+        "next": 1630441026,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -119,17 +119,17 @@
         }
     },
     "soldiers": {
+        "inf": 500,
         "spe": 500,
         "bow": 500
     },
     "train_mil": {
-        "next": 1630440781,
+        "next": 1630431711,
         "param": {
             "track": true,
             "resize": 0.25,
             "level": 1,
             "soldiers": {
-                "cav": 500,
                 "inf": 500,
                 "spe": 500,
                 "bow": 500
@@ -137,7 +137,7 @@
         }
     },
     "explore_drag": {
-        "next": 1630442224,
+        "next": 1630431516,
         "param": {
             "track": true,
             "resize": 0.25,

@@ -1,13 +1,13 @@
 {
     "check_box": {
-        "next": 1630441387,
+        "next": 1630441388,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "heal_500": {
-        "next": 1630439717,
+        "next": 1630441026,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -16,7 +16,7 @@
         "func": "heal_max"
     },
     "sheltering": {
-        "next": 1630454314,
+        "next": 1630441033,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -24,7 +24,7 @@
         }
     },
     "up_command": {
-        "next": 1630450845,
+        "next": 1630441036,
         "param": {
             "name": "sansa",
             "step_width": 2,
@@ -36,14 +36,14 @@
         "func": "upgrade_commanders"
     },
     "get_alli_quest": {
-        "next": 1630441412,
+        "next": 1630441039,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_taven": {
-        "next": 1630443764,
+        "next": 1630441155,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -51,7 +51,7 @@
         }
     },
     "trade": {
-        "next": 1630440304,
+        "next": 1630441296,
         "param": {
             "track": true,
             "resize": 0.25
@@ -119,17 +119,17 @@
         }
     },
     "soldiers": {
+        "inf": 500,
         "spe": 500,
         "bow": 500
     },
     "train_mil": {
-        "next": 1630440781,
+        "next": 1630431711,
         "param": {
             "track": true,
             "resize": 0.25,
             "level": 1,
             "soldiers": {
-                "cav": 500,
                 "inf": 500,
                 "spe": 500,
                 "bow": 500
@@ -137,7 +137,7 @@
         }
     },
     "explore_drag": {
-        "next": 1630442224,
+        "next": 1630431516,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -147,14 +147,14 @@
         }
     },
     "daily_msg": {
-        "next": 1630441103,
+        "next": 1630492986,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "sell_quick_box": {
-        "next": 1630442974,
+        "next": 1630430185,
         "param": {
             "track": true,
             "resize": 0.25,

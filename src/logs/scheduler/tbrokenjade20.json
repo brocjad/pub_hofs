@@ -83,5 +83,12 @@
             "buy": 0,
             "dragon_id": 0
         }
+    },
+    "daily_msg": {
+        "next": 1630532377,
+        "param": {
+            "track": true,
+            "resize": 0.25
+        }
     }
 }

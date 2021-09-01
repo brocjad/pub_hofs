@@ -102,5 +102,12 @@
             "resize": 0.25,
             "min_level": 5
         }
+    },
+    "complete_all_trials": {
+        "next": 1630470488,
+        "param": {
+            "track": true,
+            "resize": 0.25
+        }
     }
 }

@@ -20,5 +20,12 @@
             "track": true,
             "resize": 0.25
         }
+    },
+    "trade": {
+        "next": 1630521039,
+        "param": {
+            "track": true,
+            "resize": 0.25
+        }
     }
 }

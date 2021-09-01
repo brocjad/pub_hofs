@@ -1,6 +1,6 @@
 {
     "heal_500": {
-        "next": 1630463749,
+        "next": 1630464012,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -9,14 +9,14 @@
         "func": "heal_max"
     },
     "continue_bub": {
-        "next": 1630463755,
+        "next": 1630479765,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "check_box": {
-        "next": 1630464090,
+        "next": 1630460456,
         "param": {
             "track": true,
             "resize": 0.25
@@ -27,13 +27,12 @@
         "bow": 500
     },
     "train_mil": {
-        "next": 1630464014,
+        "next": 1630465012,
         "param": {
             "track": true,
             "resize": 0.25,
             "level": 1,
             "soldiers": {
-                "inf": 500,
                 "cav": 500,
                 "spe": 500,
                 "bow": 500
@@ -41,7 +40,7 @@
         }
     },
     "trade": {
-        "next": 1630463366,
+        "next": 1630463834,
         "param": {
             "track": true,
             "resize": 0.25
@@ -83,14 +82,14 @@
         }
     },
     "get_vip_shop": {
-        "next": 1630462995,
+        "next": 1630467139,
         "param": {
             "track": true,
             "resize": 0.3
         }
     },
     "get_taven": {
-        "next": 1630463039,
+        "next": 1630467159,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -127,7 +126,7 @@
         }
     },
     "schedule_leader": {
-        "next": 1630462979,
+        "next": 1630464243,
         "param": {
             "side": "left",
             "level": 3,
@@ -139,14 +138,14 @@
         }
     },
     "training_ground": {
-        "next": 1630462967,
+        "next": 1630506588,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "gather_mint": {
-        "next": 1630463180,
+        "next": 1630467272,
         "param": {
             "levels": [
                 3
@@ -166,7 +165,7 @@
         "func": "farm_around"
     },
     "gather_mine": {
-        "next": 1630463325,
+        "next": 1630467337,
         "param": {
             "levels": [
                 3
@@ -186,7 +185,7 @@
         "func": "farm_around"
     },
     "gather_quar": {
-        "next": 1630463470,
+        "next": 1630467493,
         "param": {
             "levels": [
                 3
@@ -206,7 +205,7 @@
         "func": "farm_around"
     },
     "gather_lumb": {
-        "next": 1630463604,
+        "next": 1630467558,
         "param": {
             "levels": [
                 3

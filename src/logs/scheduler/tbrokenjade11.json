@@ -22,5 +22,19 @@
             "resize": 0.25,
             "reset_threshold": 8
         }
+    },
+    "trade": {
+        "next": 1630466574,
+        "param": {
+            "track": true,
+            "resize": 0.25
+        }
+    },
+    "get_amethyst": {
+        "next": 1630470181,
+        "param": {
+            "track": true,
+            "resize": 0.3
+        }
     }
 }

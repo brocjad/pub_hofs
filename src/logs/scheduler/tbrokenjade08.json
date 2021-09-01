@@ -1,6 +1,6 @@
 {
     "check_box": {
-        "next": 1630466423,
+        "next": 1630467146,
         "param": {
             "track": true,
             "resize": 0.25
@@ -77,6 +77,18 @@
         "param": {
             "track": true,
             "resize": 0.25
+        }
+    },
+    "get_list": {
+        "next": 1630470641,
+        "param": {
+            "track": true,
+            "resize": 0.25,
+            "items": [
+                "vip",
+                "amethyst",
+                "dragon"
+            ]
         }
     }
 }

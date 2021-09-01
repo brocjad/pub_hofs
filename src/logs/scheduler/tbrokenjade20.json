@@ -73,5 +73,15 @@
                 "dragon"
             ]
         }
+    },
+    "explore_drag": {
+        "next": 1630470915,
+        "param": {
+            "track": true,
+            "resize": 0.25,
+            "hours": 1,
+            "buy": 0,
+            "dragon_id": 0
+        }
     }
 }

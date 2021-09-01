@@ -1,6 +1,6 @@
 {
     "heal_500": {
-        "next": 1630463613,
+        "next": 1630463749,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -82,14 +82,14 @@
         }
     },
     "get_vip_shop": {
-        "next": 1630467139,
+        "next": 1630462995,
         "param": {
             "track": true,
             "resize": 0.3
         }
     },
     "get_taven": {
-        "next": 1630467159,
+        "next": 1630463039,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -126,7 +126,7 @@
         }
     },
     "schedule_leader": {
-        "next": 1630463624,
+        "next": 1630462979,
         "param": {
             "side": "left",
             "level": 3,
@@ -138,14 +138,14 @@
         }
     },
     "training_ground": {
-        "next": 1630506588,
+        "next": 1630462967,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "gather_mint": {
-        "next": 1630467272,
+        "next": 1630463180,
         "param": {
             "levels": [
                 3
@@ -165,7 +165,7 @@
         "func": "farm_around"
     },
     "gather_mine": {
-        "next": 1630467337,
+        "next": 1630463325,
         "param": {
             "levels": [
                 3

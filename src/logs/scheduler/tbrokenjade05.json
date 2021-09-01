@@ -130,5 +130,17 @@
             "track": true,
             "resize": 0.25
         }
+    },
+    "get_list": {
+        "next": 1630470673,
+        "param": {
+            "track": true,
+            "resize": 0.25,
+            "items": [
+                "vip",
+                "amethyst",
+                "dragon"
+            ]
+        }
     }
 }

@@ -112,7 +112,7 @@
         "func": "upgrade_commanders"
     },
     "explore_drag": {
-        "next": 1630619895,
+        "next": 1630626079,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -257,7 +257,7 @@
         }
     },
     "sell_quick_box": {
-        "next": 1630621393,
+        "next": 1630623815,
         "param": {
             "track": true,
             "resize": 0.25,

@@ -1,6 +1,6 @@
 {
     "heal_500": {
-        "next": 1630549414,
+        "next": 1630549911,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -40,7 +40,7 @@
         }
     },
     "trade": {
-        "next": 1630549671,
+        "next": 1630545038,
         "param": {
             "track": true,
             "resize": 0.25
@@ -89,7 +89,7 @@
         }
     },
     "get_taven": {
-        "next": 1630549725,
+        "next": 1630545490,
         "param": {
             "track": true,
             "resize": 0.25,

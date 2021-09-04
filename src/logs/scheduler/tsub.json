@@ -208,7 +208,7 @@
         "func": "farm_around"
     },
     "gather_lumb": {
-        "next": 1630785904,
+        "next": 1630794588,
         "param": {
             "levels": [
                 3
@@ -228,7 +228,7 @@
         "func": "farm_around"
     },
     "gather_mine_quar": {
-        "next": 1630787570,
+        "next": 1630795223,
         "param": {
             "levels": [
                 3,

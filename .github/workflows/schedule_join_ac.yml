@@ -3,7 +3,7 @@ name: schedule_join_ac
 # Run this workflow every time a new commit pushed to your repository
 on:
   schedule:
-    - cron: '0 40 18 1/1 * *'
+    - cron: '0 40 18 * * *'
 
 jobs:
   # Set the job key. The key is displayed as the job name

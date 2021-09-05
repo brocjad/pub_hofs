@@ -250,14 +250,14 @@
         "func": "farm_around"
     },
     "get_alli_quest": {
-        "next": 1630849139,
+        "next": 1630830738,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "sell_quick_box": {
-        "next": 1630829641,
+        "next": 1630832605,
         "param": {
             "track": true,
             "resize": 0.25,

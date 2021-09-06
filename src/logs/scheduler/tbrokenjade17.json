@@ -1,6 +1,6 @@
 {
     "check_box": {
-        "next": 1630959945,
+        "next": 1630961127,
         "param": {
             "track": true,
             "resize": 0.25
@@ -117,7 +117,7 @@
         }
     },
     "training_ground": {
-        "next": 1630943630,
+        "next": 1630961383,
         "param": {
             "track": true,
             "resize": 0.25

@@ -90,7 +90,7 @@
         }
     },
     "get_taven": {
-        "next": 1630981352,
+        "next": 1630983003,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -248,7 +248,7 @@
         "func": "farm_around"
     },
     "get_alli_quest": {
-        "next": 1630988199,
+        "next": 1630983010,
         "param": {
             "track": true,
             "resize": 0.25

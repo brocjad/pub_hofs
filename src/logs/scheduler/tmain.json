@@ -59,7 +59,7 @@
         }
     },
     "sell_quick_box": {
-        "next": 1631000352,
+        "next": 1631002545,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -73,7 +73,7 @@
         "bow": 500
     },
     "train_mil": {
-        "next": 1631000511,
+        "next": 1631004526,
         "param": {
             "track": true,
             "resize": 0.25,

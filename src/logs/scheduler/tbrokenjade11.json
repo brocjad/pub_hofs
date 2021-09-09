@@ -74,5 +74,13 @@
             "track": true,
             "resize": 0.25
         }
+    },
+    "sell_quick_box": {
+        "next": 1631222064,
+        "param": {
+            "track": true,
+            "resize": 0.25,
+            "min_level": 5
+        }
     }
 }

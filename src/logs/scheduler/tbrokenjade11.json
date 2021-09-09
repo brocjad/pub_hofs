@@ -22,5 +22,12 @@
             "resize": 0.25,
             "reset_threshold": 8
         }
+    },
+    "trade": {
+        "next": 1631219396,
+        "param": {
+            "track": true,
+            "resize": 0.25
+        }
     }
 }

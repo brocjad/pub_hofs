@@ -27,5 +27,25 @@
             "track": true,
             "resize": 0.25
         }
+    },
+    "get_taven": {
+        "next": 1631359900,
+        "param": {
+            "track": true,
+            "resize": 0.25,
+            "leave_noclick": 1
+        }
+    },
+    "up_command": {
+        "next": 1631359910,
+        "param": {
+            "name": "arslan",
+            "step_width": 3,
+            "max_try": 6,
+            "track": true,
+            "resize": 0.25,
+            "trigger": 120
+        },
+        "func": "upgrade_commanders"
     }
 }

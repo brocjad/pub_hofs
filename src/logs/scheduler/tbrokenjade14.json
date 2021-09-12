@@ -92,7 +92,7 @@
         }
     },
     "explore_drag": {
-        "next": 1631396509,
+        "next": 1631412106,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -102,7 +102,7 @@
         }
     },
     "daily_msg": {
-        "next": 1631457992,
+        "next": 1631408712,
         "param": {
             "track": true,
             "resize": 0.25

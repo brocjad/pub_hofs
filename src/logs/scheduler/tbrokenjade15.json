@@ -1,6 +1,6 @@
 {
     "check_box": {
-        "next": 1631477916,
+        "next": 1631479009,
         "param": {
             "track": true,
             "resize": 0.25
@@ -24,7 +24,7 @@
         }
     },
     "trade": {
-        "next": 1631460343,
+        "next": 1631478510,
         "param": {
             "track": true,
             "resize": 0.25

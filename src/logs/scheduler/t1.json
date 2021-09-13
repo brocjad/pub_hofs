@@ -35,7 +35,7 @@
         "func": "upgrade_commanders"
     },
     "get_taven": {
-        "next": 1631494664,
+        "next": 1631518207,
         "param": {
             "track": true,
             "resize": 0.25,

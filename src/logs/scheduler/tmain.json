@@ -1,39 +1,10 @@
 {
     "continue_bub": {
-        "next": 1631593971,
+        "next": 1631618761,
         "param": {
             "track": true,
             "resize": 0.25,
             "check_interval": 10800
-        }
-    },
-    "check_box": {
-        "next": 1631596910,
-        "param": {
-            "track": true,
-            "resize": 0.25
-        }
-    },
-    "daily_msg": {
-        "next": 1631658577,
-        "param": {
-            "track": true,
-            "resize": 0.25
-        }
-    },
-    "trade": {
-        "next": 1631593881,
-        "param": {
-            "track": true,
-            "resize": 0.25
-        }
-    },
-    "get_taven": {
-        "next": 1631597519,
-        "param": {
-            "track": true,
-            "resize": 0.25,
-            "leave_noclick": 1
         }
     }
 }

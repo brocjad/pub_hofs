@@ -1,13 +1,13 @@
 {
     "check_box": {
-        "next": 1631827144,
+        "next": 1631826980,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "heal_500": {
-        "next": 1631825404,
+        "next": 1631825251,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -16,7 +16,7 @@
         "func": "heal_max"
     },
     "sheltering": {
-        "next": 1631826655,
+        "next": 1631826500,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -24,7 +24,7 @@
         }
     },
     "up_command": {
-        "next": 1631825950,
+        "next": 1631825793,
         "param": {
             "name": "sansa",
             "step_width": 2,
@@ -36,14 +36,14 @@
         "func": "upgrade_commanders"
     },
     "get_alli_quest": {
-        "next": 1631825952,
+        "next": 1631825795,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_taven": {
-        "next": 1631829655,
+        "next": 1631829497,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -51,28 +51,28 @@
         }
     },
     "trade": {
-        "next": 1631826251,
+        "next": 1631826092,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_amethyst": {
-        "next": 1631830042,
+        "next": 1631829882,
         "param": {
             "track": true,
             "resize": 0.3
         }
     },
     "get_dragonforged": {
-        "next": 1631830238,
+        "next": 1631830077,
         "param": {
             "track": true,
             "resize": 0.3
         }
     },
     "get_vip_shop": {
-        "next": 1631830434,
+        "next": 1631830271,
         "param": {
             "track": true,
             "resize": 0.3
@@ -124,7 +124,7 @@
         "bow": 500
     },
     "train_mil": {
-        "next": 1631830856,
+        "next": 1631830692,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -138,7 +138,7 @@
         }
     },
     "explore_drag": {
-        "next": 1631828709,
+        "next": 1631828543,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -148,7 +148,7 @@
         }
     },
     "daily_msg": {
-        "next": 1631883359,
+        "next": 1631827669,
         "param": {
             "track": true,
             "resize": 0.25
@@ -163,7 +163,7 @@
         }
     },
     "training_ground": {
-        "next": 1631828223,
+        "next": 1631828060,
         "param": {
             "track": true,
             "resize": 0.25

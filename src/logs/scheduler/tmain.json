@@ -77,5 +77,14 @@
             "track": true,
             "resize": 0.25
         }
+    },
+    "switch_exteria": {
+        "next": 1631797676,
+        "param": {
+            "track": true,
+            "resize": 0.25,
+            "etype": "dunesfort"
+        },
+        "func": "use_exteria"
     }
 }

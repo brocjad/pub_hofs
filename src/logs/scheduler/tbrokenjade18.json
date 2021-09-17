@@ -38,14 +38,14 @@
         }
     },
     "get_dragonforged": {
-        "next": 1631896340,
+        "next": 1631914240,
         "param": {
             "track": true,
             "resize": 0.3
         }
     },
     "get_vip_shop": {
-        "next": 1631892748,
+        "next": 1631914321,
         "param": {
             "track": true,
             "resize": 0.3

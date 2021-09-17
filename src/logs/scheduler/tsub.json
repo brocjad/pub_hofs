@@ -1,6 +1,6 @@
 {
     "heal_500": {
-        "next": 1631846385,
+        "next": 1631847768,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -9,7 +9,7 @@
         "func": "heal_max"
     },
     "continue_bub": {
-        "next": 1631846569,
+        "next": 1631845651,
         "param": {
             "track": true,
             "resize": 0.25
@@ -29,7 +29,7 @@
         "bow": 500
     },
     "train_mil": {
-        "next": 1631850031,
+        "next": 1631846168,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -43,21 +43,21 @@
         }
     },
     "trade": {
-        "next": 1631846607,
+        "next": 1631845689,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_salary": {
-        "next": 1631850224,
+        "next": 1631846327,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_bonus": {
-        "next": 1631850243,
+        "next": 1631846338,
         "param": {
             "track": true,
             "resize": 0.25
@@ -112,7 +112,7 @@
         "func": "upgrade_commanders"
     },
     "explore_drag": {
-        "next": 1631848098,
+        "next": 1631846350,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -129,7 +129,7 @@
         }
     },
     "schedule_leader": {
-        "next": 1631846510,
+        "next": 1631845559,
         "param": {
             "side": "left",
             "level": 3,

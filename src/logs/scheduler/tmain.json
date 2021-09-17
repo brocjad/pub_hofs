@@ -13,5 +13,19 @@
             "track": true,
             "resize": 0.25
         }
+    },
+    "daily_msg": {
+        "next": 1631845969,
+        "param": {
+            "track": true,
+            "resize": 0.25
+        }
+    },
+    "trade": {
+        "next": 1631842596,
+        "param": {
+            "track": true,
+            "resize": 0.25
+        }
     }
 }

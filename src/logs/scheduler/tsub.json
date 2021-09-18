@@ -248,7 +248,7 @@
         "func": "farm_around"
     },
     "get_alli_quest": {
-        "next": 1631947982,
+        "next": 1631934125,
         "param": {
             "track": true,
             "resize": 0.25

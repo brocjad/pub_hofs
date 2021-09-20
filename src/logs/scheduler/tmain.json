@@ -8,7 +8,7 @@
         }
     },
     "check_box": {
-        "next": 1632177391,
+        "next": 1632177640,
         "param": {
             "track": true,
             "resize": 0.25
@@ -57,5 +57,11 @@
             "buy": 0,
             "dragon_id": 1
         }
+    },
+    "soldiers": {
+        "inf": 500,
+        "cav": 500,
+        "spe": 500,
+        "bow": 500
     }
 }

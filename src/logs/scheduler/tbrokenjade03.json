@@ -24,7 +24,7 @@
         }
     },
     "up_command": {
-        "next": 1632119488,
+        "next": 1632137299,
         "param": {
             "name": "sansa",
             "step_width": 2,
@@ -36,7 +36,7 @@
         "func": "upgrade_commanders"
     },
     "get_alli_quest": {
-        "next": 1632119564,
+        "next": 1632132867,
         "param": {
             "track": true,
             "resize": 0.25

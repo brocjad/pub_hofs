@@ -1,13 +1,13 @@
 {
     "check_box": {
-        "next": 1632256084,
+        "next": 1632255793,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "heal_500": {
-        "next": 1632255612,
+        "next": 1632255660,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -16,7 +16,7 @@
         "func": "heal_max"
     },
     "sheltering": {
-        "next": 1632255615,
+        "next": 1632255667,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -24,7 +24,7 @@
         }
     },
     "up_command": {
-        "next": 1632266653,
+        "next": 1632266845,
         "param": {
             "name": "sansa",
             "step_width": 2,
@@ -36,7 +36,7 @@
         "func": "upgrade_commanders"
     },
     "get_alli_quest": {
-        "next": 1632256189,
+        "next": 1632256125,
         "param": {
             "track": true,
             "resize": 0.25

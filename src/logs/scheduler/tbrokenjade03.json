@@ -79,14 +79,14 @@
         }
     },
     "complete_all_trials": {
-        "next": 1632210096,
+        "next": 1632276153,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_salary": {
-        "next": 1632269415,
+        "next": 1632355814,
         "param": {
             "track": true,
             "resize": 0.25

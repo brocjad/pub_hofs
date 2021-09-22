@@ -52,7 +52,7 @@
         }
     },
     "complete_all_trials": {
-        "next": 1632275079,
+        "next": 1632292591,
         "param": {
             "track": true,
             "resize": 0.25

@@ -1,13 +1,13 @@
 {
     "check_box": {
-        "next": 1632306017,
+        "next": 1632309198,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "heal_500": {
-        "next": 1632305807,
+        "next": 1632306121,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -16,7 +16,7 @@
         "func": "heal_max"
     },
     "sheltering": {
-        "next": 1632305810,
+        "next": 1632313671,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -24,7 +24,7 @@
         }
     },
     "up_command": {
-        "next": 1632309493,
+        "next": 1632299480,
         "param": {
             "name": "sansa",
             "step_width": 2,
@@ -36,14 +36,14 @@
         "func": "upgrade_commanders"
     },
     "get_alli_quest": {
-        "next": 1632305901,
+        "next": 1632321107,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_taven": {
-        "next": 1632309599,
+        "next": 1632299800,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -51,21 +51,21 @@
         }
     },
     "trade": {
-        "next": 1632306025,
+        "next": 1632299874,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_amethyst": {
-        "next": 1632306061,
+        "next": 1632303549,
         "param": {
             "track": true,
             "resize": 0.3
         }
     },
     "get_dragonforged": {
-        "next": 1632306096,
+        "next": 1632303646,
         "param": {
             "track": true,
             "resize": 0.3

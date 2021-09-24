@@ -38,14 +38,14 @@
         }
     },
     "trade": {
-        "next": 1632463626,
+        "next": 1632465555,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_salary": {
-        "next": 1632528605,
+        "next": 1632465558,
         "param": {
             "track": true,
             "resize": 0.25

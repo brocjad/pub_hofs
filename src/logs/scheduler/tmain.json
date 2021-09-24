@@ -77,5 +77,14 @@
                 "bow": 500
             }
         }
+    },
+    "switch_exteria": {
+        "next": 1632517708,
+        "param": {
+            "track": true,
+            "resize": 0.25,
+            "etype": "crimsonfort"
+        },
+        "func": "use_exteria"
     }
 }

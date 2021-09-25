@@ -75,7 +75,7 @@
         }
     },
     "get_dragonforged": {
-        "next": 1632563357,
+        "next": 1632569909,
         "param": {
             "track": true,
             "resize": 0.3

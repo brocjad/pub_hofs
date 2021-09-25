@@ -84,35 +84,35 @@
         }
     },
     "complete_all_trials": {
-        "next": 1632534193,
+        "next": 1632551226,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_salary": {
-        "next": 1632615013,
+        "next": 1632547633,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_bonus": {
-        "next": 1632615011,
+        "next": 1632547636,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_knight": {
-        "next": 1632574097,
+        "next": 1632547639,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_list": {
-        "next": 1632534528,
+        "next": 1632551268,
         "param": {
             "track": true,
             "resize": 0.25,

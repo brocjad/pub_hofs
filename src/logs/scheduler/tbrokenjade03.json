@@ -1,6 +1,6 @@
 {
     "check_box": {
-        "next": 1632616700,
+        "next": 1632616958,
         "param": {
             "track": true,
             "resize": 0.25
@@ -24,7 +24,7 @@
         }
     },
     "up_command": {
-        "next": 1632616681,
+        "next": 1632619655,
         "param": {
             "name": "sansa",
             "step_width": 2,
@@ -36,14 +36,14 @@
         "func": "upgrade_commanders"
     },
     "get_alli_quest": {
-        "next": 1632616683,
+        "next": 1632629487,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_taven": {
-        "next": 1632620363,
+        "next": 1632612627,
         "param": {
             "track": true,
             "resize": 0.25,

@@ -1,6 +1,6 @@
 {
     "check_box": {
-        "next": 1632756178,
+        "next": 1632756847,
         "param": {
             "track": true,
             "resize": 0.25
@@ -92,7 +92,7 @@
         }
     },
     "explore_drag": {
-        "next": 1632742356,
+        "next": 1632760326,
         "param": {
             "track": true,
             "resize": 0.25,

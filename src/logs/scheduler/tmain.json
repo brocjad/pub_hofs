@@ -22,7 +22,7 @@
         }
     },
     "trade": {
-        "next": 1632721835,
+        "next": 1632722033,
         "param": {
             "track": true,
             "resize": 0.25
@@ -157,7 +157,7 @@
         "func": "farm_around"
     },
     "switch_exteria": {
-        "next": 1632721860,
+        "next": 1632722058,
         "param": {
             "track": true,
             "resize": 0.25,

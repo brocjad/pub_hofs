@@ -92,5 +92,25 @@
             "track": true,
             "resize": 0.25
         }
+    },
+    "gather_mint": {
+        "next": 1632873053,
+        "param": {
+            "levels": [
+                4
+            ],
+            "rtypes": [
+                "mint"
+            ],
+            "max_distance": 100,
+            "direct_send": 100,
+            "troop_size": 0,
+            "use_dragon": false,
+            "max_troops": 3,
+            "low_troop": true,
+            "track": true,
+            "resize": 0.3
+        },
+        "func": "farm_around"
     }
 }

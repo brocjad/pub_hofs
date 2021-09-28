@@ -23,7 +23,7 @@
         }
     },
     "up_command": {
-        "next": 1632857368,
+        "next": 1632871687,
         "param": {
             "name": "robb",
             "step_width": 2,
@@ -173,7 +173,7 @@
         }
     },
     "get_alli_quest": {
-        "next": 1632875382,
+        "next": 1632860895,
         "param": {
             "track": true,
             "resize": 0.25

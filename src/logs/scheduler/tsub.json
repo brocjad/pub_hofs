@@ -145,15 +145,15 @@
         }
     },
     "gather_mint": {
-        "next": 1632868811,
+        "next": 1632883077,
         "param": {
             "levels": [
-                4
+                3
             ],
             "rtypes": [
                 "mint"
             ],
-            "max_distance": 70,
+            "max_distance": 90,
             "direct_send": 50,
             "troop_size": 0,
             "use_dragon": true,

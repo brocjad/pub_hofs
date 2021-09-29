@@ -1,6 +1,6 @@
 {
     "heal_500": {
-        "next": 1632882161,
+        "next": 1632882717,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -247,14 +247,14 @@
         "func": "farm_around"
     },
     "get_alli_quest": {
-        "next": 1632898302,
+        "next": 1632878437,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "sell_quick_box": {
-        "next": 1632884258,
+        "next": 1632878999,
         "param": {
             "track": true,
             "resize": 0.25,

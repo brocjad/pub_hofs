@@ -35,5 +35,17 @@
             "resize": 0.25,
             "leave_noclick": 1
         }
+    },
+    "up_command": {
+        "next": 1632915105,
+        "param": {
+            "name": "arslan",
+            "step_width": 3,
+            "max_try": 6,
+            "track": true,
+            "resize": 0.25,
+            "trigger": 120
+        },
+        "func": "upgrade_commanders"
     }
 }

@@ -155,5 +155,14 @@
             "resize": 0.3
         },
         "func": "farm_around"
+    },
+    "switch_exteria": {
+        "next": 1632968252,
+        "param": {
+            "track": true,
+            "resize": 0.25,
+            "etype": "crimsonfort"
+        },
+        "func": "use_exteria"
     }
 }

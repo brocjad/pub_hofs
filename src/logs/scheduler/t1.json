@@ -1,6 +1,6 @@
 {
     "check_box": {
-        "next": 1633094140,
+        "next": 1633091678,
         "param": {
             "track": true,
             "resize": 0.25
@@ -35,7 +35,7 @@
         "func": "upgrade_commanders"
     },
     "get_taven": {
-        "next": 1633080540,
+        "next": 1633095336,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -43,14 +43,14 @@
         }
     },
     "trade": {
-        "next": 1633077086,
+        "next": 1633091886,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_amethyst": {
-        "next": 1633080702,
+        "next": 1633095509,
         "param": {
             "track": true,
             "resize": 0.3
@@ -173,7 +173,7 @@
         }
     },
     "get_alli_quest": {
-        "next": 1633080475,
+        "next": 1633112482,
         "param": {
             "track": true,
             "resize": 0.25

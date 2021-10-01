@@ -13,5 +13,27 @@
             "track": true,
             "resize": 0.25
         }
+    },
+    "daily_msg": {
+        "next": 1633156470,
+        "param": {
+            "track": true,
+            "resize": 0.25
+        }
+    },
+    "trade": {
+        "next": 1633091859,
+        "param": {
+            "track": true,
+            "resize": 0.25
+        }
+    },
+    "get_taven": {
+        "next": 1633091927,
+        "param": {
+            "track": true,
+            "resize": 0.25,
+            "leave_noclick": 1
+        }
     }
 }

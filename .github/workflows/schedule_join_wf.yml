@@ -1,0 +1,52 @@
+name: schedule_join_wf
+
+# Run this workflow every time a new commit pushed to your repository
+on:
+  schedule:
+    - cron: '0 41 0,18 ? * WED,SAT *'
+
+jobs:
+  
+  run_6k:
+    # Name the Job
+    name: run_main
+    # Set the type of machine to run on
+    runs-on: ubuntu-18.04
+    timeout-minutes: 120
+
+    steps:
+      # Checks out a copy of your repository on the ubuntu-latest machine
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: set up python 3.6
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.6
+
+      - name: install packages
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+          GOTAUTH: ${{ secrets.GOTAUTH}}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GIT_REPO: brocjad/pub_hof
+        run: |
+          cd ../../
+          pwd
+          git clone https://$GOTAUTH@github.com/brokenjade3000/got_auto.git
+          cd got_auto
+          chmod 775 ./script/install.sh
+          ./script/install.sh
+      # Runs the Super-Linter action
+      - name: run_main
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GIT_REPO: brocjad/pub_hof
+        run: |
+          pwd
+          cd /home/runner/work/got_auto/src
+          python --version
+          python run_main_wf.py

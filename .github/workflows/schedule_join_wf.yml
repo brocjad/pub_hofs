@@ -3,7 +3,7 @@ name: schedule_join_wf
 # Run this workflow every time a new commit pushed to your repository
 on:
   schedule:
-    - cron: '0 41 0,18 ? * WED,SAT *'
+    - cron: 0 41 0,18 ? * WED,SAT *
 
 jobs:
   

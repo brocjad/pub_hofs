@@ -1,6 +1,6 @@
 {
     "check_box": {
-        "next": 1633223123,
+        "next": 1633221822,
         "param": {
             "track": true,
             "resize": 0.25
@@ -24,7 +24,7 @@
         }
     },
     "up_command": {
-        "next": 1633221604,
+        "next": 1633224586,
         "param": {
             "name": "sansa",
             "step_width": 2,
@@ -36,7 +36,7 @@
         "func": "upgrade_commanders"
     },
     "get_alli_quest": {
-        "next": 1633221607,
+        "next": 1633235392,
         "param": {
             "track": true,
             "resize": 0.25

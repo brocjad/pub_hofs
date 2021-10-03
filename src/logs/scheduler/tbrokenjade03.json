@@ -1,13 +1,13 @@
 {
     "check_box": {
-        "next": 1633256272,
+        "next": 1633258064,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "heal_500": {
-        "next": 1633256378,
+        "next": 1633256395,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -16,7 +16,7 @@
         "func": "heal_max"
     },
     "sheltering": {
-        "next": 1633270965,
+        "next": 1633256726,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -24,7 +24,7 @@
         }
     },
     "up_command": {
-        "next": 1633249503,
+        "next": 1633267590,
         "param": {
             "name": "sansa",
             "step_width": 2,

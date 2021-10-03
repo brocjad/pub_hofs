@@ -1,6 +1,6 @@
 {
     "heal_500": {
-        "next": 1633223146,
+        "next": 1633228522,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -143,7 +143,7 @@
         }
     },
     "gather_mint": {
-        "next": 1633232093,
+        "next": 1633214423,
         "param": {
             "levels": [
                 3
@@ -163,7 +163,7 @@
         "func": "farm_around"
     },
     "gather_mine": {
-        "next": 1633231805,
+        "next": 1633213325,
         "param": {
             "levels": [
                 4
@@ -203,7 +203,7 @@
         "func": "farm_around"
     },
     "gather_lumb": {
-        "next": 1633231754,
+        "next": 1633212144,
         "param": {
             "levels": [
                 4

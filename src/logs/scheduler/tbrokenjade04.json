@@ -96,7 +96,7 @@
         }
     },
     "sell_quick_box": {
-        "next": 1633470024,
+        "next": 1633485760,
         "param": {
             "track": true,
             "resize": 0.25,

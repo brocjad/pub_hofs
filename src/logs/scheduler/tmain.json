@@ -15,7 +15,7 @@
         }
     },
     "daily_msg": {
-        "next": 1633610719,
+        "next": 1633679123,
         "param": {
             "track": true,
             "resize": 0.25
@@ -49,7 +49,7 @@
         "func": "upgrade_commanders"
     },
     "explore_drag": {
-        "next": 1633610770,
+        "next": 1633618136,
         "param": {
             "track": true,
             "resize": 0.25,

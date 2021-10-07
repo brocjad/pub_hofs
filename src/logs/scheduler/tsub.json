@@ -1,6 +1,6 @@
 {
     "heal_500": {
-        "next": 1633574172,
+        "next": 1633573360,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -9,7 +9,7 @@
         "func": "heal_max"
     },
     "continue_bub": {
-        "next": 1633574179,
+        "next": 1633595075,
         "param": {
             "track": true,
             "resize": 0.25
@@ -24,7 +24,7 @@
     },
     "soldiers": {},
     "train_mil": {
-        "next": 1633570385,
+        "next": 1633577649,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -52,7 +52,7 @@
         }
     },
     "get_bonus": {
-        "next": 1633573191,
+        "next": 1633577789,
         "param": {
             "track": true,
             "resize": 0.25
@@ -73,7 +73,7 @@
         }
     },
     "get_dragonforged": {
-        "next": 1633569809,
+        "next": 1633577516,
         "param": {
             "track": true,
             "resize": 0.3
@@ -124,7 +124,7 @@
         }
     },
     "schedule_leader": {
-        "next": 1633572948,
+        "next": 1633574351,
         "param": {
             "side": "left",
             "level": 3,
@@ -223,7 +223,7 @@
         "func": "farm_around"
     },
     "gather_mine_quar": {
-        "next": 1633572860,
+        "next": 1633577714,
         "param": {
             "levels": [
                 4,
@@ -252,7 +252,7 @@
         }
     },
     "sell_quick_box": {
-        "next": 1633570015,
+        "next": 1633575797,
         "param": {
             "track": true,
             "resize": 0.25,

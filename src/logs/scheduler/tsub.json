@@ -1,6 +1,6 @@
 {
     "heal_500": {
-        "next": 1633574243,
+        "next": 1633574172,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -9,28 +9,31 @@
         "func": "heal_max"
     },
     "continue_bub": {
-        "next": 1633595075,
+        "next": 1633574179,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "check_box": {
-        "next": 1633570875,
+        "next": 1633574515,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
-    "soldiers": {},
+    "soldiers": {
+        "cav": 500,
+        "spe": 500,
+        "bow": 500
+    },
     "train_mil": {
-        "next": 1633577649,
+        "next": 1633577099,
         "param": {
             "track": true,
             "resize": 0.25,
             "level": 1,
             "soldiers": {
-                "inf": 500,
                 "cav": 500,
                 "spe": 500,
                 "bow": 500
@@ -52,7 +55,7 @@
         }
     },
     "get_bonus": {
-        "next": 1633577789,
+        "next": 1633573191,
         "param": {
             "track": true,
             "resize": 0.25
@@ -66,28 +69,28 @@
         }
     },
     "get_amethyst": {
-        "next": 1633577935,
+        "next": 1633573401,
         "param": {
             "track": true,
             "resize": 0.3
         }
     },
     "get_dragonforged": {
-        "next": 1633577516,
+        "next": 1633569809,
         "param": {
             "track": true,
             "resize": 0.3
         }
     },
     "get_vip_shop": {
-        "next": 1633578033,
+        "next": 1633573488,
         "param": {
             "track": true,
             "resize": 0.3
         }
     },
     "get_taven": {
-        "next": 1633578053,
+        "next": 1633573540,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -124,7 +127,7 @@
         }
     },
     "schedule_leader": {
-        "next": 1633574351,
+        "next": 1633572948,
         "param": {
             "side": "left",
             "level": 3,
@@ -223,7 +226,7 @@
         "func": "farm_around"
     },
     "gather_mine_quar": {
-        "next": 1633577714,
+        "next": 1633572860,
         "param": {
             "levels": [
                 4,
@@ -252,7 +255,7 @@
         }
     },
     "sell_quick_box": {
-        "next": 1633575797,
+        "next": 1633570015,
         "param": {
             "track": true,
             "resize": 0.25,

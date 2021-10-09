@@ -1,13 +1,13 @@
 {
     "check_box": {
-        "next": 1633740630,
+        "next": 1633743312,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "heal_500": {
-        "next": 1633739597,
+        "next": 1633740072,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -16,7 +16,7 @@
         "func": "heal_max"
     },
     "sheltering": {
-        "next": 1633739604,
+        "next": 1633746118,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -24,7 +24,7 @@
         }
     },
     "up_command": {
-        "next": 1633739967,
+        "next": 1633740259,
         "param": {
             "name": "sansa",
             "step_width": 2,
@@ -36,14 +36,14 @@
         "func": "upgrade_commanders"
     },
     "get_alli_quest": {
-        "next": 1633739969,
+        "next": 1633740262,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_taven": {
-        "next": 1633743588,
+        "next": 1633740436,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -51,63 +51,63 @@
         }
     },
     "trade": {
-        "next": 1633740078,
+        "next": 1633740571,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_amethyst": {
-        "next": 1633743763,
+        "next": 1633744184,
         "param": {
             "track": true,
             "resize": 0.3
         }
     },
     "get_dragonforged": {
-        "next": 1633743853,
+        "next": 1633744250,
         "param": {
             "track": true,
             "resize": 0.3
         }
     },
     "get_vip_shop": {
-        "next": 1633743942,
+        "next": 1633736271,
         "param": {
             "track": true,
             "resize": 0.3
         }
     },
     "complete_all_trials": {
-        "next": 1633744003,
+        "next": 1633678515,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_salary": {
-        "next": 1633744017,
+        "next": 1633738216,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_bonus": {
-        "next": 1633744028,
+        "next": 1633738211,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_knight": {
-        "next": 1633744051,
+        "next": 1633738199,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_list": {
-        "next": 1633744112,
+        "next": 1633678804,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -118,14 +118,9 @@
             ]
         }
     },
-    "soldiers": {
-        "cav": 500,
-        "inf": 500,
-        "spe": 500,
-        "bow": 500
-    },
+    "soldiers": {},
     "train_mil": {
-        "next": 1633744237,
+        "next": 1633734242,
         "param": {
             "track": true,
             "resize": 0.25,

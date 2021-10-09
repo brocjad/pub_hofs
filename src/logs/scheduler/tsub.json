@@ -1,6 +1,6 @@
 {
     "heal_500": {
-        "next": 1633746998,
+        "next": 1633746457,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -9,7 +9,7 @@
         "func": "heal_max"
     },
     "continue_bub": {
-        "next": 1633747005,
+        "next": 1633756691,
         "param": {
             "track": true,
             "resize": 0.25
@@ -28,7 +28,7 @@
         "bow": 500
     },
     "train_mil": {
-        "next": 1633744359,
+        "next": 1633750350,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -55,7 +55,7 @@
         }
     },
     "get_bonus": {
-        "next": 1633745836,
+        "next": 1633750434,
         "param": {
             "track": true,
             "resize": 0.25
@@ -69,7 +69,7 @@
         }
     },
     "get_amethyst": {
-        "next": 1633746053,
+        "next": 1633750531,
         "param": {
             "track": true,
             "resize": 0.3
@@ -83,7 +83,7 @@
         }
     },
     "get_vip_shop": {
-        "next": 1633746222,
+        "next": 1633750629,
         "param": {
             "track": true,
             "resize": 0.3
@@ -226,7 +226,7 @@
         "func": "farm_around"
     },
     "gather_mine_quar": {
-        "next": 1633745426,
+        "next": 1633750416,
         "param": {
             "levels": [
                 4,
@@ -248,14 +248,14 @@
         "func": "farm_around"
     },
     "get_alli_quest": {
-        "next": 1633742673,
+        "next": 1633746634,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "sell_quick_box": {
-        "next": 1633742706,
+        "next": 1633748499,
         "param": {
             "track": true,
             "resize": 0.25,

@@ -1,6 +1,6 @@
 {
     "check_box": {
-        "next": 1633739935,
+        "next": 1633740101,
         "param": {
             "track": true,
             "resize": 0.25
@@ -24,7 +24,7 @@
         }
     },
     "up_command": {
-        "next": 1633742884,
+        "next": 1633739967,
         "param": {
             "name": "sansa",
             "step_width": 2,

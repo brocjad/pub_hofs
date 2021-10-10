@@ -146,7 +146,7 @@
         }
     },
     "sell_quick_box": {
-        "next": 1633870553,
+        "next": 1633877048,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -154,7 +154,7 @@
         }
     },
     "schedule_leader": {
-        "next": 1633871053,
+        "next": 1633877707,
         "param": {
             "side": "right",
             "level": 2,

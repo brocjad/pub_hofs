@@ -1,13 +1,13 @@
 {
     "check_box": {
-        "next": 1633913063,
+        "next": 1633912848,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "heal_500": {
-        "next": 1633912585,
+        "next": 1633904352,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -16,7 +16,7 @@
         "func": "heal_max"
     },
     "sheltering": {
-        "next": 1633927166,
+        "next": 1633905419,
         "param": {
             "track": true,
             "resize": 0.25,

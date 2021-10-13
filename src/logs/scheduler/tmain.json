@@ -15,7 +15,7 @@
         }
     },
     "daily_msg": {
-        "next": 1634164793,
+        "next": 1634231615,
         "param": {
             "track": true,
             "resize": 0.25
@@ -143,7 +143,7 @@
         "func": "farm_around"
     },
     "switch_exteria": {
-        "next": 1634166429,
+        "next": 1634166944,
         "param": {
             "track": true,
             "resize": 0.25,

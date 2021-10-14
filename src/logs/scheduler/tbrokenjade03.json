@@ -1,13 +1,13 @@
 {
     "check_box": {
-        "next": 1634174388,
+        "next": 1634172131,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "heal_500": {
-        "next": 1634172122,
+        "next": 1634171633,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -24,7 +24,7 @@
         }
     },
     "up_command": {
-        "next": 1634174904,
+        "next": 1634172013,
         "param": {
             "name": "sansa",
             "step_width": 2,
@@ -36,14 +36,14 @@
         "func": "upgrade_commanders"
     },
     "get_alli_quest": {
-        "next": 1634184743,
+        "next": 1634172016,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_taven": {
-        "next": 1634164304,
+        "next": 1634175713,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -51,7 +51,7 @@
         }
     },
     "trade": {
-        "next": 1634164447,
+        "next": 1634172203,
         "param": {
             "track": true,
             "resize": 0.25

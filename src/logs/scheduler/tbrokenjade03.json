@@ -16,7 +16,7 @@
         "func": "heal_max"
     },
     "sheltering": {
-        "next": 1634322066,
+        "next": 1634329786,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -24,7 +24,7 @@
         }
     },
     "up_command": {
-        "next": 1634333230,
+        "next": 1634329465,
         "param": {
             "name": "sansa",
             "step_width": 2,

@@ -1,6 +1,6 @@
 {
     "continue_bub": {
-        "next": 1634448234,
+        "next": 1634448226,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -8,162 +8,10 @@
         }
     },
     "check_box": {
-        "next": 1634374406,
+        "next": 1634380380,
         "param": {
             "track": true,
             "resize": 0.25
         }
-    },
-    "daily_msg": {
-        "next": 1634440878,
-        "param": {
-            "track": true,
-            "resize": 0.25
-        }
-    },
-    "trade": {
-        "next": 1634378314,
-        "param": {
-            "track": true,
-            "resize": 0.25
-        }
-    },
-    "get_taven": {
-        "next": 1634381910,
-        "param": {
-            "track": true,
-            "resize": 0.25,
-            "leave_noclick": 1
-        }
-    },
-    "up_command": {
-        "next": 1634379568,
-        "param": {
-            "name": "sansa",
-            "step_width": 2,
-            "max_try": 8,
-            "track": true,
-            "resize": 0.25,
-            "trigger": 40
-        },
-        "func": "upgrade_commanders"
-    },
-    "explore_drag": {
-        "next": 1634379888,
-        "param": {
-            "track": true,
-            "resize": 0.25,
-            "hours": 1,
-            "buy": 0,
-            "dragon_id": 1
-        }
-    },
-    "sell_quick_box": {
-        "next": 1634378359,
-        "param": {
-            "track": true,
-            "resize": 0.25,
-            "min_level": 21
-        }
-    },
-    "soldiers": {
-        "inf": 500,
-        "cav": 500,
-        "spe": 500,
-        "bow": 500
-    },
-    "train_mil": {
-        "next": 1634382081,
-        "param": {
-            "track": true,
-            "resize": 0.25,
-            "level": 1,
-            "soldiers": {
-                "inf": 500,
-                "cav": 500,
-                "spe": 500,
-                "bow": 500
-            }
-        }
-    },
-    "training_ground": {
-        "next": 1634417365,
-        "param": {
-            "track": true,
-            "resize": 0.25
-        }
-    },
-    "gather_mint": {
-        "next": 1634383220,
-        "param": {
-            "levels": [
-                4
-            ],
-            "rtypes": [
-                "mint"
-            ],
-            "max_distance": 100,
-            "direct_send": 100,
-            "troop_size": 0,
-            "use_dragon": false,
-            "max_troops": 6,
-            "low_troop": false,
-            "track": true,
-            "resize": 0.3
-        },
-        "func": "farm_around"
-    },
-    "gather_qml": {
-        "next": 1634390200,
-        "param": {
-            "levels": [
-                5
-            ],
-            "rtypes": [
-                "mine",
-                "quar",
-                "lumb"
-            ],
-            "max_distance": 90,
-            "direct_send": 50,
-            "troop_size": 0,
-            "use_dragon": false,
-            "max_troops": 5,
-            "low_troop": false,
-            "track": true,
-            "resize": 0.3
-        },
-        "func": "farm_around"
-    },
-    "gather_quarmine": {
-        "next": 1634386180,
-        "param": {
-            "levels": [
-                5
-            ],
-            "rtypes": [
-                "mine",
-                "quar",
-                "lumb"
-            ],
-            "max_distance": 90,
-            "direct_send": 50,
-            "troop_size": 0,
-            "use_dragon": false,
-            "max_troops": 6,
-            "low_troop": false,
-            "track": true,
-            "resize": 0.3
-        },
-        "func": "farm_around"
-    },
-    "switch_exteria": {
-        "next": 1634378122,
-        "param": {
-            "track": true,
-            "resize": 0.25,
-            "etype": "crimsonfort"
-        },
-        "func": "use_exteria"
     }
 }

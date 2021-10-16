@@ -1,6 +1,6 @@
 {
     "heal_500": {
-        "next": 1634351444,
+        "next": 1634352024,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -79,14 +79,14 @@
         }
     },
     "get_vip_shop": {
-        "next": 1634355306,
+        "next": 1634351197,
         "param": {
             "track": true,
             "resize": 0.3
         }
     },
     "get_taven": {
-        "next": 1634355359,
+        "next": 1634351240,
         "param": {
             "track": true,
             "resize": 0.25,

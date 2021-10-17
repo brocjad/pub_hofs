@@ -43,7 +43,7 @@
         }
     },
     "get_taven": {
-        "next": 1634423224,
+        "next": 1634435752,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -51,7 +51,7 @@
         }
     },
     "trade": {
-        "next": 1634423370,
+        "next": 1634432274,
         "param": {
             "track": true,
             "resize": 0.25

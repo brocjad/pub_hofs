@@ -1,6 +1,6 @@
 {
     "heal_500": {
-        "next": 1634809660,
+        "next": 1634809940,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -129,7 +129,7 @@
         }
     },
     "schedule_leader": {
-        "next": 1634809436,
+        "next": 1634810065,
         "param": {
             "side": "left",
             "level": 3,

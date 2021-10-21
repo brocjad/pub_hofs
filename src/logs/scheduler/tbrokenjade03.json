@@ -1,6 +1,6 @@
 {
     "check_box": {
-        "next": 1634792713,
+        "next": 1634794944,
         "param": {
             "track": true,
             "resize": 0.25
@@ -137,7 +137,7 @@
         }
     },
     "explore_drag": {
-        "next": 1634794168,
+        "next": 1634786483,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -147,14 +147,14 @@
         }
     },
     "daily_msg": {
-        "next": 1634796643,
+        "next": 1634789045,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "sell_quick_box": {
-        "next": 1634794920,
+        "next": 1634787365,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -169,7 +169,7 @@
         }
     },
     "schedule_leader": {
-        "next": 1634793486,
+        "next": 1634785983,
         "param": {
             "side": "right",
             "level": 1,

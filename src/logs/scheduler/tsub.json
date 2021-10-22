@@ -9,7 +9,7 @@
         "func": "heal_max"
     },
     "continue_bub": {
-        "next": 1634942280,
+        "next": 1634945950,
         "param": {
             "track": true,
             "resize": 0.25
@@ -145,7 +145,7 @@
         }
     },
     "gather_mint": {
-        "next": 1634942712,
+        "next": 1634949579,
         "param": {
             "levels": [
                 3

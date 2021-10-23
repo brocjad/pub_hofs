@@ -1,51 +1,10 @@
 {
     "continue_bub": {
-        "next": 1635002783,
+        "next": 1635024649,
         "param": {
             "track": true,
             "resize": 0.25,
             "check_interval": 10800
         }
-    },
-    "check_box": {
-        "next": 1635001277,
-        "param": {
-            "track": true,
-            "resize": 0.25
-        }
-    },
-    "daily_msg": {
-        "next": 1635063887,
-        "param": {
-            "track": true,
-            "resize": 0.25
-        }
-    },
-    "trade": {
-        "next": 1634999293,
-        "param": {
-            "track": true,
-            "resize": 0.25
-        }
-    },
-    "get_taven": {
-        "next": 1635002876,
-        "param": {
-            "track": true,
-            "resize": 0.25,
-            "leave_noclick": 1
-        }
-    },
-    "up_command": {
-        "next": 1635003562,
-        "param": {
-            "name": "arslan",
-            "step_width": 3,
-            "max_try": 6,
-            "track": true,
-            "resize": 0.25,
-            "trigger": 120
-        },
-        "func": "upgrade_commanders"
     }
 }

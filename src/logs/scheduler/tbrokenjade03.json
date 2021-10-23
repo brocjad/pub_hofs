@@ -1,13 +1,13 @@
 {
     "check_box": {
-        "next": 1634949854,
+        "next": 1634949894,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "heal_500": {
-        "next": 1634950006,
+        "next": 1634949507,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -16,7 +16,7 @@
         "func": "heal_max"
     },
     "sheltering": {
-        "next": 1634950013,
+        "next": 1634949514,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -24,7 +24,7 @@
         }
     },
     "up_command": {
-        "next": 1634950202,
+        "next": 1634949862,
         "param": {
             "name": "sansa",
             "step_width": 2,
@@ -36,14 +36,14 @@
         "func": "upgrade_commanders"
     },
     "get_alli_quest": {
-        "next": 1634950281,
+        "next": 1634960684,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_taven": {
-        "next": 1634941993,
+        "next": 1634953508,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -51,35 +51,35 @@
         }
     },
     "trade": {
-        "next": 1634942133,
+        "next": 1634949998,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_amethyst": {
-        "next": 1634945748,
+        "next": 1634953683,
         "param": {
             "track": true,
             "resize": 0.3
         }
     },
     "get_dragonforged": {
-        "next": 1634945831,
+        "next": 1634953772,
         "param": {
             "track": true,
             "resize": 0.3
         }
     },
     "get_vip_shop": {
-        "next": 1634945903,
+        "next": 1634953862,
         "param": {
             "track": true,
             "resize": 0.3
         }
     },
     "complete_all_trials": {
-        "next": 1634888302,
+        "next": 1634953923,
         "param": {
             "track": true,
             "resize": 0.25

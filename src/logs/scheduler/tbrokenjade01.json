@@ -1,6 +1,6 @@
 {
     "check_box": {
-        "next": 1635179974,
+        "next": 1635181459,
         "param": {
             "track": true,
             "resize": 0.25
@@ -64,7 +64,7 @@
         }
     },
     "get_vip_shop": {
-        "next": 1635176182,
+        "next": 1635183748,
         "param": {
             "track": true,
             "resize": 0.3
@@ -111,17 +111,17 @@
         }
     },
     "soldiers": {
-        "inf": 500,
         "spe": 500,
         "bow": 500
     },
     "train_mil": {
-        "next": 1635175720,
+        "next": 1635183209,
         "param": {
             "track": true,
             "resize": 0.25,
             "level": 1,
             "soldiers": {
+                "cav": 500,
                 "inf": 500,
                 "spe": 500,
                 "bow": 500
@@ -166,7 +166,7 @@
         }
     },
     "training_ground": {
-        "next": 1635173854,
+        "next": 1635181407,
         "param": {
             "track": true,
             "resize": 0.25

@@ -1,13 +1,13 @@
 {
     "check_box": {
-        "next": 1635452759,
+        "next": 1635453178,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "heal_500": {
-        "next": 1635452472,
+        "next": 1635452363,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -16,7 +16,7 @@
         "func": "heal_max"
     },
     "sheltering": {
-        "next": 1635452478,
+        "next": 1635452366,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -24,7 +24,7 @@
         }
     },
     "up_command": {
-        "next": 1635452667,
+        "next": 1635452429,
         "param": {
             "name": "sansa",
             "step_width": 2,
@@ -36,14 +36,14 @@
         "func": "upgrade_commanders"
     },
     "get_alli_quest": {
-        "next": 1635459941,
+        "next": 1635452747,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_taven": {
-        "next": 1635456426,
+        "next": 1635456261,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -51,28 +51,28 @@
         }
     },
     "trade": {
-        "next": 1635452990,
+        "next": 1635452817,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_amethyst": {
-        "next": 1635456614,
+        "next": 1635456437,
         "param": {
             "track": true,
             "resize": 0.3
         }
     },
     "get_dragonforged": {
-        "next": 1635456692,
+        "next": 1635456507,
         "param": {
             "track": true,
             "resize": 0.3
         }
     },
     "get_vip_shop": {
-        "next": 1635449957,
+        "next": 1635456581,
         "param": {
             "track": true,
             "resize": 0.3
@@ -162,7 +162,7 @@
         }
     },
     "training_ground": {
-        "next": 1635447618,
+        "next": 1635454244,
         "param": {
             "track": true,
             "resize": 0.25

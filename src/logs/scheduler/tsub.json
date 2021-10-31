@@ -127,7 +127,7 @@
         }
     },
     "schedule_leader": {
-        "next": 1635695330,
+        "next": 1635708188,
         "param": {
             "side": "left",
             "level": 3,
@@ -139,7 +139,7 @@
         }
     },
     "training_ground": {
-        "next": 1635739048,
+        "next": 1635706939,
         "param": {
             "track": true,
             "resize": 0.25

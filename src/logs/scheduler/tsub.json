@@ -9,7 +9,7 @@
         "func": "heal_max"
     },
     "continue_bub": {
-        "next": 1635719000,
+        "next": 1635755115,
         "param": {
             "track": true,
             "resize": 0.25
@@ -47,7 +47,7 @@
         }
     },
     "get_salary": {
-        "next": 1635719900,
+        "next": 1635727914,
         "param": {
             "track": true,
             "resize": 0.25

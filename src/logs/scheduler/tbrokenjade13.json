@@ -52,21 +52,21 @@
         }
     },
     "complete_all_trials": {
-        "next": 1635817511,
+        "next": 1635834268,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_salary": {
-        "next": 1635898212,
+        "next": 1635830675,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_bonus": {
-        "next": 1635898209,
+        "next": 1635830678,
         "param": {
             "track": true,
             "resize": 0.25

@@ -1,13 +1,13 @@
 {
     "check_box": {
-        "next": 1635884702,
+        "next": 1635884516,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "heal_500": {
-        "next": 1635877268,
+        "next": 1635884288,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -16,7 +16,7 @@
         "func": "heal_max"
     },
     "sheltering": {
-        "next": 1635891842,
+        "next": 1635884291,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -24,7 +24,7 @@
         }
     },
     "up_command": {
-        "next": 1635888580,
+        "next": 1635884374,
         "param": {
             "name": "robert",
             "step_width": 2,
@@ -36,7 +36,7 @@
         "func": "upgrade_commanders"
     },
     "get_alli_quest": {
-        "next": 1635877788,
+        "next": 1635895196,
         "param": {
             "track": true,
             "resize": 0.25

@@ -1,13 +1,13 @@
 {
     "check_box": {
-        "next": 1635848635,
+        "next": 1635848674,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "heal_500": {
-        "next": 1635848360,
+        "next": 1635848294,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -16,7 +16,7 @@
         "func": "heal_max"
     },
     "sheltering": {
-        "next": 1635848781,
+        "next": 1635849344,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -24,7 +24,7 @@
         }
     },
     "up_command": {
-        "next": 1635848566,
+        "next": 1635848532,
         "param": {
             "name": "robert",
             "step_width": 2,
@@ -36,14 +36,14 @@
         "func": "upgrade_commanders"
     },
     "get_alli_quest": {
-        "next": 1635870160,
+        "next": 1635859354,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_taven": {
-        "next": 1635848752,
+        "next": 1635852256,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -51,14 +51,14 @@
         }
     },
     "trade": {
-        "next": 1635842160,
+        "next": 1635848747,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_amethyst": {
-        "next": 1635845771,
+        "next": 1635852431,
         "param": {
             "track": true,
             "resize": 0.3

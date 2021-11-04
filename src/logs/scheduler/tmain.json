@@ -40,5 +40,12 @@
             "trigger": 120
         },
         "func": "upgrade_commanders"
+    },
+    "check_box": {
+        "next": 1636050670,
+        "param": {
+            "track": true,
+            "resize": 0.25
+        }
     }
 }

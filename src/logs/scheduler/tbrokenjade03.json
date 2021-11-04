@@ -1,13 +1,13 @@
 {
     "check_box": {
-        "next": 1636058847,
+        "next": 1636057950,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "heal_500": {
-        "next": 1636057163,
+        "next": 1636057165,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -16,7 +16,7 @@
         "func": "heal_max"
     },
     "sheltering": {
-        "next": 1636057169,
+        "next": 1636057168,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -24,7 +24,7 @@
         }
     },
     "up_command": {
-        "next": 1636057361,
+        "next": 1636057228,
         "param": {
             "name": "robert",
             "step_width": 2,
@@ -36,14 +36,14 @@
         "func": "upgrade_commanders"
     },
     "get_alli_quest": {
-        "next": 1636057420,
+        "next": 1636057542,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_taven": {
-        "next": 1636061072,
+        "next": 1636061037,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -51,28 +51,28 @@
         }
     },
     "trade": {
-        "next": 1636057614,
+        "next": 1636057589,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_amethyst": {
-        "next": 1636061226,
+        "next": 1636061199,
         "param": {
             "track": true,
             "resize": 0.3
         }
     },
     "get_dragonforged": {
-        "next": 1636061308,
+        "next": 1636061280,
         "param": {
             "track": true,
             "resize": 0.3
         }
     },
     "get_vip_shop": {
-        "next": 1636061370,
+        "next": 1636061353,
         "param": {
             "track": true,
             "resize": 0.3
@@ -123,7 +123,7 @@
         "bow": 500
     },
     "train_mil": {
-        "next": 1636054123,
+        "next": 1636061702,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -162,7 +162,7 @@
         }
     },
     "training_ground": {
-        "next": 1636059035,
+        "next": 1636059012,
         "param": {
             "track": true,
             "resize": 0.25

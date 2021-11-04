@@ -1,13 +1,13 @@
 {
     "check_box": {
-        "next": 1636057430,
+        "next": 1636057423,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "heal_500": {
-        "next": 1636057163,
+        "next": 1636057165,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -16,7 +16,7 @@
         "func": "heal_max"
     },
     "sheltering": {
-        "next": 1636057169,
+        "next": 1636057168,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -24,7 +24,7 @@
         }
     },
     "up_command": {
-        "next": 1636057361,
+        "next": 1636057228,
         "param": {
             "name": "robert",
             "step_width": 2,
@@ -36,14 +36,14 @@
         "func": "upgrade_commanders"
     },
     "get_alli_quest": {
-        "next": 1636057420,
+        "next": 1636057542,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_taven": {
-        "next": 1636050745,
+        "next": 1636061037,
         "param": {
             "track": true,
             "resize": 0.25,

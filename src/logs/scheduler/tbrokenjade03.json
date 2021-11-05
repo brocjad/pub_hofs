@@ -1,6 +1,6 @@
 {
     "check_box": {
-        "next": 1636150882,
+        "next": 1636154363,
         "param": {
             "track": true,
             "resize": 0.25
@@ -36,7 +36,7 @@
         "func": "upgrade_commanders"
     },
     "get_alli_quest": {
-        "next": 1636144441,
+        "next": 1636172553,
         "param": {
             "track": true,
             "resize": 0.25

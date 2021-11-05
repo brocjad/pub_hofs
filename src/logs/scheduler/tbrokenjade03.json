@@ -1,13 +1,13 @@
 {
     "check_box": {
-        "next": 1636143456,
+        "next": 1636143465,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "heal_500": {
-        "next": 1636143568,
+        "next": 1636143538,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -16,7 +16,7 @@
         "func": "heal_max"
     },
     "sheltering": {
-        "next": 1636158147,
+        "next": 1636158130,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -24,7 +24,7 @@
         }
     },
     "up_command": {
-        "next": 1636148402,
+        "next": 1636143878,
         "param": {
             "name": "robert",
             "step_width": 2,

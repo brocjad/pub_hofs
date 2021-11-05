@@ -1,6 +1,6 @@
 {
     "heal_500": {
-        "next": 1636079798,
+        "next": 1636077706,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -222,7 +222,7 @@
         "func": "farm_around"
     },
     "gather_mine_quar": {
-        "next": 1636077695,
+        "next": 1636083404,
         "param": {
             "levels": [
                 4,

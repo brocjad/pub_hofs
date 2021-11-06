@@ -23,7 +23,7 @@
         }
     },
     "up_command": {
-        "next": 1636216277,
+        "next": 1636234421,
         "param": {
             "name": "arya",
             "step_width": 3,
@@ -172,7 +172,7 @@
         }
     },
     "get_alli_quest": {
-        "next": 1636216279,
+        "next": 1636230711,
         "param": {
             "track": true,
             "resize": 0.25

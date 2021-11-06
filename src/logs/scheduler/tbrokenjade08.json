@@ -1,13 +1,13 @@
 {
     "check_box": {
-        "next": 1636159980,
+        "next": 1636176570,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "heal_500": {
-        "next": 1636158899,
+        "next": 1636175780,
         "param": {
             "track": true,
             "resize": 0.25,

@@ -166,7 +166,7 @@
         "func": "farm_around"
     },
     "gather_mine": {
-        "next": 1636218166,
+        "next": 1636210915,
         "param": {
             "levels": [
                 4

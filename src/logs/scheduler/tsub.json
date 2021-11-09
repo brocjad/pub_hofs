@@ -138,14 +138,14 @@
         }
     },
     "training_ground": {
-        "next": 1636469439,
+        "next": 1636514922,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "gather_mint": {
-        "next": 1636469557,
+        "next": 1636474321,
         "param": {
             "levels": [
                 3

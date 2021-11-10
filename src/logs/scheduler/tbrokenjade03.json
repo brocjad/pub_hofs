@@ -16,7 +16,7 @@
         "func": "heal_max"
     },
     "sheltering": {
-        "next": 1636547285,
+        "next": 1636539645,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -24,7 +24,7 @@
         }
     },
     "up_command": {
-        "next": 1636533314,
+        "next": 1636540000,
         "param": {
             "name": "robert",
             "step_width": 2,

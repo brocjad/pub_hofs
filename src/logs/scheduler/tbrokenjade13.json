@@ -102,14 +102,14 @@
         }
     },
     "daily_msg": {
-        "next": 1636591753,
+        "next": 1636673957,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "sell_quick_box": {
-        "next": 1636591756,
+        "next": 1636612821,
         "param": {
             "track": true,
             "resize": 0.25,

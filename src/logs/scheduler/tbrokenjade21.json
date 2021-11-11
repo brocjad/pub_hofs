@@ -1,6 +1,6 @@
 {
     "check_box": {
-        "next": 1636592516,
+        "next": 1636594211,
         "param": {
             "track": true,
             "resize": 0.25
@@ -14,7 +14,7 @@
         }
     },
     "get_salary": {
-        "next": 1636675866,
+        "next": 1636590426,
         "param": {
             "track": true,
             "resize": 0.25

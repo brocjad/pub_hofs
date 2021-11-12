@@ -38,21 +38,21 @@
         }
     },
     "get_dragonforged": {
-        "next": 1636694663,
+        "next": 1636716401,
         "param": {
             "track": true,
             "resize": 0.3
         }
     },
     "get_vip_shop": {
-        "next": 1636766399,
+        "next": 1636712809,
         "param": {
             "track": true,
             "resize": 0.3
         }
     },
     "training_ground": {
-        "next": 1636663908,
+        "next": 1636714066,
         "param": {
             "track": true,
             "resize": 0.25

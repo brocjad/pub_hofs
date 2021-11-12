@@ -15,7 +15,7 @@
         }
     },
     "daily_msg": {
-        "next": 1636695220,
+        "next": 1636699092,
         "param": {
             "track": true,
             "resize": 0.25
@@ -37,7 +37,7 @@
         }
     },
     "up_command": {
-        "next": 1636695197,
+        "next": 1636699069,
         "param": {
             "name": "sansa",
             "step_width": 2,

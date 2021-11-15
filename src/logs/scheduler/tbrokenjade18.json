@@ -1,6 +1,6 @@
 {
     "check_box": {
-        "next": 1636989562,
+        "next": 1636991182,
         "param": {
             "track": true,
             "resize": 0.25
@@ -45,7 +45,7 @@
         }
     },
     "get_vip_shop": {
-        "next": 1636975535,
+        "next": 1636993479,
         "param": {
             "track": true,
             "resize": 0.3
@@ -117,7 +117,7 @@
         }
     },
     "training_ground": {
-        "next": 1636973200,
+        "next": 1636991141,
         "param": {
             "track": true,
             "resize": 0.25

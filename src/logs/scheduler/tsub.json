@@ -110,7 +110,7 @@
         "func": "upgrade_commanders"
     },
     "explore_drag": {
-        "next": 1636969539,
+        "next": 1636976577,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -120,7 +120,7 @@
         }
     },
     "get_vip_box": {
-        "next": 1636969596,
+        "next": 1636976655,
         "param": {
             "track": true,
             "resize": 0.25

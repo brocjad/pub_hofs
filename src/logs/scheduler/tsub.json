@@ -40,7 +40,7 @@
         }
     },
     "trade": {
-        "next": 1637058591,
+        "next": 1637061037,
         "param": {
             "track": true,
             "resize": 0.25
@@ -247,7 +247,7 @@
         "func": "farm_around"
     },
     "get_alli_quest": {
-        "next": 1637058842,
+        "next": 1637062851,
         "param": {
             "track": true,
             "resize": 0.25

@@ -110,7 +110,7 @@
         "func": "upgrade_commanders"
     },
     "explore_drag": {
-        "next": 1637163379,
+        "next": 1637167968,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -146,7 +146,7 @@
         }
     },
     "gather_mint": {
-        "next": 1637163350,
+        "next": 1637166613,
         "param": {
             "levels": [
                 3

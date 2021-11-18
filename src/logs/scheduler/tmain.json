@@ -77,5 +77,14 @@
             "track": true,
             "resize": 0.25
         }
+    },
+    "switch_exteria": {
+        "next": 1637211197,
+        "param": {
+            "track": true,
+            "resize": 0.25,
+            "etype": "crimsonfort"
+        },
+        "func": "use_exteria"
     }
 }

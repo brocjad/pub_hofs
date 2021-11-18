@@ -37,7 +37,7 @@
         }
     },
     "up_command": {
-        "next": 1637249415,
+        "next": 1637253461,
         "param": {
             "name": "sansa",
             "step_width": 2,
@@ -88,7 +88,7 @@
         }
     },
     "switch_exteria": {
-        "next": 1637249077,
+        "next": 1637249447,
         "param": {
             "track": true,
             "resize": 0.25,

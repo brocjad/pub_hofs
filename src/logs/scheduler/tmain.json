@@ -158,7 +158,7 @@
         "func": "farm_around"
     },
     "switch_exteria": {
-        "next": 1637393558,
+        "next": 1637393917,
         "param": {
             "track": true,
             "resize": 0.25,

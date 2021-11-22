@@ -8,7 +8,7 @@
         }
     },
     "check_box": {
-        "next": 1637555099,
+        "next": 1637557677,
         "param": {
             "track": true,
             "resize": 0.25
@@ -56,6 +56,14 @@
             "hours": 1,
             "buy": 0,
             "dragon_id": 2
+        }
+    },
+    "sell_quick_box": {
+        "next": 1637555222,
+        "param": {
+            "track": true,
+            "resize": 0.25,
+            "min_level": 21
         }
     }
 }

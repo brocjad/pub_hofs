@@ -29,7 +29,7 @@
         }
     },
     "get_taven": {
-        "next": 1637558678,
+        "next": 1637559191,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -158,7 +158,7 @@
         "func": "farm_around"
     },
     "switch_exteria": {
-        "next": 1637558649,
+        "next": 1637559040,
         "param": {
             "track": true,
             "resize": 0.25,

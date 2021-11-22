@@ -1,6 +1,6 @@
 {
     "check_box": {
-        "next": 1637615145,
+        "next": 1637613285,
         "param": {
             "track": true,
             "resize": 0.25
@@ -118,11 +118,9 @@
             ]
         }
     },
-    "soldiers": {
-        "bow": 500
-    },
+    "soldiers": {},
     "train_mil": {
-        "next": 1637609053,
+        "next": 1637614726,
         "param": {
             "track": true,
             "resize": 0.25,

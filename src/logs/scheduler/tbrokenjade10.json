@@ -7,7 +7,7 @@
         }
     },
     "heal_500": {
-        "next": 1637714331,
+        "next": 1637731183,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -16,7 +16,7 @@
         "func": "heal_max"
     },
     "sheltering": {
-        "next": 1637728963,
+        "next": 1637745858,
         "param": {
             "track": true,
             "resize": 0.25,

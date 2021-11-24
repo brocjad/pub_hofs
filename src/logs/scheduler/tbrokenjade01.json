@@ -23,7 +23,7 @@
         }
     },
     "up_command": {
-        "next": 1637721719,
+        "next": 1637731365,
         "param": {
             "name": "soren",
             "step_width": 2,
@@ -170,7 +170,7 @@
         }
     },
     "get_alli_quest": {
-        "next": 1637721726,
+        "next": 1637746607,
         "param": {
             "track": true,
             "resize": 0.25

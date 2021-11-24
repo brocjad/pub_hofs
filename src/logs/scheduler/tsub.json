@@ -126,7 +126,7 @@
         }
     },
     "schedule_leader": {
-        "next": 1637726579,
+        "next": 1637730943,
         "param": {
             "side": "left",
             "level": 3,
@@ -145,7 +145,7 @@
         }
     },
     "gather_mint": {
-        "next": 1637727396,
+        "next": 1637732239,
         "param": {
             "levels": [
                 3

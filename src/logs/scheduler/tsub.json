@@ -146,7 +146,7 @@
         }
     },
     "gather_mint": {
-        "next": 1637816425,
+        "next": 1637831855,
         "param": {
             "levels": [
                 3
@@ -159,7 +159,7 @@
             "troop_size": 0,
             "use_dragon": true,
             "max_troops": 2,
-            "low_troop": true,
+            "low_troop": false,
             "track": true,
             "resize": 0.3
         },

@@ -186,7 +186,7 @@
         "func": "farm_around"
     },
     "gather_quar": {
-        "next": 1637816456,
+        "next": 1637835755,
         "param": {
             "levels": [
                 4
@@ -199,7 +199,7 @@
             "troop_size": 0,
             "use_dragon": false,
             "max_troops": 4,
-            "low_troop": true,
+            "low_troop": false,
             "track": true,
             "resize": 0.3
         },

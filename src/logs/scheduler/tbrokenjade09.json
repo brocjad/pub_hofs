@@ -1,6 +1,6 @@
 {
     "check_box": {
-        "next": 1637957953,
+        "next": 1637959384,
         "param": {
             "track": true,
             "resize": 0.25
@@ -24,14 +24,14 @@
         }
     },
     "trade": {
-        "next": 1637940276,
+        "next": 1637958343,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_amethyst": {
-        "next": 1637943898,
+        "next": 1637961952,
         "param": {
             "track": true,
             "resize": 0.3

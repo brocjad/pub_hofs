@@ -73,7 +73,7 @@
         "bow": 500
     },
     "train_mil": {
-        "next": 1637940496,
+        "next": 1637944306,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -158,7 +158,7 @@
         "func": "farm_around"
     },
     "switch_exteria": {
-        "next": 1637940390,
+        "next": 1637940576,
         "param": {
             "track": true,
             "resize": 0.25,

@@ -1,24 +1,10 @@
 {
     "continue_bub": {
-        "next": 1638026198,
+        "next": 1638026197,
         "param": {
             "track": true,
             "resize": 0.25,
             "check_interval": 10800
-        }
-    },
-    "check_box": {
-        "next": 1637958225,
-        "param": {
-            "track": true,
-            "resize": 0.25
-        }
-    },
-    "daily_msg": {
-        "next": 1637997457,
-        "param": {
-            "track": true,
-            "resize": 0.25
         }
     }
 }

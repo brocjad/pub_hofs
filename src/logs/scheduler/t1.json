@@ -16,14 +16,14 @@
         "func": "heal_max"
     },
     "continue_bub": {
-        "next": 1638296721,
+        "next": 1638296699,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "up_command": {
-        "next": 1638289504,
+        "next": 1638300379,
         "param": {
             "name": "arya",
             "step_width": 3,

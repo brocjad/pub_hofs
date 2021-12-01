@@ -24,7 +24,7 @@
         }
     },
     "up_command": {
-        "next": 1638368738,
+        "next": 1638379406,
         "param": {
             "name": "robert",
             "step_width": 2,
@@ -36,7 +36,7 @@
         "func": "upgrade_commanders"
     },
     "get_alli_quest": {
-        "next": 1638375877,
+        "next": 1638375814,
         "param": {
             "track": true,
             "resize": 0.25

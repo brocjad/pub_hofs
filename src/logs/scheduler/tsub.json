@@ -166,7 +166,7 @@
         "func": "farm_around"
     },
     "gather_mine": {
-        "next": 1638331422,
+        "next": 1638345646,
         "param": {
             "levels": [
                 4
@@ -174,7 +174,7 @@
             "rtypes": [
                 "mine"
             ],
-            "max_distance": 75,
+            "max_distance": 95,
             "direct_send": 50,
             "troop_size": 0,
             "use_dragon": false,

@@ -1,6 +1,6 @@
 {
     "continue_bub": {
-        "next": 1638336005,
+        "next": 1638336593,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -22,7 +22,7 @@
         }
     },
     "trade": {
-        "next": 1638336037,
+        "next": 1638336624,
         "param": {
             "track": true,
             "resize": 0.25

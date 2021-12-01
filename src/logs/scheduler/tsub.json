@@ -226,15 +226,15 @@
         "func": "farm_around"
     },
     "gather_mine_quar": {
-        "next": 1638332574,
+        "next": 1638345749,
         "param": {
             "levels": [
                 4,
                 3
             ],
             "rtypes": [
-                "mine",
-                "quar"
+                "quar",
+                "mine"
             ],
             "max_distance": 75,
             "direct_send": 50,

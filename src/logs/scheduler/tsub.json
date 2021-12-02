@@ -95,9 +95,9 @@
         }
     },
     "up_command": {
-        "next": 1638455356,
+        "next": 1638474179,
         "param": {
-            "name": "arya",
+            "name": "robert",
             "step_width": 3,
             "max_try": 8,
             "track": true,

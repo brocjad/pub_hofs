@@ -23,9 +23,9 @@
         }
     },
     "up_command": {
-        "next": 1638455159,
+        "next": 1638473021,
         "param": {
-            "name": "arya",
+            "name": "robert",
             "step_width": 3,
             "max_try": 8,
             "track": true,

@@ -1,51 +1,10 @@
 {
     "continue_bub": {
-        "next": 1638464551,
+        "next": 1638464555,
         "param": {
             "track": true,
             "resize": 0.25,
             "check_interval": 10800
         }
-    },
-    "check_box": {
-        "next": 1638419558,
-        "param": {
-            "track": true,
-            "resize": 0.25
-        }
-    },
-    "daily_msg": {
-        "next": 1638458552,
-        "param": {
-            "track": true,
-            "resize": 0.25
-        }
-    },
-    "trade": {
-        "next": 1638419165,
-        "param": {
-            "track": true,
-            "resize": 0.25
-        }
-    },
-    "get_taven": {
-        "next": 1638419259,
-        "param": {
-            "track": true,
-            "resize": 0.25,
-            "leave_noclick": 1
-        }
-    },
-    "up_command": {
-        "next": 1638423557,
-        "param": {
-            "name": "sansa",
-            "step_width": 2,
-            "max_try": 8,
-            "track": true,
-            "resize": 0.25,
-            "trigger": 40
-        },
-        "func": "upgrade_commanders"
     }
 }

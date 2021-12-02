@@ -23,17 +23,17 @@
         }
     },
     "soldiers": {
-        "cav": 500,
         "spe": 500,
         "bow": 500
     },
     "train_mil": {
-        "next": 1638477186,
+        "next": 1638484004,
         "param": {
             "track": true,
             "resize": 0.25,
             "level": 1,
             "soldiers": {
+                "inf": 500,
                 "cav": 500,
                 "spe": 500,
                 "bow": 500
@@ -41,7 +41,7 @@
         }
     },
     "trade": {
-        "next": 1638477535,
+        "next": 1638484365,
         "param": {
             "track": true,
             "resize": 0.25

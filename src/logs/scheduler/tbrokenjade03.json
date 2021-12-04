@@ -119,11 +119,10 @@
         }
     },
     "soldiers": {
-        "spe": 500,
         "bow": 500
     },
     "train_mil": {
-        "next": 1638638522,
+        "next": 1638652916,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -137,7 +136,7 @@
         }
     },
     "explore_drag": {
-        "next": 1638639746,
+        "next": 1638654134,
         "param": {
             "track": true,
             "resize": 0.25,

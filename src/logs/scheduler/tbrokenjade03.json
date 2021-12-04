@@ -36,7 +36,7 @@
         "func": "upgrade_commanders"
     },
     "get_alli_quest": {
-        "next": 1638590893,
+        "next": 1638612637,
         "param": {
             "track": true,
             "resize": 0.25

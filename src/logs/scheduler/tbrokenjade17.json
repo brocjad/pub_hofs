@@ -130,7 +130,7 @@
         "bow": 500
     },
     "train_mil": {
-        "next": 1638635324,
+        "next": 1638653444,
         "param": {
             "track": true,
             "resize": 0.25,

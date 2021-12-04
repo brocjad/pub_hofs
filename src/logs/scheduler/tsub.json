@@ -98,7 +98,7 @@
         }
     },
     "up_command": {
-        "next": 1638580153,
+        "next": 1638586851,
         "param": {
             "name": "robert",
             "step_width": 3,
@@ -110,7 +110,7 @@
         "func": "upgrade_commanders"
     },
     "explore_drag": {
-        "next": 1638584148,
+        "next": 1638590834,
         "param": {
             "track": true,
             "resize": 0.25,

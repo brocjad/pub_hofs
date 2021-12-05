@@ -1,105 +1,10 @@
 {
     "continue_bub": {
-        "next": 1638759968,
+        "next": 1638759969,
         "param": {
             "track": true,
             "resize": 0.25,
             "check_interval": 10800
         }
-    },
-    "check_box": {
-        "next": 1638715009,
-        "param": {
-            "track": true,
-            "resize": 0.25
-        }
-    },
-    "daily_msg": {
-        "next": 1638755882,
-        "param": {
-            "track": true,
-            "resize": 0.25
-        }
-    },
-    "trade": {
-        "next": 1638726236,
-        "param": {
-            "track": true,
-            "resize": 0.25
-        }
-    },
-    "get_taven": {
-        "next": 1638719647,
-        "param": {
-            "track": true,
-            "resize": 0.25,
-            "leave_noclick": 1
-        }
-    },
-    "up_command": {
-        "next": 1638720765,
-        "param": {
-            "name": "haley",
-            "step_width": 2,
-            "max_try": 8,
-            "track": true,
-            "resize": 0.25,
-            "trigger": 40
-        },
-        "func": "upgrade_commanders"
-    },
-    "explore_drag": {
-        "next": 1638721978,
-        "param": {
-            "track": true,
-            "resize": 0.25,
-            "hours": 1,
-            "buy": 0,
-            "dragon_id": 2
-        }
-    },
-    "sell_quick_box": {
-        "next": 1638719645,
-        "param": {
-            "track": true,
-            "resize": 0.25,
-            "min_level": 21
-        }
-    },
-    "soldiers": {
-        "inf": 500,
-        "cav": 500,
-        "spe": 500,
-        "bow": 500
-    },
-    "train_mil": {
-        "next": 1638722228,
-        "param": {
-            "track": true,
-            "resize": 0.25,
-            "level": 1,
-            "soldiers": {
-                "inf": 500,
-                "cav": 500,
-                "spe": 500,
-                "bow": 500
-            }
-        }
-    },
-    "training_ground": {
-        "next": 1638720704,
-        "param": {
-            "track": true,
-            "resize": 0.25
-        }
-    },
-    "switch_exteria": {
-        "next": 1638719600,
-        "param": {
-            "track": true,
-            "resize": 0.25,
-            "etype": "crimsonfort"
-        },
-        "func": "use_exteria"
     }
 }

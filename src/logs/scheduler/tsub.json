@@ -55,7 +55,7 @@
         }
     },
     "get_bonus": {
-        "next": 1638693380,
+        "next": 1638701189,
         "param": {
             "track": true,
             "resize": 0.25
@@ -139,7 +139,7 @@
         }
     },
     "training_ground": {
-        "next": 1638694543,
+        "next": 1638740869,
         "param": {
             "track": true,
             "resize": 0.25

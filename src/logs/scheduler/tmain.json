@@ -1,97 +1,10 @@
 {
-    "trade": {
-        "next": 1638748074,
-        "param": {
-            "track": true,
-            "resize": 0.25
-        }
-    },
-    "get_taven": {
-        "next": 1638750583,
+    "continue_bub": {
+        "next": 1638752464,
         "param": {
             "track": true,
             "resize": 0.25,
-            "leave_noclick": 1
+            "check_interval": 10800
         }
-    },
-    "up_command": {
-        "next": 1638751580,
-        "param": {
-            "name": "haley",
-            "step_width": 2,
-            "max_try": 8,
-            "track": true,
-            "resize": 0.25,
-            "trigger": 40
-        },
-        "func": "upgrade_commanders"
-    },
-    "check_box": {
-        "next": 1638743957,
-        "param": {
-            "track": true,
-            "resize": 0.25
-        }
-    },
-    "explore_drag": {
-        "next": 1638749704,
-        "param": {
-            "track": true,
-            "resize": 0.25,
-            "hours": 1,
-            "buy": 0,
-            "dragon_id": 2
-        }
-    },
-    "sell_quick_box": {
-        "next": 1638749364,
-        "param": {
-            "track": true,
-            "resize": 0.25,
-            "min_level": 21
-        }
-    },
-    "daily_msg": {
-        "next": 1638750919,
-        "param": {
-            "track": true,
-            "resize": 0.25
-        }
-    },
-    "soldiers": {
-        "inf": 500,
-        "cav": 500,
-        "spe": 500,
-        "bow": 500
-    },
-    "train_mil": {
-        "next": 1638750971,
-        "param": {
-            "track": true,
-            "resize": 0.25,
-            "level": 1,
-            "soldiers": {
-                "inf": 500,
-                "cav": 500,
-                "spe": 500,
-                "bow": 500
-            }
-        }
-    },
-    "training_ground": {
-        "next": 1638748268,
-        "param": {
-            "track": true,
-            "resize": 0.25
-        }
-    },
-    "switch_exteria": {
-        "next": 1638748099,
-        "param": {
-            "track": true,
-            "resize": 0.25,
-            "etype": "crimsonfort"
-        },
-        "func": "use_exteria"
     }
 }

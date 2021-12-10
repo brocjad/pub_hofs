@@ -16,14 +16,14 @@
         "func": "heal_max"
     },
     "continue_bub": {
-        "next": 1639160477,
+        "next": 1639167432,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "up_command": {
-        "next": 1639164093,
+        "next": 1639171047,
         "param": {
             "name": "soren",
             "step_width": 2,

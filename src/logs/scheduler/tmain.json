@@ -22,7 +22,7 @@
         }
     },
     "trade": {
-        "next": 1639254233,
+        "next": 1639255724,
         "param": {
             "track": true,
             "resize": 0.25
@@ -156,5 +156,14 @@
             "resize": 0.3
         },
         "func": "farm_around"
+    },
+    "switch_exteria": {
+        "next": 1639255586,
+        "param": {
+            "track": true,
+            "resize": 0.25,
+            "etype": "crimsonfort"
+        },
+        "func": "use_exteria"
     }
 }

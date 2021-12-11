@@ -1,6 +1,6 @@
 {
     "check_box": {
-        "next": 1639217838,
+        "next": 1639218325,
         "param": {
             "track": true,
             "resize": 0.25
@@ -36,14 +36,14 @@
         "func": "upgrade_commanders"
     },
     "get_alli_quest": {
-        "next": 1639210898,
+        "next": 1639238910,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_taven": {
-        "next": 1639211075,
+        "next": 1639221917,
         "param": {
             "track": true,
             "resize": 0.25,

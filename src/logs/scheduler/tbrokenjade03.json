@@ -24,9 +24,9 @@
         }
     },
     "up_command": {
-        "next": 1639286408,
+        "next": 1639298701,
         "param": {
-            "name": "robert",
+            "name": "gorell",
             "step_width": 2,
             "max_try": 8,
             "track": true,

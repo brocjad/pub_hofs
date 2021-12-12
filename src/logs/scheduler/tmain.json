@@ -37,15 +37,25 @@
         }
     },
     "up_command": {
-        "next": 1639344233,
+        "next": 1639340643,
         "param": {
-            "name": "arslan",
-            "step_width": 3,
-            "max_try": 6,
+            "name": "haley",
+            "step_width": 2,
+            "max_try": 8,
             "track": true,
             "resize": 0.25,
-            "trigger": 120
+            "trigger": 40
         },
         "func": "upgrade_commanders"
+    },
+    "explore_drag": {
+        "next": 1639344461,
+        "param": {
+            "track": true,
+            "resize": 0.25,
+            "hours": 1,
+            "buy": 0,
+            "dragon_id": 2
+        }
     }
 }

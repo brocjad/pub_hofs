@@ -99,7 +99,7 @@
         }
     },
     "up_command": {
-        "next": 1639323292,
+        "next": 1639327619,
         "param": {
             "name": "robert",
             "step_width": 3,
@@ -249,7 +249,7 @@
         "func": "farm_around"
     },
     "get_alli_quest": {
-        "next": 1639323053,
+        "next": 1639345455,
         "param": {
             "track": true,
             "resize": 0.25

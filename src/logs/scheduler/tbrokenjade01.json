@@ -16,14 +16,14 @@
         "func": "heal_max"
     },
     "continue_bub": {
-        "next": 1639363295,
+        "next": 1639369385,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "up_command": {
-        "next": 1639363603,
+        "next": 1639369683,
         "param": {
             "name": "feis",
             "step_width": 2,

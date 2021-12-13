@@ -56,14 +56,14 @@
         }
     },
     "get_bonus": {
-        "next": 1639440609,
+        "next": 1639391054,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_knight": {
-        "next": 1639440599,
+        "next": 1639391057,
         "param": {
             "track": true,
             "resize": 0.25

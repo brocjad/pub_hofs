@@ -1,6 +1,6 @@
 {
     "check_box": {
-        "next": 1639426732,
+        "next": 1639429010,
         "param": {
             "track": true,
             "resize": 0.25
@@ -16,14 +16,14 @@
         "func": "heal_max"
     },
     "continue_bub": {
-        "next": 1639419684,
+        "next": 1639426870,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "up_command": {
-        "next": 1639419933,
+        "next": 1639427150,
         "param": {
             "name": "feis",
             "step_width": 2,
@@ -174,7 +174,7 @@
         }
     },
     "get_alli_quest": {
-        "next": 1639441523,
+        "next": 1639427157,
         "param": {
             "track": true,
             "resize": 0.25

@@ -95,14 +95,14 @@
         }
     },
     "up_command": {
-        "next": 1639454419,
+        "next": 1639456806,
         "param": {
             "name": "robert",
             "step_width": 3,
             "max_try": 8,
             "track": true,
             "resize": 0.25,
-            "trigger": 110
+            "trigger": 20
         },
         "func": "upgrade_commanders"
     },

@@ -24,14 +24,14 @@
         }
     },
     "up_command": {
-        "next": 1639449873,
+        "next": 1639460126,
         "param": {
             "name": "gorell",
             "step_width": 2,
             "max_try": 8,
             "track": true,
             "resize": 0.25,
-            "trigger": 40
+            "trigger": 0
         },
         "func": "upgrade_commanders"
     },

@@ -8,7 +8,7 @@
         }
     },
     "check_box": {
-        "next": 1639507244,
+        "next": 1639506734,
         "param": {
             "track": true,
             "resize": 0.25
@@ -37,14 +37,14 @@
         }
     },
     "up_command": {
-        "next": 1639506727,
+        "next": 1639510699,
         "param": {
-            "name": "arslan",
-            "step_width": 3,
-            "max_try": 6,
+            "name": "sansa",
+            "step_width": 2,
+            "max_try": 8,
             "track": true,
             "resize": 0.25,
-            "trigger": 120
+            "trigger": 0
         },
         "func": "upgrade_commanders"
     }

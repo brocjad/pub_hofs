@@ -59,28 +59,28 @@
         }
     },
     "get_salary": {
-        "next": 1639613413,
+        "next": 1639545988,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_bonus": {
-        "next": 1639529343,
+        "next": 1639613409,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_knight": {
-        "next": 1639572666,
+        "next": 1639546035,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_list": {
-        "next": 1639529486,
+        "next": 1639546049,
         "param": {
             "track": true,
             "resize": 0.25,

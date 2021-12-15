@@ -138,7 +138,7 @@
         }
     },
     "training_ground": {
-        "next": 1639579681,
+        "next": 1639625383,
         "param": {
             "track": true,
             "resize": 0.25
@@ -254,7 +254,7 @@
         }
     },
     "sell_quick_box": {
-        "next": 1639580718,
+        "next": 1639584090,
         "param": {
             "track": true,
             "resize": 0.25,

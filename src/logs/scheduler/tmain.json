@@ -47,5 +47,15 @@
             "trigger": 0
         },
         "func": "upgrade_commanders"
+    },
+    "explore_drag": {
+        "next": 1639567663,
+        "param": {
+            "track": true,
+            "resize": 0.25,
+            "hours": 1,
+            "buy": 0,
+            "dragon_id": 2
+        }
     }
 }

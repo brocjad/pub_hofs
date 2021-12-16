@@ -16,14 +16,14 @@
         "func": "heal_max"
     },
     "continue_bub": {
-        "next": 1639635945,
+        "next": 1639650037,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "up_command": {
-        "next": 1639636265,
+        "next": 1639650297,
         "param": {
             "name": "feis",
             "step_width": 2,
@@ -172,7 +172,7 @@
         }
     },
     "get_alli_quest": {
-        "next": 1639636271,
+        "next": 1639650359,
         "param": {
             "track": true,
             "resize": 0.25

@@ -1,89 +1,10 @@
 {
     "continue_bub": {
-        "next": 1639692588,
+        "next": 1639710984,
         "param": {
             "track": true,
             "resize": 0.25,
             "check_interval": 10800
-        }
-    },
-    "check_box": {
-        "next": 1639688497,
-        "param": {
-            "track": true,
-            "resize": 0.25
-        }
-    },
-    "daily_msg": {
-        "next": 1639686715,
-        "param": {
-            "track": true,
-            "resize": 0.25
-        }
-    },
-    "trade": {
-        "next": 1639686262,
-        "param": {
-            "track": true,
-            "resize": 0.25
-        }
-    },
-    "get_taven": {
-        "next": 1639689848,
-        "param": {
-            "track": true,
-            "resize": 0.25,
-            "leave_noclick": 1
-        }
-    },
-    "up_command": {
-        "next": 1639686275,
-        "param": {
-            "name": "sansa",
-            "step_width": 2,
-            "max_try": 8,
-            "track": true,
-            "resize": 0.25,
-            "trigger": 0
-        },
-        "func": "upgrade_commanders"
-    },
-    "explore_drag": {
-        "next": 1639690128,
-        "param": {
-            "track": true,
-            "resize": 0.25,
-            "hours": 1,
-            "buy": 0,
-            "dragon_id": 2
-        }
-    },
-    "sell_quick_box": {
-        "next": 1639686645,
-        "param": {
-            "track": true,
-            "resize": 0.25,
-            "min_level": 21
-        }
-    },
-    "soldiers": {
-        "inf": 500,
-        "cav": 500,
-        "spe": 500,
-        "bow": 500
-    },
-    "train_mil": {
-        "next": 1639690442,
-        "param": {
-            "track": true,
-            "resize": 0.25,
-            "level": 1,
-            "soldiers": {
-                "inf": 500,
-                "cav": 500,
-                "spe": 500,
-                "bow": 500
-            }
         }
     }
 }

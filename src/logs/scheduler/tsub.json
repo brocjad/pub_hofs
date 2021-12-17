@@ -82,14 +82,14 @@
         }
     },
     "get_vip_shop": {
-        "next": 1639736056,
+        "next": 1639740905,
         "param": {
             "track": true,
             "resize": 0.3
         }
     },
     "get_taven": {
-        "next": 1639736103,
+        "next": 1639737449,
         "param": {
             "track": true,
             "resize": 0.25,

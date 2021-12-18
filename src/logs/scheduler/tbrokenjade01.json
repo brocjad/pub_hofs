@@ -1,6 +1,6 @@
 {
     "check_box": {
-        "next": 1639858547,
+        "next": 1639861149,
         "param": {
             "track": true,
             "resize": 0.25
@@ -35,7 +35,7 @@
         "func": "upgrade_commanders"
     },
     "get_taven": {
-        "next": 1639855222,
+        "next": 1639859510,
         "param": {
             "track": true,
             "resize": 0.25,

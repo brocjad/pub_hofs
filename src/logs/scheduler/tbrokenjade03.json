@@ -24,7 +24,7 @@
         }
     },
     "up_command": {
-        "next": 1639866245,
+        "next": 1639945451,
         "param": {
             "name": "gorell",
             "step_width": 2,
@@ -36,7 +36,7 @@
         "func": "upgrade_commanders"
     },
     "get_alli_quest": {
-        "next": 1639858820,
+        "next": 1639961598,
         "param": {
             "track": true,
             "resize": 0.25

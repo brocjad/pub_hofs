@@ -16,14 +16,14 @@
         "func": "heal_max"
     },
     "continue_bub": {
-        "next": 1640075236,
+        "next": 1640082284,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "up_command": {
-        "next": 1640075499,
+        "next": 1640082508,
         "param": {
             "name": "robert",
             "step_width": 3,

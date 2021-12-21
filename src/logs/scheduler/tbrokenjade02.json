@@ -142,5 +142,12 @@
                 "dragon"
             ]
         }
+    },
+    "get_discount": {
+        "next": 1640068047,
+        "param": {
+            "track": true,
+            "resize": 0.25
+        }
     }
 }

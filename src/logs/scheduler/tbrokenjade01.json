@@ -177,5 +177,12 @@
             "track": true,
             "resize": 0.25
         }
+    },
+    "get_discount": {
+        "next": 1640058821,
+        "param": {
+            "track": true,
+            "resize": 0.25
+        }
     }
 }

@@ -64,7 +64,7 @@
         }
     },
     "get_vip_shop": {
-        "next": 1640094044,
+        "next": 1640100782,
         "param": {
             "track": true,
             "resize": 0.3
@@ -165,7 +165,7 @@
         }
     },
     "training_ground": {
-        "next": 1640091715,
+        "next": 1640098447,
         "param": {
             "track": true,
             "resize": 0.25

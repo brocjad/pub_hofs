@@ -258,5 +258,12 @@
             "resize": 0.25,
             "min_level": 21
         }
+    },
+    "get_discount": {
+        "next": 1640063999,
+        "param": {
+            "track": true,
+            "resize": 0.25
+        }
     }
 }

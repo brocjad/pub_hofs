@@ -178,5 +178,12 @@
             "cost": 540,
             "toadd_motiv": 0
         }
+    },
+    "get_discount": {
+        "next": 1640058245,
+        "param": {
+            "track": true,
+            "resize": 0.25
+        }
     }
 }

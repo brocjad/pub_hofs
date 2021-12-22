@@ -13,5 +13,19 @@
             "track": true,
             "resize": 0.25
         }
+    },
+    "get_discount": {
+        "next": 1640186196,
+        "param": {
+            "track": true,
+            "resize": 0.25
+        }
+    },
+    "daily_msg": {
+        "next": 1640222402,
+        "param": {
+            "track": true,
+            "resize": 0.25
+        }
     }
 }

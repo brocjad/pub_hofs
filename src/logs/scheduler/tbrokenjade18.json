@@ -1,13 +1,13 @@
 {
     "check_box": {
-        "next": 1640187180,
+        "next": 1640186541,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "heal_500": {
-        "next": 1640168519,
+        "next": 1640186478,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -144,7 +144,7 @@
         }
     },
     "get_discount": {
-        "next": 1640172168,
+        "next": 1640190133,
         "param": {
             "track": true,
             "resize": 0.25

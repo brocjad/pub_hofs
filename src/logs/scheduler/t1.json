@@ -180,7 +180,7 @@
         }
     },
     "get_discount": {
-        "next": 1640194609,
+        "next": 1640201441,
         "param": {
             "track": true,
             "resize": 0.25

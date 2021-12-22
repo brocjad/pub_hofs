@@ -7,7 +7,7 @@
         }
     },
     "heal_130": {
-        "next": 1640161106,
+        "next": 1640168250,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -16,14 +16,14 @@
         "func": "heal_max"
     },
     "continue_bub": {
-        "next": 1640161415,
+        "next": 1640168562,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "up_command": {
-        "next": 1640161609,
+        "next": 1640168754,
         "param": {
             "name": "robert",
             "step_width": 3,

@@ -47,7 +47,7 @@
         }
     },
     "get_salary": {
-        "next": 1640233692,
+        "next": 1640304605,
         "param": {
             "track": true,
             "resize": 0.25

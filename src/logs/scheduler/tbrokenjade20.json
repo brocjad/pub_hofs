@@ -75,7 +75,7 @@
         }
     },
     "explore_drag": {
-        "next": 1640312587,
+        "next": 1640328863,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -107,17 +107,17 @@
         }
     },
     "soldiers": {
-        "inf": 500,
         "spe": 500,
         "bow": 500
     },
     "train_mil": {
-        "next": 1640313463,
+        "next": 1640325014,
         "param": {
             "track": true,
             "resize": 0.25,
             "level": 1,
             "soldiers": {
+                "cav": 500,
                 "inf": 500,
                 "spe": 500,
                 "bow": 500

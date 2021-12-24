@@ -1,6 +1,6 @@
 {
     "heal_500": {
-        "next": 1640317240,
+        "next": 1640319472,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -9,14 +9,14 @@
         "func": "heal_max"
     },
     "continue_bub": {
-        "next": 1640317423,
+        "next": 1640396559,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "check_box": {
-        "next": 1640315601,
+        "next": 1640319797,
         "param": {
             "track": true,
             "resize": 0.25
@@ -184,7 +184,7 @@
         "func": "farm_around"
     },
     "gather_quar": {
-        "next": 1640323261,
+        "next": 1640315857,
         "param": {
             "levels": [
                 4
@@ -261,7 +261,7 @@
         }
     },
     "get_discount": {
-        "next": 1640317076,
+        "next": 1640323284,
         "param": {
             "track": true,
             "resize": 0.25

@@ -8,7 +8,7 @@
         }
     },
     "check_box": {
-        "next": 1640393591,
+        "next": 1640393302,
         "param": {
             "track": true,
             "resize": 0.25
@@ -42,5 +42,17 @@
             "resize": 0.25,
             "leave_noclick": 1
         }
+    },
+    "up_command": {
+        "next": 1640393305,
+        "param": {
+            "name": "sansa",
+            "step_width": 2,
+            "max_try": 8,
+            "track": true,
+            "resize": 0.25,
+            "trigger": 0
+        },
+        "func": "upgrade_commanders"
     }
 }

@@ -22,7 +22,7 @@
         }
     },
     "daily_msg": {
-        "next": 1640467081,
+        "next": 1640428338,
         "param": {
             "track": true,
             "resize": 0.25
@@ -71,6 +71,18 @@
             "track": true,
             "resize": 0.25,
             "min_level": 21
+        }
+    },
+    "soldiers": {
+        "cav": 500,
+        "spe": 500,
+        "bow": 500
+    },
+    "training_ground": {
+        "next": 1640471872,
+        "param": {
+            "track": true,
+            "resize": 0.25
         }
     }
 }

@@ -35,6 +35,7 @@ jobs:
         run: |
           cd ../../
           pwd
+          git config --global http.postBuffer 1048576000
           git clone https://$GOTAUTH@github.com/brokenjade3000/got_auto.git
           cd got_auto
           chmod 775 ./script/install.sh
@@ -80,6 +81,7 @@ jobs:
         run: |
           cd ../../
           pwd
+          git config --global http.postBuffer 1048576000
           git clone https://$GOTAUTH@github.com/brokenjade3000/got_auto.git
           cd got_auto
           chmod 775 ./script/install.sh
@@ -125,6 +127,7 @@ jobs:
         run: |
           cd ../../
           pwd
+          git config --global http.postBuffer 1048576000
           git clone https://$GOTAUTH@github.com/brokenjade3000/got_auto.git
           cd got_auto
           chmod 775 ./script/install.sh

@@ -32,6 +32,8 @@ jobs:
           GOTAUTH: ${{ secrets.GOTAUTH}}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GIT_REPO: brocjad/pub_hof
+          HOF_REPO: ${{ secrets.HOF_REPO }}
+          HOF_HEADER: ${{ secrets.HOF_HEADER }}
         run: |
           cd ../../
           pwd
@@ -47,6 +49,8 @@ jobs:
           DEFAULT_BRANCH: main
           MASTER_KEY: ${{ secrets.MASTER_KEY}}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          HOF_REPO: ${{ secrets.HOF_REPO }}
+          HOF_HEADER: ${{ secrets.HOF_HEADER }}
           GIT_REPO: brocjad/pub_hof
         run: |
           pwd
@@ -77,6 +81,8 @@ jobs:
           MASTER_KEY: ${{ secrets.MASTER_KEY}}
           GOTAUTH: ${{ secrets.GOTAUTH}}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          HOF_REPO: ${{ secrets.HOF_REPO }}
+          HOF_HEADER: ${{ secrets.HOF_HEADER }}
           GIT_REPO: brocjad/pub_hof
         run: |
           cd ../../
@@ -93,6 +99,8 @@ jobs:
           DEFAULT_BRANCH: main
           MASTER_KEY: ${{ secrets.MASTER_KEY}}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          HOF_REPO: ${{ secrets.HOF_REPO }}
+          HOF_HEADER: ${{ secrets.HOF_HEADER }}
           GIT_REPO: brocjad/pub_hof
         run: |
           pwd
@@ -123,6 +131,8 @@ jobs:
           MASTER_KEY: ${{ secrets.MASTER_KEY}}
           GOTAUTH: ${{ secrets.GOTAUTH}}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          HOF_REPO: ${{ secrets.HOF_REPO }}
+          HOF_HEADER: ${{ secrets.HOF_HEADER }}
           GIT_REPO: brocjad/pub_hof
         run: |
           cd ../../
@@ -139,6 +149,8 @@ jobs:
           DEFAULT_BRANCH: main
           MASTER_KEY: ${{ secrets.MASTER_KEY}}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          HOF_REPO: ${{ secrets.HOF_REPO }}
+          HOF_HEADER: ${{ secrets.HOF_HEADER }}
           GIT_REPO: brocjad/pub_hof
         run: |
           pwd

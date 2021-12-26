@@ -92,7 +92,7 @@
         }
     },
     "explore_drag": {
-        "next": 1640484821,
+        "next": 1640500913,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -102,7 +102,7 @@
         }
     },
     "daily_msg": {
-        "next": 1640521052,
+        "next": 1640497767,
         "param": {
             "track": true,
             "resize": 0.25
@@ -130,7 +130,7 @@
         "bow": 500
     },
     "train_mil": {
-        "next": 1640484648,
+        "next": 1640500681,
         "param": {
             "track": true,
             "resize": 0.25,

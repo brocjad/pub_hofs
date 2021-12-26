@@ -7,7 +7,7 @@
         }
     },
     "heal_500": {
-        "next": 1640532218,
+        "next": 1640550305,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -144,7 +144,7 @@
         }
     },
     "get_discount": {
-        "next": 1640535876,
+        "next": 1640553968,
         "param": {
             "track": true,
             "resize": 0.25

@@ -29,7 +29,7 @@
         }
     },
     "trade": {
-        "next": 1640565879,
+        "next": 1640570035,
         "param": {
             "track": true,
             "resize": 0.25
@@ -44,7 +44,7 @@
         }
     },
     "up_command": {
-        "next": 1640565871,
+        "next": 1640573461,
         "param": {
             "name": "sansa",
             "step_width": 2,

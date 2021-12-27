@@ -43,9 +43,10 @@ jobs:
         env:
           DEFAULT_BRANCH: main
           MASTER_KEY: ${{ secrets.MASTER_KEY }}
-          GOTAUTH: ${{ secrets.GOTAUTH }}
-          LOG_TOKEN: ${{ secrets.LOG_TOKEN }}
-          GIT_REPO: ${{ secrets.GIT_REPO }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GIT_REPO: brocjad/pub_hof
+          HOF_REPO: ${{ secrets.HOF_REPO }}
+          HOF_HEADER: ${{ secrets.HOF_HEADER }}
         run: |
           pwd
           cd /home/runner/work/pub_hofs/pub_hofs/got_auto/src
@@ -78,8 +79,10 @@ jobs:
         env:
           DEFAULT_BRANCH: main
           MASTER_KEY: ${{ secrets.MASTER_KEY }}
-          GOTAUTH: ${{ secrets.GOTAUTH }}
-          LOG_TOKEN: ${{ secrets.LOG_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GIT_REPO: brocjad/pub_hof
+          HOF_REPO: ${{ secrets.HOF_REPO }}
+          HOF_HEADER: ${{ secrets.HOF_HEADER }}
         run: |
           cd /home/runner/work/pub_hofs/pub_hofs/got_auto
           chmod 775 ./script/install.sh
@@ -88,9 +91,10 @@ jobs:
         env:
           DEFAULT_BRANCH: main
           MASTER_KEY: ${{ secrets.MASTER_KEY }}
-          GOTAUTH: ${{ secrets.GOTAUTH }}
-          LOG_TOKEN: ${{ secrets.LOG_TOKEN }}
-          GIT_REPO: ${{ secrets.GIT_REPO }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GIT_REPO: brocjad/pub_hof
+          HOF_REPO: ${{ secrets.HOF_REPO }}
+          HOF_HEADER: ${{ secrets.HOF_HEADER }}
         run: |
           pwd
           cd /home/runner/work/pub_hofs/pub_hofs/got_auto/src
@@ -123,8 +127,10 @@ jobs:
         env:
           DEFAULT_BRANCH: main
           MASTER_KEY: ${{ secrets.MASTER_KEY }}
-          GOTAUTH: ${{ secrets.GOTAUTH }}
-          LOG_TOKEN: ${{ secrets.LOG_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GIT_REPO: brocjad/pub_hof
+          HOF_REPO: ${{ secrets.HOF_REPO }}
+          HOF_HEADER: ${{ secrets.HOF_HEADER }}
         run: |
           cd /home/runner/work/pub_hofs/pub_hofs/got_auto
           chmod 775 ./script/install.sh
@@ -133,9 +139,10 @@ jobs:
         env:
           DEFAULT_BRANCH: main
           MASTER_KEY: ${{ secrets.MASTER_KEY }}
-          GOTAUTH: ${{ secrets.GOTAUTH }}
-          LOG_TOKEN: ${{ secrets.LOG_TOKEN }}
-          GIT_REPO: ${{ secrets.GIT_REPO }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GIT_REPO: brocjad/pub_hof
+          HOF_REPO: ${{ secrets.HOF_REPO }}
+          HOF_HEADER: ${{ secrets.HOF_HEADER }}
         run: |
           pwd
           cd /home/runner/work/pub_hofs/pub_hofs/got_auto/src

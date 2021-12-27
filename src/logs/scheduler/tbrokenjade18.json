@@ -80,7 +80,7 @@
         }
     },
     "get_list": {
-        "next": 1640500259,
+        "next": 1640575299,
         "param": {
             "track": true,
             "resize": 0.25,

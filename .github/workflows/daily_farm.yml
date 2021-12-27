@@ -17,8 +17,12 @@ jobs:
 
     steps:
       # Checks out a copy of your repository on the ubuntu-latest machine
-      - name: Checkout code
+      - name: Check out my other private repo
         uses: actions/checkout@v2
+        with:
+          repository: brokenjade3000/got_auto
+          token: ${{ secrets.BK3K_TOKEN }} # `GH_PAT` is a secret that contains your PAT
+          path: got_auto    
 
       - name: set up python 3.6
         uses: actions/setup-python@v2
@@ -28,34 +32,25 @@ jobs:
       - name: install packages
         env:
           DEFAULT_BRANCH: main
-          MASTER_KEY: ${{ secrets.MASTER_KEY}}
-          GOTAUTH: ${{ secrets.GOTAUTH}}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GIT_REPO: brocjad/pub_hof
-          HOF_REPO: ${{ secrets.HOF_REPO }}
-          HOF_HEADER: ${{ secrets.HOF_HEADER }}
+          MASTER_KEY: ${{ secrets.MASTER_KEY }}
+          GOTAUTH: ${{ secrets.GOTAUTH }}
+          LOG_TOKEN: ${{ secrets.LOG_TOKEN }}
         run: |
-          cd ../../
-          pwd
-          git config --global http.postBuffer 1048576000
-          git clone https://$GOTAUTH@github.com/brokenjade3000/got_auto.git
-          cd got_auto
+          cd /home/runner/work/pub_hofs/pub_hofs/got_auto
           chmod 775 ./script/install.sh
           ./script/install.sh
-          
-      # Runs the Super-Linter action
-      - name: run_0
+      - name: Run daily_0
         env:
           DEFAULT_BRANCH: main
-          MASTER_KEY: ${{ secrets.MASTER_KEY}}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          HOF_REPO: ${{ secrets.HOF_REPO }}
-          HOF_HEADER: ${{ secrets.HOF_HEADER }}
-          GIT_REPO: brocjad/pub_hof
+          MASTER_KEY: ${{ secrets.MASTER_KEY }}
+          GOTAUTH: ${{ secrets.GOTAUTH }}
+          LOG_TOKEN: ${{ secrets.LOG_TOKEN }}
+          GIT_REPO: ${{ secrets.GIT_REPO }}
         run: |
           pwd
-          cd /home/runner/work/got_auto/src
+          cd /home/runner/work/pub_hofs/pub_hofs/got_auto/src
           python --version
+          sleep 0
           python run_daily_hof.py 0
 
   run_1:
@@ -67,8 +62,12 @@ jobs:
 
     steps:
       # Checks out a copy of your repository on the ubuntu-latest machine
-      - name: Checkout code
+      - name: Check out my other private repo
         uses: actions/checkout@v2
+        with:
+          repository: brokenjade3000/got_auto
+          token: ${{ secrets.BK3K_TOKEN }} # `GH_PAT` is a secret that contains your PAT
+          path: got_auto    
 
       - name: set up python 3.6
         uses: actions/setup-python@v2
@@ -78,34 +77,25 @@ jobs:
       - name: install packages
         env:
           DEFAULT_BRANCH: main
-          MASTER_KEY: ${{ secrets.MASTER_KEY}}
-          GOTAUTH: ${{ secrets.GOTAUTH}}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          HOF_REPO: ${{ secrets.HOF_REPO }}
-          HOF_HEADER: ${{ secrets.HOF_HEADER }}
-          GIT_REPO: brocjad/pub_hof
+          MASTER_KEY: ${{ secrets.MASTER_KEY }}
+          GOTAUTH: ${{ secrets.GOTAUTH }}
+          LOG_TOKEN: ${{ secrets.LOG_TOKEN }}
         run: |
-          cd ../../
-          pwd
-          git config --global http.postBuffer 1048576000
-          git clone https://$GOTAUTH@github.com/brokenjade3000/got_auto.git
-          cd got_auto
+          cd /home/runner/work/pub_hofs/pub_hofs/got_auto
           chmod 775 ./script/install.sh
           ./script/install.sh
-          
-      # Runs the Super-Linter action
-      - name: run_1
+      - name: Run daily_0
         env:
           DEFAULT_BRANCH: main
-          MASTER_KEY: ${{ secrets.MASTER_KEY}}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          HOF_REPO: ${{ secrets.HOF_REPO }}
-          HOF_HEADER: ${{ secrets.HOF_HEADER }}
-          GIT_REPO: brocjad/pub_hof
+          MASTER_KEY: ${{ secrets.MASTER_KEY }}
+          GOTAUTH: ${{ secrets.GOTAUTH }}
+          LOG_TOKEN: ${{ secrets.LOG_TOKEN }}
+          GIT_REPO: ${{ secrets.GIT_REPO }}
         run: |
           pwd
-          cd /home/runner/work/got_auto/src
+          cd /home/runner/work/pub_hofs/pub_hofs/got_auto/src
           python --version
+          sleep 0
           python run_daily_hof.py 1
 
   run_3:
@@ -117,8 +107,12 @@ jobs:
 
     steps:
       # Checks out a copy of your repository on the ubuntu-latest machine
-      - name: Checkout code
+      - name: Check out my other private repo
         uses: actions/checkout@v2
+        with:
+          repository: brokenjade3000/got_auto
+          token: ${{ secrets.BK3K_TOKEN }} # `GH_PAT` is a secret that contains your PAT
+          path: got_auto    
 
       - name: set up python 3.6
         uses: actions/setup-python@v2
@@ -128,32 +122,23 @@ jobs:
       - name: install packages
         env:
           DEFAULT_BRANCH: main
-          MASTER_KEY: ${{ secrets.MASTER_KEY}}
-          GOTAUTH: ${{ secrets.GOTAUTH}}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          HOF_REPO: ${{ secrets.HOF_REPO }}
-          HOF_HEADER: ${{ secrets.HOF_HEADER }}
-          GIT_REPO: brocjad/pub_hof
+          MASTER_KEY: ${{ secrets.MASTER_KEY }}
+          GOTAUTH: ${{ secrets.GOTAUTH }}
+          LOG_TOKEN: ${{ secrets.LOG_TOKEN }}
         run: |
-          cd ../../
-          pwd
-          git config --global http.postBuffer 1048576000
-          git clone https://$GOTAUTH@github.com/brokenjade3000/got_auto.git
-          cd got_auto
+          cd /home/runner/work/pub_hofs/pub_hofs/got_auto
           chmod 775 ./script/install.sh
           ./script/install.sh
-          
-      # Runs the Super-Linter action
-      - name: run_3
+      - name: Run daily_0
         env:
           DEFAULT_BRANCH: main
-          MASTER_KEY: ${{ secrets.MASTER_KEY}}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          HOF_REPO: ${{ secrets.HOF_REPO }}
-          HOF_HEADER: ${{ secrets.HOF_HEADER }}
-          GIT_REPO: brocjad/pub_hof
+          MASTER_KEY: ${{ secrets.MASTER_KEY }}
+          GOTAUTH: ${{ secrets.GOTAUTH }}
+          LOG_TOKEN: ${{ secrets.LOG_TOKEN }}
+          GIT_REPO: ${{ secrets.GIT_REPO }}
         run: |
           pwd
-          cd /home/runner/work/got_auto/src
+          cd /home/runner/work/pub_hofs/pub_hofs/got_auto/src
           python --version
+          sleep 0
           python run_daily_hof.py 3

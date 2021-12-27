@@ -8,7 +8,7 @@
         }
     },
     "check_box": {
-        "next": 1640573369,
+        "next": 1640573231,
         "param": {
             "track": true,
             "resize": 0.25
@@ -42,5 +42,17 @@
             "resize": 0.25,
             "leave_noclick": 1
         }
+    },
+    "up_command": {
+        "next": 1640576801,
+        "param": {
+            "name": "arslan",
+            "step_width": 3,
+            "max_try": 6,
+            "track": true,
+            "resize": 0.25,
+            "trigger": 120
+        },
+        "func": "upgrade_commanders"
     }
 }

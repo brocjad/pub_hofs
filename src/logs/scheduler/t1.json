@@ -16,14 +16,14 @@
         "func": "heal_max"
     },
     "continue_bub": {
-        "next": 1640567940,
+        "next": 1640573470,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "up_command": {
-        "next": 1640568150,
+        "next": 1640573663,
         "param": {
             "name": "robert",
             "step_width": 3,
@@ -173,7 +173,7 @@
         }
     },
     "get_alli_quest": {
-        "next": 1640588719,
+        "next": 1640573685,
         "param": {
             "track": true,
             "resize": 0.25

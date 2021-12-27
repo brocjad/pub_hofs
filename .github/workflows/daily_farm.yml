@@ -36,7 +36,7 @@ jobs:
           GOTAUTH: ${{ secrets.GOTAUTH }}
           LOG_TOKEN: ${{ secrets.LOG_TOKEN }}
         run: |
-          cd /home/runner/work/pub_hofs/pub_hofs/got_auto
+          cd /home/runner/work/pub_hof/pub_hof/got_auto
           chmod 775 ./script/install.sh
           ./script/install.sh
       - name: Run daily_0
@@ -49,7 +49,7 @@ jobs:
           HOF_HEADER: ${{ secrets.HOF_HEADER }}
         run: |
           pwd
-          cd /home/runner/work/pub_hofs/pub_hofs/got_auto/src
+          cd /home/runner/work/pub_hof/pub_hof/got_auto/src
           python --version
           sleep 0
           python run_daily_hof.py 0
@@ -84,7 +84,7 @@ jobs:
           HOF_REPO: ${{ secrets.HOF_REPO }}
           HOF_HEADER: ${{ secrets.HOF_HEADER }}
         run: |
-          cd /home/runner/work/pub_hofs/pub_hofs/got_auto
+          cd /home/runner/work/pub_hof/pub_hof/got_auto
           chmod 775 ./script/install.sh
           ./script/install.sh
       - name: Run daily_0
@@ -97,7 +97,7 @@ jobs:
           HOF_HEADER: ${{ secrets.HOF_HEADER }}
         run: |
           pwd
-          cd /home/runner/work/pub_hofs/pub_hofs/got_auto/src
+          cd /home/runner/work/pub_hof/pub_hof/got_auto/src
           python --version
           sleep 0
           python run_daily_hof.py 1
@@ -132,7 +132,7 @@ jobs:
           HOF_REPO: ${{ secrets.HOF_REPO }}
           HOF_HEADER: ${{ secrets.HOF_HEADER }}
         run: |
-          cd /home/runner/work/pub_hofs/pub_hofs/got_auto
+          cd /home/runner/work/pub_hof/pub_hof/got_auto
           chmod 775 ./script/install.sh
           ./script/install.sh
       - name: Run daily_0
@@ -145,7 +145,7 @@ jobs:
           HOF_HEADER: ${{ secrets.HOF_HEADER }}
         run: |
           pwd
-          cd /home/runner/work/pub_hofs/pub_hofs/got_auto/src
+          cd /home/runner/work/pub_hof/pub_hof/got_auto/src
           python --version
           sleep 0
           python run_daily_hof.py 3

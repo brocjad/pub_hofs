@@ -16,7 +16,7 @@
         "func": "heal_max"
     },
     "sheltering": {
-        "next": 1640573313,
+        "next": 1640592804,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -24,7 +24,7 @@
         }
     },
     "up_command": {
-        "next": 1640573502,
+        "next": 1640578647,
         "param": {
             "name": "gorell",
             "step_width": 2,

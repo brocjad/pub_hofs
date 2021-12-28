@@ -31,14 +31,14 @@
         }
     },
     "get_amethyst": {
-        "next": 1640671250,
+        "next": 1640675107,
         "param": {
             "track": true,
             "resize": 0.3
         }
     },
     "get_dragonforged": {
-        "next": 1640740799,
+        "next": 1640671514,
         "param": {
             "track": true,
             "resize": 0.3

@@ -8,7 +8,7 @@
         }
     },
     "check_box": {
-        "next": 1640687652,
+        "next": 1640688058,
         "param": {
             "track": true,
             "resize": 0.25
@@ -22,7 +22,7 @@
         }
     },
     "daily_msg": {
-        "next": 1640726655,
+        "next": 1640687896,
         "param": {
             "track": true,
             "resize": 0.25

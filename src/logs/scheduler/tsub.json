@@ -127,14 +127,14 @@
         }
     },
     "schedule_leader": {
-        "next": 1640757161,
+        "next": 1640768547,
         "param": {
             "side": "left",
-            "level": 3,
+            "level": 4,
             "track": true,
             "resize": 0.25,
             "hits": 5,
-            "cost": 961,
+            "cost": 1682,
             "toadd_motiv": 0
         }
     },

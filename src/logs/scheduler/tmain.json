@@ -15,7 +15,7 @@
         }
     },
     "get_discount": {
-        "next": 1640790927,
+        "next": 1640795736,
         "param": {
             "track": true,
             "resize": 0.25
@@ -123,7 +123,7 @@
         "func": "farm_around"
     },
     "switch_exteria": {
-        "next": 1640789957,
+        "next": 1640792085,
         "param": {
             "track": true,
             "resize": 0.25,

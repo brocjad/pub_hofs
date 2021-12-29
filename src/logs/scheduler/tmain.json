@@ -36,7 +36,7 @@
         }
     },
     "get_taven": {
-        "next": 1640816941,
+        "next": 1640822580,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -44,7 +44,7 @@
         }
     },
     "up_command": {
-        "next": 1640817087,
+        "next": 1640822900,
         "param": {
             "name": "sansa",
             "step_width": 2,

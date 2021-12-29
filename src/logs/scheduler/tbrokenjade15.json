@@ -45,7 +45,7 @@
         }
     },
     "get_vip_shop": {
-        "next": 1640760940,
+        "next": 1640777487,
         "param": {
             "track": true,
             "resize": 0.3

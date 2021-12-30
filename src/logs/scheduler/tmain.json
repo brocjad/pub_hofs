@@ -22,7 +22,7 @@
         }
     },
     "daily_msg": {
-        "next": 1640867597,
+        "next": 1640875179,
         "param": {
             "track": true,
             "resize": 0.25
@@ -101,7 +101,7 @@
         }
     },
     "gather_qml": {
-        "next": 1640869674,
+        "next": 1640884345,
         "param": {
             "levels": [
                 5

@@ -186,15 +186,15 @@
         "func": "farm_around"
     },
     "gather_quar": {
-        "next": 1640852657,
+        "next": 1640847271,
         "param": {
             "levels": [
                 4
             ],
             "rtypes": [
-                "quar"
+                "mine"
             ],
-            "max_distance": 95,
+            "max_distance": 110,
             "direct_send": 50,
             "troop_size": 0,
             "use_dragon": false,

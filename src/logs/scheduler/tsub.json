@@ -206,15 +206,15 @@
         "func": "farm_around"
     },
     "gather_lumb": {
-        "next": 1640852289,
+        "next": 1640847268,
         "param": {
             "levels": [
                 4
             ],
             "rtypes": [
-                "lumb"
+                "lumb,quar"
             ],
-            "max_distance": 95,
+            "max_distance": 110,
             "direct_send": 50,
             "troop_size": 0,
             "use_dragon": false,

@@ -44,15 +44,25 @@
         }
     },
     "up_command": {
-        "next": 1640899482,
+        "next": 1640895945,
         "param": {
-            "name": "russell",
-            "step_width": 3,
-            "max_try": 6,
+            "name": "sansa",
+            "step_width": 2,
+            "max_try": 8,
             "track": true,
             "resize": 0.25,
-            "trigger": 120
+            "trigger": 0
         },
         "func": "upgrade_commanders"
+    },
+    "explore_drag": {
+        "next": 1640899736,
+        "param": {
+            "track": true,
+            "resize": 0.25,
+            "hours": 1,
+            "buy": 0,
+            "dragon_id": 2
+        }
     }
 }

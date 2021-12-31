@@ -1,6 +1,6 @@
 {
     "check_box": {
-        "next": 1640926907,
+        "next": 1640925630,
         "param": {
             "track": true,
             "resize": 0.25
@@ -43,7 +43,7 @@
         }
     },
     "get_taven": {
-        "next": 1640923270,
+        "next": 1640929287,
         "param": {
             "track": true,
             "resize": 0.25,

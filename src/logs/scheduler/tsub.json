@@ -1,6 +1,6 @@
 {
     "heal_500": {
-        "next": 1640924218,
+        "next": 1640924326,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -9,7 +9,7 @@
         "func": "heal_max"
     },
     "continue_bub": {
-        "next": 1640924068,
+        "next": 1640932908,
         "param": {
             "track": true,
             "resize": 0.25
@@ -40,7 +40,7 @@
         }
     },
     "trade": {
-        "next": 1640924175,
+        "next": 1640923415,
         "param": {
             "track": true,
             "resize": 0.25
@@ -97,7 +97,7 @@
         }
     },
     "up_command": {
-        "next": 1640927682,
+        "next": 1640923411,
         "param": {
             "name": "robert",
             "step_width": 3,
@@ -126,7 +126,7 @@
         }
     },
     "schedule_leader": {
-        "next": 1640924522,
+        "next": 1640923703,
         "param": {
             "side": "left",
             "level": 4,
@@ -255,7 +255,7 @@
         }
     },
     "sell_quick_box": {
-        "next": 1640926092,
+        "next": 1640923518,
         "param": {
             "track": true,
             "resize": 0.25,

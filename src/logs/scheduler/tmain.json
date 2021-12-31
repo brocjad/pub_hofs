@@ -106,5 +106,17 @@
             "etype": "dunesfort"
         },
         "func": "use_exteria"
+    },
+    "schedule_leader": {
+        "next": 1640948030,
+        "param": {
+            "side": "right",
+            "level": 4,
+            "track": true,
+            "resize": 0.25,
+            "hits": 4,
+            "cost": 1030,
+            "toadd_motiv": 0
+        }
     }
 }

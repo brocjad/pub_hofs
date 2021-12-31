@@ -44,14 +44,14 @@
         }
     },
     "up_command": {
-        "next": 1640928571,
+        "next": 1640924981,
         "param": {
-            "name": "russell",
-            "step_width": 3,
-            "max_try": 6,
+            "name": "sansa",
+            "step_width": 2,
+            "max_try": 8,
             "track": true,
             "resize": 0.25,
-            "trigger": 120
+            "trigger": 0
         },
         "func": "upgrade_commanders"
     }

@@ -9,11 +9,12 @@
         "func": "heal_max"
     },
     "continue_bub": {
-        "next": 1640997595,
+        "next": 1641014144,
         "param": {
             "track": true,
             "resize": 0.25
-        }
+        },
+        "local": "12/31/2021 22:15:44"
     },
     "check_box": {
         "next": 1640999444,

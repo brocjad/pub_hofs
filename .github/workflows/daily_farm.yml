@@ -89,7 +89,7 @@ jobs:
           cd /home/runner/work/got_auto
           chmod 775 ./script/install.sh
           ./script/install.sh
-      - name: Run daily_0
+      - name: Run daily_1
         env:
           DEFAULT_BRANCH: main
           MASTER_KEY: ${{ secrets.MASTER_KEY }}
@@ -138,7 +138,7 @@ jobs:
           cd /home/runner/work/got_auto
           chmod 775 ./script/install.sh
           ./script/install.sh
-      - name: Run daily_0
+      - name: Run daily_2
         env:
           DEFAULT_BRANCH: main
           MASTER_KEY: ${{ secrets.MASTER_KEY }}

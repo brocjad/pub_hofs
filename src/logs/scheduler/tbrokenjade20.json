@@ -133,7 +133,7 @@
         "func": "heal_max"
     },
     "sheltering": {
-        "next": 1641012362,
+        "next": 1641047054,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -149,7 +149,7 @@
         }
     },
     "get_discount": {
-        "next": 1641001616,
+        "next": 1641036311,
         "param": {
             "track": true,
             "resize": 0.25

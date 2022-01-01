@@ -1,0 +1,37 @@
+{
+    "check_box": {
+        "next": 1641034879,
+        "param": {
+            "track": true,
+            "resize": 0.25
+        }
+    },
+    "complete_all_trials": {
+        "next": 1641003963,
+        "param": {
+            "track": true,
+            "resize": 0.25
+        }
+    },
+    "get_salary": {
+        "next": 1641004127,
+        "param": {
+            "track": true,
+            "resize": 0.25
+        }
+    },
+    "get_bonus": {
+        "next": 1641004280,
+        "param": {
+            "track": true,
+            "resize": 0.25
+        }
+    },
+    "get_knight": {
+        "next": 1641004470,
+        "param": {
+            "track": true,
+            "resize": 0.25
+        }
+    }
+}

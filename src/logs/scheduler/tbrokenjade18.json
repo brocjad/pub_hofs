@@ -16,7 +16,7 @@
         "func": "heal_max"
     },
     "get_discount": {
-        "next": 1641122616,
+        "next": 1641140564,
         "param": {
             "track": true,
             "resize": 0.25

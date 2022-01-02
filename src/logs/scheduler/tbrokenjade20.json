@@ -37,5 +37,12 @@
             "resize": 0.25,
             "leave_noclick": 1
         }
+    },
+    "trade": {
+        "next": 1641085237,
+        "param": {
+            "track": true,
+            "resize": 0.25
+        }
     }
 }

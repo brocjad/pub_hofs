@@ -70,5 +70,24 @@
             "track": true,
             "resize": 0.25
         }
+    },
+    "get_knight": {
+        "next": 1641128376,
+        "param": {
+            "track": true,
+            "resize": 0.25
+        }
+    },
+    "get_list": {
+        "next": 1641088955,
+        "param": {
+            "track": true,
+            "resize": 0.25,
+            "items": [
+                "vip",
+                "amethyst",
+                "dragon"
+            ]
+        }
     }
 }

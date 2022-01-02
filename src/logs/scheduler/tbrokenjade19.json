@@ -1,6 +1,6 @@
 {
     "check_box": {
-        "next": 1641137305,
+        "next": 1641136969,
         "param": {
             "track": true,
             "resize": 0.25
@@ -16,7 +16,7 @@
         "func": "heal_max"
     },
     "get_discount": {
-        "next": 1641122593,
+        "next": 1641140562,
         "param": {
             "track": true,
             "resize": 0.25

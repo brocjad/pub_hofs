@@ -134,5 +134,12 @@
             "resize": 0.25,
             "min_level": 5
         }
+    },
+    "training_ground": {
+        "next": 1641120636,
+        "param": {
+            "track": true,
+            "resize": 0.25
+        }
     }
 }

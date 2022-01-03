@@ -10,7 +10,6 @@ jobs:
   daily_farm_0:
     # Name the Job
     name: daily_farm_0
-    if:  contains(github.event.client_payload.id, ',0,')
     # Set the type of machine to run on
     runs-on: ubuntu-18.04
     timeout-minutes: 120
@@ -55,7 +54,6 @@ jobs:
   daily_farm_1:
     # Name the Job
     name: daily_farm_1
-    if:  contains(github.event.client_payload.id, ',1,')
     # Set the type of machine to run on
     runs-on: ubuntu-18.04
     timeout-minutes: 120
@@ -100,7 +98,6 @@ jobs:
   daily_farm_2:
     # Name the Job
     name: daily_farm_2
-    if:  contains(github.event.client_payload.id, ',2,')
     # Set the type of machine to run on
     runs-on: ubuntu-18.04
     timeout-minutes: 120

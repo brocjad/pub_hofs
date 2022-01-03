@@ -25,12 +25,12 @@
         "local": "01/02/2022 23:28:33"
     },
     "trade": {
-        "next": 1641188844,
+        "next": 1641191747,
         "param": {
             "track": true,
             "resize": 0.25
         },
-        "local": "01/02/2022 22:47:24"
+        "local": "01/02/2022 23:35:47"
     },
     "get_amethyst": {
         "next": 1641158827,
@@ -133,13 +133,13 @@
         }
     },
     "sell_quick_box": {
-        "next": 1641188512,
+        "next": 1641191658,
         "param": {
             "track": true,
             "resize": 0.25,
             "min_level": 5
         },
-        "local": "01/02/2022 22:41:52"
+        "local": "01/02/2022 23:34:18"
     },
     "training_ground": {
         "next": 1641191298,

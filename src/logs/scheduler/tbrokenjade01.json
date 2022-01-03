@@ -172,11 +172,12 @@
         "local": "01/02/2022 19:20:42"
     },
     "training_ground": {
-        "next": 1641164564,
+        "next": 1641176549,
         "param": {
             "track": true,
             "resize": 0.25
-        }
+        },
+        "local": "01/02/2022 19:22:29"
     },
     "get_alli_quest": {
         "next": 1641183613,

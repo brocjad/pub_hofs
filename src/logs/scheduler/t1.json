@@ -1,11 +1,11 @@
 {
     "check_box": {
-        "next": 1641191890,
+        "next": 1641188825,
         "param": {
             "track": true,
             "resize": 0.25
         },
-        "local": "01/02/2022 23:38:10"
+        "local": "01/02/2022 22:47:05"
     },
     "heal_130": {
         "next": 1641162548,
@@ -36,13 +36,13 @@
         "func": "upgrade_commanders"
     },
     "get_taven": {
-        "next": 1641192068,
+        "next": 1641191474,
         "param": {
             "track": true,
             "resize": 0.25,
             "leave_noclick": 1
         },
-        "local": "01/02/2022 23:41:08"
+        "local": "01/02/2022 23:31:14"
     },
     "trade": {
         "next": 1641262966,
@@ -133,7 +133,7 @@
         "local": "01/02/2022 23:36:42"
     },
     "explore_drag": {
-        "next": 1641192056,
+        "next": 1641191460,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -141,7 +141,7 @@
             "buy": 0,
             "dragon_id": 1
         },
-        "local": "01/02/2022 23:40:56"
+        "local": "01/02/2022 23:31:00"
     },
     "daily_msg": {
         "next": 1641203969,
@@ -188,11 +188,11 @@
         "local": "01/03/2022 03:38:54"
     },
     "get_discount": {
-        "next": 1641192102,
+        "next": 1641191510,
         "param": {
             "track": true,
             "resize": 0.25
         },
-        "local": "01/02/2022 23:41:42"
+        "local": "01/02/2022 23:31:50"
     }
 }

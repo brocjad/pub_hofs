@@ -1,4 +1,4 @@
-name: daily_farm
+name: {task_name}
 
 # Run this workflow every time a new commit pushed to your repository
 on:
@@ -6,14 +6,16 @@ on:
     - cron: '0 */2 * * *'
 
 jobs:
-  # Set the job key. The key is displayed as the job name
-  # when a job name is not provided
-  run_0:
+
+
+  daily_farm_0:
     # Name the Job
-    name: run_0
+    name: daily_farm_0
+    if:  contains(github.event.client_payload.id, ',0,')
     # Set the type of machine to run on
     runs-on: ubuntu-18.04
     timeout-minutes: 120
+
 
     steps:
       # Checks out a copy of your repository on the ubuntu-latest machine
@@ -22,7 +24,7 @@ jobs:
         with:
           repository: brokenjade3000/got_auto
           token: ${{ secrets.BK3K_TOKEN }} # `GH_PAT` is a secret that contains your PAT
-          path: got_auto    
+          path: got_auto      
 
       - name: set up python 3.6
         uses: actions/setup-python@v2
@@ -30,38 +32,35 @@ jobs:
           python-version: 3.6
 
       - name: install packages
-        env:
-          DEFAULT_BRANCH: main
-          MASTER_KEY: ${{ secrets.MASTER_KEY }}
-          GOTAUTH: ${{ secrets.GOTAUTH }}
-          LOG_TOKEN: ${{ secrets.LOG_TOKEN }}
         run: |
           mv /home/runner/work/pub_hofs/pub_hofs/got_auto /home/runner/work/got_auto
           cd /home/runner/work/got_auto
           chmod 775 ./script/install.sh
           ./script/install.sh
-      - name: Run daily_0
+      - name: Run daily_farm_0
         env:
-          DEFAULT_BRANCH: main
+          DEFAULT_BRANCH: main                   
+          HOF_REPO: ${{ secrets.HOF_REPO }}
+          HOF_HEADER: ${{ secrets.HOF_HEADER }}
           MASTER_KEY: ${{ secrets.MASTER_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GIT_REPO: brocjad/pub_hof
-          HOF_REPO: ${{ secrets.HOF_REPO }}
-          HOF_HEADER: ${{ secrets.HOF_HEADER }}
           GD_TOKEN: ${{ secrets.GD_TOKEN }}
         run: |
           pwd
           cd /home/runner/work/got_auto/src
           python --version
           sleep 0
-          python run_daily_hof.py 0
+          python run_daily_hof.py 0 
 
-  run_1:
+  daily_farm_1:
     # Name the Job
-    name: run_1
+    name: daily_farm_1
+    if:  contains(github.event.client_payload.id, ',1,')
     # Set the type of machine to run on
     runs-on: ubuntu-18.04
     timeout-minutes: 120
+
 
     steps:
       # Checks out a copy of your repository on the ubuntu-latest machine
@@ -70,7 +69,7 @@ jobs:
         with:
           repository: brokenjade3000/got_auto
           token: ${{ secrets.BK3K_TOKEN }} # `GH_PAT` is a secret that contains your PAT
-          path: got_auto    
+          path: got_auto      
 
       - name: set up python 3.6
         uses: actions/setup-python@v2
@@ -78,40 +77,35 @@ jobs:
           python-version: 3.6
 
       - name: install packages
-        env:
-          DEFAULT_BRANCH: main
-          MASTER_KEY: ${{ secrets.MASTER_KEY }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GIT_REPO: brocjad/pub_hof
-          HOF_REPO: ${{ secrets.HOF_REPO }}
-          HOF_HEADER: ${{ secrets.HOF_HEADER }}
         run: |
           mv /home/runner/work/pub_hofs/pub_hofs/got_auto /home/runner/work/got_auto
           cd /home/runner/work/got_auto
           chmod 775 ./script/install.sh
           ./script/install.sh
-      - name: Run daily_1
+      - name: Run daily_farm_1
         env:
-          DEFAULT_BRANCH: main
+          DEFAULT_BRANCH: main                   
+          HOF_REPO: ${{ secrets.HOF_REPO }}
+          HOF_HEADER: ${{ secrets.HOF_HEADER }}
           MASTER_KEY: ${{ secrets.MASTER_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GIT_REPO: brocjad/pub_hof
-          HOF_REPO: ${{ secrets.HOF_REPO }}
-          HOF_HEADER: ${{ secrets.HOF_HEADER }}
           GD_TOKEN: ${{ secrets.GD_TOKEN }}
         run: |
           pwd
           cd /home/runner/work/got_auto/src
           python --version
-          sleep 0
-          python run_daily_hof.py 1
+          sleep 7
+          python run_daily_hof.py 1 
 
-  run_3:
+  daily_farm_2:
     # Name the Job
-    name: run_3
+    name: daily_farm_2
+    if:  contains(github.event.client_payload.id, ',2,')
     # Set the type of machine to run on
     runs-on: ubuntu-18.04
     timeout-minutes: 120
+
 
     steps:
       # Checks out a copy of your repository on the ubuntu-latest machine
@@ -120,7 +114,7 @@ jobs:
         with:
           repository: brokenjade3000/got_auto
           token: ${{ secrets.BK3K_TOKEN }} # `GH_PAT` is a secret that contains your PAT
-          path: got_auto    
+          path: got_auto      
 
       - name: set up python 3.6
         uses: actions/setup-python@v2
@@ -128,30 +122,23 @@ jobs:
           python-version: 3.6
 
       - name: install packages
-        env:
-          DEFAULT_BRANCH: main
-          MASTER_KEY: ${{ secrets.MASTER_KEY }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GIT_REPO: brocjad/pub_hof
-          HOF_REPO: ${{ secrets.HOF_REPO }}
-          HOF_HEADER: ${{ secrets.HOF_HEADER }}
         run: |
           mv /home/runner/work/pub_hofs/pub_hofs/got_auto /home/runner/work/got_auto
           cd /home/runner/work/got_auto
           chmod 775 ./script/install.sh
           ./script/install.sh
-      - name: Run daily_2
+      - name: Run daily_farm_2
         env:
-          DEFAULT_BRANCH: main
+          DEFAULT_BRANCH: main                   
+          HOF_REPO: ${{ secrets.HOF_REPO }}
+          HOF_HEADER: ${{ secrets.HOF_HEADER }}
           MASTER_KEY: ${{ secrets.MASTER_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GIT_REPO: brocjad/pub_hof
-          HOF_REPO: ${{ secrets.HOF_REPO }}
-          HOF_HEADER: ${{ secrets.HOF_HEADER }}
           GD_TOKEN: ${{ secrets.GD_TOKEN }}
         run: |
           pwd
           cd /home/runner/work/got_auto/src
           python --version
-          sleep 0
-          python run_daily_hof.py 3
+          sleep 14
+          python run_daily_hof.py 2 

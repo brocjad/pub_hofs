@@ -1,11 +1,11 @@
 {
     "check_box": {
-        "next": 1641176548,
+        "next": 1641177037,
         "param": {
             "track": true,
             "resize": 0.25
         },
-        "local": "01/02/2022 19:22:28"
+        "local": "01/02/2022 19:30:37"
     },
     "heal_500": {
         "next": 1641154939,
@@ -17,12 +17,12 @@
         "func": "heal_max"
     },
     "get_discount": {
-        "next": 1641176463,
+        "next": 1641176951,
         "param": {
             "track": true,
             "resize": 0.25
         },
-        "local": "01/02/2022 19:21:03"
+        "local": "01/02/2022 19:29:11"
     },
     "trade": {
         "next": 1641176700,

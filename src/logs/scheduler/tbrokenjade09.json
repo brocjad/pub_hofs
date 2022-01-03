@@ -1,11 +1,11 @@
 {
     "check_box": {
-        "next": 1641187194,
+        "next": 1641187441,
         "param": {
             "track": true,
             "resize": 0.25
         },
-        "local": "01/02/2022 22:19:54"
+        "local": "01/02/2022 22:24:01"
     },
     "heal_500": {
         "next": 1641154993,
@@ -17,13 +17,13 @@
         "func": "heal_max"
     },
     "sheltering": {
-        "next": 1641177979,
+        "next": 1641198146,
         "param": {
             "track": true,
             "resize": 0.25,
             "reset_threshold": 8
         },
-        "local": "01/02/2022 19:46:19"
+        "local": "01/03/2022 01:22:26"
     },
     "trade": {
         "next": 1641178242,

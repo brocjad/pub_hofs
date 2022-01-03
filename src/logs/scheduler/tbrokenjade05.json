@@ -55,12 +55,12 @@
         }
     },
     "training_ground": {
-        "next": 1641194849,
+        "next": 1641195348,
         "param": {
             "track": true,
             "resize": 0.25
         },
-        "local": "01/03/2022 00:27:29"
+        "local": "01/03/2022 00:35:48"
     },
     "soldiers": {
         "cav": 500,

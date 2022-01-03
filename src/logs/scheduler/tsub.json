@@ -16,7 +16,7 @@
         }
     },
     "check_box": {
-        "next": 1641251381,
+        "next": 1641250446,
         "param": {
             "track": true,
             "resize": 0.25
@@ -107,14 +107,14 @@
         }
     },
     "get_alli_quest": {
-        "next": 1641248068,
+        "next": 1641271103,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "sell_quick_box": {
-        "next": 1641245060,
+        "next": 1641250832,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -122,7 +122,7 @@
         }
     },
     "up_command": {
-        "next": 1641241235,
+        "next": 1641249962,
         "param": {
             "name": "robert",
             "step_width": 3,
@@ -134,7 +134,7 @@
         "func": "upgrade_commanders"
     },
     "explore_drag": {
-        "next": 1641242173,
+        "next": 1641254000,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -144,21 +144,21 @@
         }
     },
     "get_vip_box": {
-        "next": 1641259199,
+        "next": 1641250407,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "training_ground": {
-        "next": 1641280922,
+        "next": 1641250480,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "schedule_leader": {
-        "next": 1641243119,
+        "next": 1641254177,
         "param": {
             "side": "left",
             "level": 4,
@@ -190,7 +190,7 @@
         "func": "farm_around"
     },
     "gather_mint": {
-        "next": 1641239844,
+        "next": 1641259120,
         "param": {
             "levels": [
                 4,

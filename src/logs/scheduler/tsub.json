@@ -120,5 +120,17 @@
             "resize": 0.25,
             "min_level": 12
         }
+    },
+    "up_command": {
+        "next": 1641185086,
+        "param": {
+            "name": "robert",
+            "step_width": 3,
+            "max_try": 8,
+            "track": true,
+            "resize": 0.25,
+            "trigger": 20
+        },
+        "func": "upgrade_commanders"
     }
 }

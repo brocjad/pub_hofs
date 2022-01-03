@@ -83,7 +83,7 @@
         "local": "01/02/2022 19:20:26"
     },
     "explore_drag": {
-        "next": 1641176030,
+        "next": 1641177072,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -91,7 +91,7 @@
             "buy": 0,
             "dragon_id": 0
         },
-        "local": "01/02/2022 19:13:50"
+        "local": "01/02/2022 19:31:12"
     },
     "daily_msg": {
         "next": 1641196021,
@@ -101,13 +101,13 @@
         }
     },
     "sell_quick_box": {
-        "next": 1641175894,
+        "next": 1641176936,
         "param": {
             "track": true,
             "resize": 0.25,
             "min_level": 5
         },
-        "local": "01/02/2022 19:11:34"
+        "local": "01/02/2022 19:28:56"
     },
     "complete_all_trials": {
         "next": 1641102618,

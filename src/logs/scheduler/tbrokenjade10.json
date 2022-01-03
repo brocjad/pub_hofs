@@ -1,11 +1,11 @@
 {
     "check_box": {
-        "next": 1641181162,
+        "next": 1641183147,
         "param": {
             "track": true,
             "resize": 0.25
         },
-        "local": "01/02/2022 20:39:22"
+        "local": "01/02/2022 21:12:27"
     },
     "heal_500": {
         "next": 1641154881,
@@ -17,29 +17,29 @@
         "func": "heal_max"
     },
     "sheltering": {
-        "next": 1641180985,
+        "next": 1641182969,
         "param": {
             "track": true,
             "resize": 0.25,
             "reset_threshold": 8
         },
-        "local": "01/02/2022 20:36:25"
+        "local": "01/02/2022 21:09:29"
     },
     "get_discount": {
-        "next": 1641180518,
+        "next": 1641183162,
         "param": {
             "track": true,
             "resize": 0.25
         },
-        "local": "01/02/2022 20:28:38"
+        "local": "01/02/2022 21:12:42"
     },
     "trade": {
-        "next": 1641180672,
+        "next": 1641183321,
         "param": {
             "track": true,
             "resize": 0.25
         },
-        "local": "01/02/2022 20:31:12"
+        "local": "01/02/2022 21:15:21"
     },
     "get_amethyst": {
         "next": 1641158928,
@@ -109,7 +109,7 @@
         "bow": 500
     },
     "train_mil": {
-        "next": 1641180583,
+        "next": 1641183231,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -121,10 +121,10 @@
                 "bow": 500
             }
         },
-        "local": "01/02/2022 20:29:43"
+        "local": "01/02/2022 21:13:51"
     },
     "explore_drag": {
-        "next": 1641180822,
+        "next": 1641182806,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -132,7 +132,7 @@
             "buy": 0,
             "dragon_id": 0
         },
-        "local": "01/02/2022 20:33:42"
+        "local": "01/02/2022 21:06:46"
     },
     "daily_msg": {
         "next": 1641195559,
@@ -142,20 +142,20 @@
         }
     },
     "sell_quick_box": {
-        "next": 1641180762,
+        "next": 1641182745,
         "param": {
             "track": true,
             "resize": 0.25,
             "min_level": 5
         },
-        "local": "01/02/2022 20:32:42"
+        "local": "01/02/2022 21:05:45"
     },
     "training_ground": {
-        "next": 1641181077,
+        "next": 1641183060,
         "param": {
             "track": true,
             "resize": 0.25
         },
-        "local": "01/02/2022 20:37:57"
+        "local": "01/02/2022 21:11:00"
     }
 }

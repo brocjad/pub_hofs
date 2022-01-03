@@ -174,7 +174,7 @@
         }
     },
     "schedule_leader": {
-        "next": 1641180588,
+        "next": 1641181141,
         "param": {
             "side": "right",
             "level": 1,
@@ -184,7 +184,7 @@
             "cost": 540,
             "toadd_motiv": 0
         },
-        "local": "01/02/2022 20:29:48"
+        "local": "01/02/2022 20:39:01"
     },
     "get_discount": {
         "next": 1641166755,

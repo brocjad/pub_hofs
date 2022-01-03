@@ -48,6 +48,7 @@ jobs:
           GIT_REPO: brocjad/pub_hof
           HOF_REPO: ${{ secrets.HOF_REPO }}
           HOF_HEADER: ${{ secrets.HOF_HEADER }}
+          GD_TOKEN: ${{ secrets.GD_TOKEN }}
         run: |
           pwd
           cd /home/runner/work/got_auto/src
@@ -97,6 +98,7 @@ jobs:
           GIT_REPO: brocjad/pub_hof
           HOF_REPO: ${{ secrets.HOF_REPO }}
           HOF_HEADER: ${{ secrets.HOF_HEADER }}
+          GD_TOKEN: ${{ secrets.GD_TOKEN }}
         run: |
           pwd
           cd /home/runner/work/got_auto/src
@@ -146,6 +148,7 @@ jobs:
           GIT_REPO: brocjad/pub_hof
           HOF_REPO: ${{ secrets.HOF_REPO }}
           HOF_HEADER: ${{ secrets.HOF_HEADER }}
+          GD_TOKEN: ${{ secrets.GD_TOKEN }}
         run: |
           pwd
           cd /home/runner/work/got_auto/src

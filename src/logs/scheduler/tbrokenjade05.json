@@ -17,13 +17,13 @@
         "func": "heal_max"
     },
     "sheltering": {
-        "next": 1641267582,
+        "next": 1641284361,
         "param": {
             "track": true,
             "resize": 0.25,
             "reset_threshold": 8
         },
-        "local": "01/03/2022 20:39:42"
+        "local": "01/04/2022 01:19:21"
     },
     "trade": {
         "next": 1641260651,

@@ -17,12 +17,12 @@
         "func": "heal_max"
     },
     "continue_bub": {
-        "next": 1641328691,
+        "next": 1641328175,
         "param": {
             "track": true,
             "resize": 0.25
         },
-        "local": "01/04/2022 13:38:11"
+        "local": "01/04/2022 13:29:35"
     },
     "up_command": {
         "next": 1641162791,

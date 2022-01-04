@@ -1,11 +1,11 @@
 {
     "check_box": {
-        "next": 1641335702,
+        "next": 1641336316,
         "param": {
             "track": true,
             "resize": 0.25
         },
-        "local": "01/04/2022 15:35:02"
+        "local": "01/04/2022 15:45:16"
     },
     "heal_130": {
         "next": 1641162554,
@@ -37,13 +37,13 @@
         "func": "upgrade_commanders"
     },
     "get_taven": {
-        "next": 1641335856,
+        "next": 1641336346,
         "param": {
             "track": true,
             "resize": 0.25,
             "leave_noclick": 1
         },
-        "local": "01/04/2022 15:37:36"
+        "local": "01/04/2022 15:45:46"
     },
     "trade": {
         "next": 1641413439,

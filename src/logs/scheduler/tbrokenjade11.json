@@ -17,12 +17,12 @@
         "func": "heal_max"
     },
     "get_discount": {
-        "next": 1641316748,
+        "next": 1641317363,
         "param": {
             "track": true,
             "resize": 0.25
         },
-        "local": "01/04/2022 10:19:08"
+        "local": "01/04/2022 10:29:23"
     },
     "trade": {
         "next": 1641317233,
@@ -100,7 +100,7 @@
         "bow": 500
     },
     "train_mil": {
-        "next": 1641316812,
+        "next": 1641317428,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -112,7 +112,7 @@
                 "bow": 500
             }
         },
-        "local": "01/04/2022 10:20:12"
+        "local": "01/04/2022 10:30:28"
     },
     "explore_drag": {
         "next": 1641317145,

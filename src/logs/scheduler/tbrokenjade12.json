@@ -17,12 +17,12 @@
         "func": "heal_max"
     },
     "get_discount": {
-        "next": 1641314872,
+        "next": 1641315495,
         "param": {
             "track": true,
             "resize": 0.25
         },
-        "local": "01/04/2022 09:47:52"
+        "local": "01/04/2022 09:58:15"
     },
     "trade": {
         "next": 1641315365,

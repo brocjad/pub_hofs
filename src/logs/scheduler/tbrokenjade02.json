@@ -151,12 +151,12 @@
         }
     },
     "get_discount": {
-        "next": 1641315030,
+        "next": 1641315953,
         "param": {
             "track": true,
             "resize": 0.25
         },
-        "local": "01/04/2022 09:50:30"
+        "local": "01/04/2022 10:05:53"
     },
     "continue_bub": {
         "next": 1641376624,

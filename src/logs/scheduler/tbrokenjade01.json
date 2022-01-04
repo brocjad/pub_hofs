@@ -161,7 +161,7 @@
         "local": "01/04/2022 14:51:44"
     },
     "schedule_leader": {
-        "next": 1641329080,
+        "next": 1641333211,
         "param": {
             "side": "right",
             "level": 2,
@@ -171,7 +171,7 @@
             "cost": 540,
             "toadd_motiv": 0
         },
-        "local": "01/04/2022 13:44:40"
+        "local": "01/04/2022 14:53:31"
     },
     "training_ground": {
         "next": 1641341617,

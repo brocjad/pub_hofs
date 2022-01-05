@@ -168,27 +168,7 @@
             "cost": 1682,
             "toadd_motiv": 0
         }
-    },
-    "gather_quar": {
-        "next": 1641375273,
-        "param": {
-            "levels": [
-                4
-            ],
-            "rtypes": [
-                "mine"
-            ],
-            "max_distance": 110,
-            "direct_send": 50,
-            "troop_size": 0,
-            "use_dragon": false,
-            "max_troops": 5,
-            "low_troop": false,
-            "track": true,
-            "resize": 0.3
-        },
-        "func": "farm_around"
-    },
+    },    
     "gather_mint": {
         "next": 1641374271,
         "param": {
@@ -209,29 +189,7 @@
             "resize": 0.3
         },
         "func": "farm_around"
-    },
-    "gather_mine_quar": {
-        "next": 1641365802,
-        "param": {
-            "levels": [
-                4,
-                3
-            ],
-            "rtypes": [
-                "mine",
-                "quar"
-            ],
-            "max_distance": 110,
-            "direct_send": 50,
-            "troop_size": 0,
-            "use_dragon": false,
-            "max_troops": 5,
-            "low_troop": false,
-            "track": true,
-            "resize": 0.3
-        },
-        "func": "farm_around"
-    },
+    },    
     "gather_mine": {
         "next": 1641365395,
         "param": {

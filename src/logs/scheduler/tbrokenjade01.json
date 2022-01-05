@@ -37,13 +37,13 @@
         "func": "upgrade_commanders"
     },
     "get_taven": {
-        "next": 1641354835,
+        "next": 1641355447,
         "param": {
             "track": true,
             "resize": 0.25,
             "leave_noclick": 1
         },
-        "local": "01/04/2022 20:53:55"
+        "local": "01/04/2022 21:04:07"
     },
     "trade": {
         "next": 1641413439,

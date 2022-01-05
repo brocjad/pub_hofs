@@ -1,6 +1,6 @@
 {
     "heal_500": {
-        "next": 1641363570,
+        "next": 1641370733,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -168,7 +168,7 @@
             "cost": 1682,
             "toadd_motiv": 0
         }
-    },    
+    },
     "gather_mint": {
         "next": 1641374271,
         "param": {
@@ -189,7 +189,7 @@
             "resize": 0.3
         },
         "func": "farm_around"
-    },    
+    },
     "gather_mine": {
         "next": 1641365395,
         "param": {

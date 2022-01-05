@@ -37,13 +37,13 @@
         "func": "upgrade_commanders"
     },
     "get_taven": {
-        "next": 1641350813,
+        "next": 1641352014,
         "param": {
             "track": true,
             "resize": 0.25,
             "leave_noclick": 1
         },
-        "local": "01/04/2022 19:46:53"
+        "local": "01/04/2022 20:06:54"
     },
     "trade": {
         "next": 1641413439,
@@ -133,7 +133,7 @@
         "local": "01/04/2022 19:57:32"
     },
     "explore_drag": {
-        "next": 1641349454,
+        "next": 1641351987,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -141,7 +141,7 @@
             "buy": 0,
             "dragon_id": 0
         },
-        "local": "01/04/2022 19:24:14"
+        "local": "01/04/2022 20:06:27"
     },
     "daily_msg": {
         "next": 1641375722,

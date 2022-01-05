@@ -11,7 +11,6 @@ jobs:
   daily_farm_0:
     # Name the Job
     name: daily_farm_0
-    # Set the type of machine to run on
     runs-on: ubuntu-18.04
     timeout-minutes: 120
 
@@ -42,8 +41,8 @@ jobs:
           HOF_REPO: ${{ secrets.HOF_REPO }}
           HOF_HEADER: ${{ secrets.HOF_HEADER }}
           MASTER_KEY: ${{ secrets.MASTER_KEY }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GIT_REPO: brocjad/pub_hof
+          LOG_TOKEN: ${{ secrets.LOG_TOKEN }}
+          GIT_REPO: ${{ secrets.GIT_REPO }}
           GD_TOKEN: ${{ secrets.GD_TOKEN }}
         run: |
           pwd
@@ -55,7 +54,6 @@ jobs:
   daily_farm_1:
     # Name the Job
     name: daily_farm_1
-    # Set the type of machine to run on
     runs-on: ubuntu-18.04
     timeout-minutes: 120
 
@@ -86,8 +84,8 @@ jobs:
           HOF_REPO: ${{ secrets.HOF_REPO }}
           HOF_HEADER: ${{ secrets.HOF_HEADER }}
           MASTER_KEY: ${{ secrets.MASTER_KEY }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GIT_REPO: brocjad/pub_hof
+          LOG_TOKEN: ${{ secrets.LOG_TOKEN }}
+          GIT_REPO: ${{ secrets.GIT_REPO }}
           GD_TOKEN: ${{ secrets.GD_TOKEN }}
         run: |
           pwd
@@ -99,7 +97,6 @@ jobs:
   daily_farm_2:
     # Name the Job
     name: daily_farm_2
-    # Set the type of machine to run on
     runs-on: ubuntu-18.04
     timeout-minutes: 120
 
@@ -130,8 +127,8 @@ jobs:
           HOF_REPO: ${{ secrets.HOF_REPO }}
           HOF_HEADER: ${{ secrets.HOF_HEADER }}
           MASTER_KEY: ${{ secrets.MASTER_KEY }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GIT_REPO: brocjad/pub_hof
+          LOG_TOKEN: ${{ secrets.LOG_TOKEN }}
+          GIT_REPO: ${{ secrets.GIT_REPO }}
           GD_TOKEN: ${{ secrets.GD_TOKEN }}
         run: |
           pwd

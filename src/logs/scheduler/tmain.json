@@ -141,7 +141,7 @@
         "func": "farm_around"
     },
     "gather_mint": {
-        "next": 1641463090,
+        "next": 1641463138,
         "param": {
             "levels": [
                 4

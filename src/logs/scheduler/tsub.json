@@ -203,26 +203,6 @@
             "direct_send": 50,
             "troop_size": 0,
             "use_dragon": false,
-            "max_troops": 3,
-            "low_troop": true,
-            "track": true,
-            "resize": 0.3
-        },
-        "func": "farm_around"
-    },
-    "gather_quar": {
-        "next": 1641541743,
-        "param": {
-            "levels": [
-                4
-            ],
-            "rtypes": [
-                "mine"
-            ],
-            "max_distance": 110,
-            "direct_send": 50,
-            "troop_size": 0,
-            "use_dragon": false,
             "max_troops": 5,
             "low_troop": true,
             "track": true,
@@ -230,6 +210,7 @@
         },
         "func": "farm_around"
     },
+    
     "gather_lumb": {
         "next": 1641541429,
         "param": {

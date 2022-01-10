@@ -152,13 +152,13 @@
         "local": "01/05/2022 02:42:02"
     },
     "sell_quick_box": {
-        "next": 1641786590,
+        "next": 1641788357,
         "param": {
             "track": true,
             "resize": 0.25,
             "min_level": 5
         },
-        "local": "01/09/2022 20:49:50"
+        "local": "01/09/2022 21:19:17"
     },
     "schedule_leader": {
         "next": 1641363531,
@@ -212,5 +212,6 @@
     "get_active_award": {
         "next": 1641789913,
         "local": "01/09/2022 21:45:13"
-    }
+    },
+    "auto_transport_rss": {}
 }

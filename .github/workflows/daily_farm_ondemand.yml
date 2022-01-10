@@ -95,9 +95,9 @@ jobs:
           sleep 7
           python run_daily_hof.py 1 
 
-  daily_farm_2:
+  daily_farm_3:
     # Name the Job
-    name: daily_farm_2
+    name: daily_farm_3
     # Set the type of machine to run on
     runs-on: ubuntu-18.04
     timeout-minutes: 120
@@ -123,7 +123,7 @@ jobs:
           cd /home/runner/work/got_auto
           chmod 775 ./script/install.sh
           ./script/install.sh
-      - name: Run daily_farm_2
+      - name: Run daily_farm_3
         env:
           DEFAULT_BRANCH: main                   
           HOF_REPO: ${{ secrets.HOF_REPO }}
@@ -137,4 +137,4 @@ jobs:
           cd /home/runner/work/got_auto/src
           python --version
           sleep 14
-          python run_daily_hof.py 2   
+          python run_daily_hof.py 3   

@@ -1,10 +1,145 @@
 {
     "continue_bub": {
-        "next": 1641955297,
+        "next": 1642021948,
         "param": {
             "track": true,
             "resize": 0.25,
             "check_interval": 10800
         }
+    },
+    "check_box": {
+        "next": 1641950824,
+        "param": {
+            "track": true,
+            "resize": 0.25
+        }
+    },
+    "get_discount": {
+        "next": 1641956430,
+        "param": {
+            "track": true,
+            "resize": 0.25
+        }
+    },
+    "daily_msg": {
+        "next": 1641988819,
+        "param": {
+            "track": true,
+            "resize": 0.25
+        }
+    },
+    "trade": {
+        "next": 1641955188,
+        "param": {
+            "track": true,
+            "resize": 0.25
+        }
+    },
+    "get_taven": {
+        "next": 1641955973,
+        "param": {
+            "track": true,
+            "resize": 0.25,
+            "leave_noclick": 1
+        }
+    },
+    "up_command": {
+        "next": 1641956783,
+        "param": {
+            "name": "russell",
+            "step_width": 3,
+            "max_try": 6,
+            "track": true,
+            "resize": 0.25,
+            "trigger": 120
+        },
+        "func": "upgrade_commanders"
+    },
+    "explore_drag": {
+        "next": 1641956128,
+        "param": {
+            "track": true,
+            "resize": 0.25,
+            "hours": 1,
+            "buy": 0,
+            "dragon_id": 2
+        }
+    },
+    "sell_quick_box": {
+        "next": 1641959105,
+        "param": {
+            "track": true,
+            "resize": 0.25,
+            "min_level": 21
+        }
+    },
+    "soldiers": {
+        "inf": 500,
+        "cav": 500,
+        "spe": 500,
+        "bow": 500
+    },
+    "train_mil": {
+        "next": 1641957000,
+        "param": {
+            "track": true,
+            "resize": 0.25,
+            "level": 1,
+            "soldiers": {
+                "inf": 500,
+                "cav": 500,
+                "spe": 500,
+                "bow": 500
+            }
+        }
+    },
+    "training_ground": {
+        "next": 1641993206,
+        "param": {
+            "track": true,
+            "resize": 0.25
+        }
+    },
+    "gather_mint": {
+        "next": 1641959112,
+        "param": {
+            "levels": [
+                4
+            ],
+            "rtypes": [
+                "mint"
+            ],
+            "max_distance": 100,
+            "direct_send": 100,
+            "troop_size": 0,
+            "use_dragon": false,
+            "max_troops": 6,
+            "low_troop": true,
+            "track": true,
+            "resize": 0.3
+        },
+        "func": "farm_around"
+    },
+    "gather_qml": {
+        "next": 1641956711,
+        "param": {
+            "levels": [
+                5
+            ],
+            "rtypes": [
+                "lumb",
+                "mine",
+                "quar"
+            ],
+            "max_distance": 90,
+            "direct_send": 50,
+            "troop_size": 0,
+            "use_dragon": false,
+            "max_troops": 6,
+            "low_troop": true,
+            "track": true,
+            "resize": 0.3
+        },
+        "func": "farm_around"
     }
 }

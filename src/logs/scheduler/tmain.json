@@ -8,7 +8,7 @@
         }
     },
     "check_box": {
-        "next": 1642313956,
+        "next": 1642314992,
         "param": {
             "track": true,
             "resize": 0.25
@@ -71,6 +71,18 @@
             "track": true,
             "resize": 0.25,
             "min_level": 21
+        }
+    },
+    "soldiers": {
+        "cav": 500,
+        "spe": 500,
+        "bow": 500
+    },
+    "training_ground": {
+        "next": 1642357766,
+        "param": {
+            "track": true,
+            "resize": 0.25
         }
     }
 }

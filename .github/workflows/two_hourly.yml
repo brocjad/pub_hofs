@@ -30,6 +30,9 @@ jobs:
 
       - name: install packages
         run: |
+          ls /home/runner/work/pub_hofs/pub_hofs/got_auto
+          pwd
+          ls /home/runner/work/pub_hofs/pub_hofs/got_auto/script
           mv /home/runner/work/pub_hofs/pub_hofs/got_auto /home/runner/work/got_auto
           cd /home/runner/work/got_auto
           chmod 775 ./script/install.sh
@@ -77,6 +80,9 @@ jobs:
           pwd
           git clone https://$GOTAUTH@github.com/brokenjade3000/got_auto.git
           cd got_auto
+          ls /home/runner/work/pub_hofs/pub_hofs/got_auto
+          pwd
+          ls /home/runner/work/pub_hofs/pub_hofs/got_auto/script
           chmod 775 ./script/install.sh
           ./script/install.sh
 

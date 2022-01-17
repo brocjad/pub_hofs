@@ -1,6 +1,6 @@
 {
     "heal_500": {
-        "next": 1642387170,
+        "next": 1642387969,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -9,35 +9,38 @@
         "func": "heal_max"
     },
     "continue_bub": {
-        "next": 1642451469,
+        "next": 1642387975,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "check_box": {
-        "next": 1642385238,
+        "next": 1642388080,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_discount": {
-        "next": 1642386504,
+        "next": 1642391661,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
-    "soldiers": {},
+    "soldiers": {
+        "cav": 500,
+        "spe": 500,
+        "bow": 500
+    },
     "train_mil": {
-        "next": 1642384656,
+        "next": 1642388611,
         "param": {
             "track": true,
             "resize": 0.25,
             "level": 1,
             "soldiers": {
-                "inf": 500,
                 "cav": 500,
                 "spe": 500,
                 "bow": 500
@@ -117,7 +120,7 @@
         }
     },
     "up_command": {
-        "next": 1642391894,
+        "next": 1642384569,
         "param": {
             "name": "robert",
             "step_width": 3,

@@ -59,9 +59,12 @@ jobs:
     timeout-minutes: 120
 
     steps:
-      # Checks out a copy of your repository on the ubuntu-latest machine
-      - name: Checkout code
+      - name: Check out my other private repo
         uses: actions/checkout@v2
+        with:
+          repository: brokenjade3000/got_auto
+          token: ${{ secrets.BK3K_TOKEN }} # `GH_PAT` is a secret that contains your PAT
+          path: got_auto      
 
       - name: set up python 3.6
         uses: actions/setup-python@v2
@@ -69,20 +72,12 @@ jobs:
           python-version: 3.6
 
       - name: install packages
-        env:
-          DEFAULT_BRANCH: main
-          MASTER_KEY: ${{ secrets.MASTER_KEY}}
-          GOTAUTH: ${{ secrets.GOTAUTH}}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GIT_REPO: brocjad/pub_hof
         run: |
-          cd ../../
-          pwd
-          git clone https://$GOTAUTH@github.com/brokenjade3000/got_auto.git
-          cd got_auto
           ls /home/runner/work/pub_hofs/pub_hofs/got_auto
           pwd
           ls /home/runner/work/pub_hofs/pub_hofs/got_auto/script
+          mv /home/runner/work/pub_hofs/pub_hofs/got_auto /home/runner/work/got_auto
+          cd /home/runner/work/got_auto
           chmod 775 ./script/install.sh
           ./script/install.sh
 

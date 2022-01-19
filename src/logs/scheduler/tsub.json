@@ -1,6 +1,6 @@
 {
     "heal_500": {
-        "next": 1642558818,
+        "next": 1642559943,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -47,7 +47,7 @@
         }
     },
     "trade": {
-        "next": 1642572409,
+        "next": 1642557009,
         "param": {
             "track": true,
             "resize": 0.25
@@ -141,7 +141,7 @@
         }
     },
     "get_vip_box": {
-        "next": 1642641599,
+        "next": 1642557039,
         "param": {
             "track": true,
             "resize": 0.25

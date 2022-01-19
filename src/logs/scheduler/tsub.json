@@ -1,6 +1,6 @@
 {
     "heal_500": {
-        "next": 1642601871,
+        "next": 1642602429,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -31,12 +31,13 @@
     },
     "soldiers": {},
     "train_mil": {
-        "next": 1642602188,
+        "next": 1642601182,
         "param": {
             "track": true,
             "resize": 0.25,
             "level": 1,
             "soldiers": {
+                "spe": 500,
                 "bow": 500
             }
         }

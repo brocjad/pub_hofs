@@ -31,13 +31,12 @@
     },
     "soldiers": {},
     "train_mil": {
-        "next": 1642665179,
+        "next": 1642668320,
         "param": {
             "track": true,
             "resize": 0.25,
             "level": 1,
             "soldiers": {
-                "spe": 500,
                 "bow": 500
             }
         }

@@ -1,6 +1,6 @@
 {
     "heal_500": {
-        "next": 1642732919,
+        "next": 1642733610,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -9,35 +9,36 @@
         "func": "heal_max"
     },
     "continue_bub": {
-        "next": 1642732926,
+        "next": 1642802360,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "check_box": {
-        "next": 1642733584,
+        "next": 1642730092,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_discount": {
-        "next": 1642736623,
+        "next": 1642736781,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
-    "soldiers": {},
+    "soldiers": {
+        "bow": 500
+    },
     "train_mil": {
-        "next": 1642734767,
+        "next": 1642736966,
         "param": {
             "track": true,
             "resize": 0.25,
             "level": 1,
             "soldiers": {
-                "inf": 500,
                 "cav": 500,
                 "spe": 500,
                 "bow": 500
@@ -45,7 +46,7 @@
         }
     },
     "trade": {
-        "next": 1642729881,
+        "next": 1642733568,
         "param": {
             "track": true,
             "resize": 0.25
@@ -73,7 +74,7 @@
         }
     },
     "get_amethyst": {
-        "next": 1642732622,
+        "next": 1642736914,
         "param": {
             "track": true,
             "resize": 0.3
@@ -87,14 +88,14 @@
         }
     },
     "get_vip_shop": {
-        "next": 1642732793,
+        "next": 1642737057,
         "param": {
             "track": true,
             "resize": 0.3
         }
     },
     "get_taven": {
-        "next": 1642732842,
+        "next": 1642737076,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -102,14 +103,14 @@
         }
     },
     "get_alli_quest": {
-        "next": 1642729250,
+        "next": 1642743616,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "sell_quick_box": {
-        "next": 1642729252,
+        "next": 1642734702,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -117,7 +118,7 @@
         }
     },
     "up_command": {
-        "next": 1642729547,
+        "next": 1642736576,
         "param": {
             "name": "robert",
             "step_width": 3,
@@ -139,7 +140,7 @@
         }
     },
     "get_vip_box": {
-        "next": 1642729984,
+        "next": 1642743901,
         "param": {
             "track": true,
             "resize": 0.25
@@ -206,7 +207,7 @@
         "func": "farm_around"
     },
     "gather_lumb": {
-        "next": 1642731175,
+        "next": 1642736760,
         "param": {
             "levels": [
                 4

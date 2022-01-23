@@ -1,6 +1,6 @@
 {
     "heal_500": {
-        "next": 1642904807,
+        "next": 1642905386,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -130,7 +130,7 @@
         "func": "upgrade_commanders"
     },
     "explore_drag": {
-        "next": 1642908568,
+        "next": 1642904408,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -166,7 +166,7 @@
         }
     },
     "gather_mint": {
-        "next": 1642905005,
+        "next": 1642904428,
         "param": {
             "levels": [
                 4,
@@ -227,7 +227,7 @@
         "func": "farm_around"
     },
     "gather_quar": {
-        "next": 1642905039,
+        "next": 1642904462,
         "param": {
             "levels": [
                 4

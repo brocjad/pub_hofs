@@ -1,6 +1,6 @@
 {
     "heal_500": {
-        "next": 1642905386,
+        "next": 1642904807,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -9,14 +9,14 @@
         "func": "heal_max"
     },
     "continue_bub": {
-        "next": 1642905393,
+        "next": 1642972639,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "check_box": {
-        "next": 1642905750,
+        "next": 1642902701,
         "param": {
             "track": true,
             "resize": 0.25
@@ -33,7 +33,7 @@
         "bow": 500
     },
     "train_mil": {
-        "next": 1642904576,
+        "next": 1642909064,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -130,7 +130,7 @@
         "func": "upgrade_commanders"
     },
     "explore_drag": {
-        "next": 1642904408,
+        "next": 1642908568,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -166,7 +166,7 @@
         }
     },
     "gather_mint": {
-        "next": 1642904428,
+        "next": 1642905005,
         "param": {
             "levels": [
                 4,
@@ -227,7 +227,7 @@
         "func": "farm_around"
     },
     "gather_quar": {
-        "next": 1642904462,
+        "next": 1642905039,
         "param": {
             "levels": [
                 4

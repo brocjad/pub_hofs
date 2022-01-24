@@ -166,7 +166,7 @@
         }
     },
     "gather_mint": {
-        "next": 1643007719,
+        "next": 1643017960,
         "param": {
             "levels": [
                 4,
@@ -207,7 +207,7 @@
         "func": "farm_around"
     },
     "gather_lumb": {
-        "next": 1643007792,
+        "next": 1643009716,
         "param": {
             "levels": [
                 4
@@ -227,7 +227,7 @@
         "func": "farm_around"
     },
     "gather_quar": {
-        "next": 1643007760,
+        "next": 1643009668,
         "param": {
             "levels": [
                 4

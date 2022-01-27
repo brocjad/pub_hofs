@@ -1,6 +1,6 @@
 {
     "heal_500": {
-        "next": 1643249542,
+        "next": 1643250956,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -23,7 +23,7 @@
         }
     },
     "get_discount": {
-        "next": 1643254289,
+        "next": 1643248967,
         "param": {
             "track": true,
             "resize": 0.25
@@ -166,7 +166,7 @@
         }
     },
     "gather_mint": {
-        "next": 1643250631,
+        "next": 1643248658,
         "param": {
             "levels": [
                 4,

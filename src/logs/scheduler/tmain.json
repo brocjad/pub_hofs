@@ -1,79 +1,10 @@
 {
     "continue_bub": {
-        "next": 1643423759,
+        "next": 1643448386,
         "param": {
             "track": true,
             "resize": 0.25,
             "check_interval": 10800
-        }
-    },
-    "check_box": {
-        "next": 1643427097,
-        "param": {
-            "track": true,
-            "resize": 0.25
-        }
-    },
-    "get_discount": {
-        "next": 1643427470,
-        "param": {
-            "track": true,
-            "resize": 0.25
-        }
-    },
-    "daily_msg": {
-        "next": 1643463700,
-        "param": {
-            "track": true,
-            "resize": 0.25
-        }
-    },
-    "trade": {
-        "next": 1643425443,
-        "param": {
-            "track": true,
-            "resize": 0.25
-        }
-    },
-    "get_taven": {
-        "next": 1643427881,
-        "param": {
-            "track": true,
-            "resize": 0.25,
-            "leave_noclick": 1
-        }
-    },
-    "up_command": {
-        "next": 1643427898,
-        "param": {
-            "name": "russell",
-            "step_width": 3,
-            "max_try": 6,
-            "track": true,
-            "resize": 0.25,
-            "trigger": 120
-        },
-        "func": "upgrade_commanders"
-    },
-    "sell_quick_box": {
-        "next": 1643426284,
-        "param": {
-            "track": true,
-            "resize": 0.25,
-            "min_level": 21
-        }
-    },
-    "soldiers": {
-        "inf": 500,
-        "cav": 500,
-        "spe": 500,
-        "bow": 500
-    },
-    "training_ground": {
-        "next": 1643468141,
-        "param": {
-            "track": true,
-            "resize": 0.25
         }
     }
 }

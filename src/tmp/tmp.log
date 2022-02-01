@@ -1,11 +1,6 @@
 {
-    "expeditions": {
-        "next": 1643748292,
-        "param": {
-            "level": 4,
-            "buy": true,
-            "track": true,
-            "resize": 0.3
-        }
+    "check_box": {
+        "next": 1643708835,
+        "local": "02/01/2022 02:47:15"
     }
 }

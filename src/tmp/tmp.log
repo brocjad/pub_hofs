@@ -1,10 +1,11 @@
 {
-    "check_box": {
-        "next": 1643708835,
-        "local": "02/01/2022 02:47:15"
-    },
-    "sheltering": {
-        "next": 1643709370,
-        "local": "02/01/2022 02:56:10"
+    "expeditions": {
+        "next": 1643749085,
+        "param": {
+            "level": 2,
+            "buy": true,
+            "track": true,
+            "resize": 0.3
+        }
     }
 }

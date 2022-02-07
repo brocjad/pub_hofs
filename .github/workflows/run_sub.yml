@@ -1,4 +1,4 @@
-name: sub
+name: run_sub
 
 # Run this workflow every time a new commit pushed to your repository
 on:

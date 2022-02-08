@@ -29,7 +29,7 @@
         }
     },
     "trade": {
-        "next": 1644362680,
+        "next": 1644362922,
         "param": {
             "track": true,
             "resize": 0.25
@@ -94,7 +94,7 @@
         }
     },
     "training_ground": {
-        "next": 1644362487,
+        "next": 1644363996,
         "param": {
             "track": true,
             "resize": 0.25

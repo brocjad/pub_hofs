@@ -1,6 +1,6 @@
 {
     "heal_500": {
-        "next": 1644552194,
+        "next": 1644553028,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -129,7 +129,7 @@
         "func": "upgrade_commanders"
     },
     "explore_drag": {
-        "next": 1644556322,
+        "next": 1644552005,
         "param": {
             "track": true,
             "resize": 0.25,

@@ -186,7 +186,7 @@
         "func": "farm_around"
     },
     "gather_minequar": {
-        "next": 1644684880,
+        "next": 1644684652,
         "param": {
             "levels": [
                 4

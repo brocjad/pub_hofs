@@ -1,38 +1,10 @@
 {
     "continue_bub": {
-        "next": 1644830257,
+        "next": 1644830256,
         "param": {
             "track": true,
             "resize": 0.25,
             "check_interval": 10800
-        }
-    },
-    "check_box": {
-        "next": 1644808111,
-        "param": {
-            "track": true,
-            "resize": 0.25
-        }
-    },
-    "get_discount": {
-        "next": 1644809375,
-        "param": {
-            "track": true,
-            "resize": 0.25
-        }
-    },
-    "daily_msg": {
-        "next": 1644845523,
-        "param": {
-            "track": true,
-            "resize": 0.25
-        }
-    },
-    "trade": {
-        "next": 1644807233,
-        "param": {
-            "track": true,
-            "resize": 0.25
         }
     }
 }

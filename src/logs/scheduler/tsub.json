@@ -169,11 +169,10 @@
         }
     },
     "gather_mint": {
-        "next": 1644796625,
+        "next": 1644838106,
         "param": {
             "levels": [
-                4,
-                3
+                4
             ],
             "rtypes": [
                 "mint"

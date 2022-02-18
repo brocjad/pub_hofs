@@ -142,5 +142,27 @@
             "resize": 0.3
         },
         "func": "farm_around"
+    },
+    "gather_qml": {
+        "next": 1645227859,
+        "param": {
+            "levels": [
+                5
+            ],
+            "rtypes": [
+                "lumb",
+                "mine",
+                "quar"
+            ],
+            "max_distance": 90,
+            "direct_send": 50,
+            "troop_size": 0,
+            "use_dragon": false,
+            "max_troops": 4,
+            "low_troop": true,
+            "track": true,
+            "resize": 0.3
+        },
+        "func": "farm_around"
     }
 }

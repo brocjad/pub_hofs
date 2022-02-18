@@ -1,106 +1,10 @@
 {
     "continue_bub": {
-        "next": 1645240935,
+        "next": 1645240936,
         "param": {
             "track": true,
             "resize": 0.25,
             "check_interval": 10800
-        }
-    },
-    "check_box": {
-        "next": 1645203239,
-        "param": {
-            "track": true,
-            "resize": 0.25
-        }
-    },
-    "get_discount": {
-        "next": 1645204999,
-        "param": {
-            "track": true,
-            "resize": 0.25
-        }
-    },
-    "daily_msg": {
-        "next": 1645241206,
-        "param": {
-            "track": true,
-            "resize": 0.25
-        }
-    },
-    "trade": {
-        "next": 1645202937,
-        "param": {
-            "track": true,
-            "resize": 0.25
-        }
-    },
-    "get_taven": {
-        "next": 1645201854,
-        "param": {
-            "track": true,
-            "resize": 0.25,
-            "leave_noclick": 1
-        }
-    },
-    "up_command": {
-        "next": 1645205467,
-        "param": {
-            "name": "russell",
-            "step_width": 3,
-            "max_try": 6,
-            "track": true,
-            "resize": 0.25,
-            "trigger": 120
-        },
-        "func": "upgrade_commanders"
-    },
-    "explore_drag": {
-        "next": 1645205766,
-        "param": {
-            "track": true,
-            "resize": 0.25,
-            "hours": 1,
-            "buy": 0,
-            "dragon_id": 2
-        }
-    },
-    "sell_quick_box": {
-        "next": 1645205819,
-        "param": {
-            "track": true,
-            "resize": 0.25,
-            "min_level": 21
-        }
-    },
-    "soldiers": {
-        "cav": 500,
-        "spe": 500,
-        "bow": 500
-    },
-    "training_ground": {
-        "next": 1645246000,
-        "param": {
-            "track": true,
-            "resize": 0.25
-        }
-    },
-    "schedule_leader": {
-        "next": 1645206868,
-        "param": {
-            "side": "right",
-            "level": 4,
-            "track": true,
-            "resize": 0.25,
-            "hits": 4,
-            "cost": 1030,
-            "toadd_motiv": 0,
-            "etype": [
-                "dunesfort",
-                "kingdom_elite"
-            ],
-            "equip_id": 3,
-            "min_motiv": 8300
         }
     }
 }

@@ -9,7 +9,7 @@
         "func": "heal_max"
     },
     "continue_bub": {
-        "next": 1645163710,
+        "next": 1645164151,
         "param": {
             "track": true,
             "resize": 0.25
@@ -50,7 +50,7 @@
         }
     },
     "trade": {
-        "next": 1645163741,
+        "next": 1645164183,
         "param": {
             "track": true,
             "resize": 0.25

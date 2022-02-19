@@ -1,6 +1,6 @@
 {
     "heal_500": {
-        "next": 1645238222,
+        "next": 1645238250,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -9,21 +9,21 @@
         "func": "heal_max"
     },
     "continue_bub": {
-        "next": 1645238225,
+        "next": 1645283266,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "check_box": {
-        "next": 1645238588,
+        "next": 1645235119,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_discount": {
-        "next": 1645238307,
+        "next": 1645241149,
         "param": {
             "track": true,
             "resize": 0.25
@@ -45,7 +45,7 @@
         }
     },
     "trade": {
-        "next": 1645237473,
+        "next": 1645238337,
         "param": {
             "track": true,
             "resize": 0.25
@@ -73,7 +73,7 @@
         }
     },
     "get_amethyst": {
-        "next": 1645237354,
+        "next": 1645241452,
         "param": {
             "track": true,
             "resize": 0.3
@@ -87,14 +87,14 @@
         }
     },
     "get_vip_shop": {
-        "next": 1645237532,
+        "next": 1645241702,
         "param": {
             "track": true,
             "resize": 0.3
         }
     },
     "get_taven": {
-        "next": 1645237578,
+        "next": 1645241722,
         "param": {
             "track": true,
             "resize": 0.25,

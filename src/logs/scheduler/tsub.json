@@ -1,6 +1,6 @@
 {
     "heal_500": {
-        "next": 1645323818,
+        "next": 1645324614,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -92,7 +92,7 @@
         }
     },
     "get_vip_shop": {
-        "next": 1645327917,
+        "next": 1645323700,
         "param": {
             "track": true,
             "resize": 0.3
@@ -170,7 +170,7 @@
         }
     },
     "gather_mint": {
-        "next": 1645333535,
+        "next": 1645323641,
         "param": {
             "levels": [
                 4

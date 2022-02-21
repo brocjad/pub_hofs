@@ -80,5 +80,12 @@
                 "bow": 500
             }
         }
+    },
+    "training_ground": {
+        "next": 1645512286,
+        "param": {
+            "track": true,
+            "resize": 0.25
+        }
     }
 }

@@ -54,5 +54,13 @@
             "trigger": 120
         },
         "func": "upgrade_commanders"
+    },
+    "sell_quick_box": {
+        "next": 1645547216,
+        "param": {
+            "track": true,
+            "resize": 0.25,
+            "min_level": 21
+        }
     }
 }

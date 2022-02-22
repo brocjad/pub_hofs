@@ -1,6 +1,6 @@
 {
     "heal_500": {
-        "next": 1645503778,
+        "next": 1645503378,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -9,7 +9,7 @@
         "func": "heal_max"
     },
     "continue_bub": {
-        "next": 1645502874,
+        "next": 1645503847,
         "param": {
             "track": true,
             "resize": 0.25
@@ -86,14 +86,14 @@
         }
     },
     "get_vip_shop": {
-        "next": 1645502733,
+        "next": 1645579199,
         "param": {
             "track": true,
             "resize": 0.3
         }
     },
     "get_taven": {
-        "next": 1645502785,
+        "next": 1645507231,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -108,7 +108,7 @@
         }
     },
     "sell_quick_box": {
-        "next": 1645502852,
+        "next": 1645505516,
         "param": {
             "track": true,
             "resize": 0.25,

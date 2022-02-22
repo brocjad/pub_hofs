@@ -34,5 +34,13 @@
             "track": true,
             "resize": 0.25
         }
+    },
+    "get_taven": {
+        "next": 1645558041,
+        "param": {
+            "track": true,
+            "resize": 0.25,
+            "leave_noclick": 1
+        }
     }
 }

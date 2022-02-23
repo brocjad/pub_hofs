@@ -6,5 +6,12 @@
             "resize": 0.25,
             "check_interval": 10800
         }
+    },
+    "check_box": {
+        "next": 1645577600,
+        "param": {
+            "track": true,
+            "resize": 0.25
+        }
     }
 }

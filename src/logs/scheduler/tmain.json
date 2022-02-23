@@ -73,18 +73,14 @@
             "min_level": 21
         }
     },
-    "soldiers": {
-        "bow": 500
-    },
+    "soldiers": {},
     "train_mil": {
-        "next": 1645624713,
+        "next": 1645626199,
         "param": {
             "track": true,
             "resize": 0.25,
             "level": 1,
-            "soldiers": {
-                "bow": 500
-            }
+            "soldiers": {}
         }
     },
     "training_ground": {

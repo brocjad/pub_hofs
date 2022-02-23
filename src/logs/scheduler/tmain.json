@@ -97,5 +97,23 @@
             "track": true,
             "resize": 0.25
         }
+    },
+    "schedule_leader": {
+        "next": 1645595155,
+        "param": {
+            "side": "right",
+            "level": 4,
+            "track": true,
+            "resize": 0.25,
+            "hits": 4,
+            "cost": 1030,
+            "toadd_motiv": 0,
+            "etype": [
+                "dunesfort",
+                "kingdom_elite"
+            ],
+            "equip_id": 3,
+            "min_motiv": 8300
+        }
     }
 }

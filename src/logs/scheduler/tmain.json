@@ -52,5 +52,23 @@
             "buy": 0,
             "dragon_id": 2
         }
+    },
+    "soldiers": {
+        "cav": 500,
+        "spe": 500,
+        "bow": 500
+    },
+    "train_mil": {
+        "next": 1645692985,
+        "param": {
+            "track": true,
+            "resize": 0.25,
+            "level": 1,
+            "soldiers": {
+                "cav": 500,
+                "spe": 500,
+                "bow": 500
+            }
+        }
     }
 }

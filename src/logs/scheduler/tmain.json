@@ -1,96 +1,10 @@
 {
     "continue_bub": {
-        "next": 1645687085,
+        "next": 1645687086,
         "param": {
             "track": true,
             "resize": 0.25,
             "check_interval": 10800
         }
-    },
-    "check_box": {
-        "next": 1645674693,
-        "param": {
-            "track": true,
-            "resize": 0.25
-        }
-    },
-    "get_discount": {
-        "next": 1645677603,
-        "param": {
-            "track": true,
-            "resize": 0.25
-        }
-    },
-    "daily_msg": {
-        "next": 1645710096,
-        "param": {
-            "track": true,
-            "resize": 0.25
-        }
-    },
-    "trade": {
-        "next": 1645677245,
-        "param": {
-            "track": true,
-            "resize": 0.25
-        }
-    },
-    "get_taven": {
-        "next": 1645676869,
-        "param": {
-            "track": true,
-            "resize": 0.25,
-            "leave_noclick": 1
-        }
-    },
-    "explore_drag": {
-        "next": 1645678502,
-        "param": {
-            "track": true,
-            "resize": 0.25,
-            "hours": 1,
-            "buy": 0,
-            "dragon_id": 2
-        }
-    },
-    "sell_quick_box": {
-        "next": 1645678554,
-        "param": {
-            "track": true,
-            "resize": 0.25,
-            "min_level": 21
-        }
-    },
-    "soldiers": {
-        "cav": 500,
-        "spe": 500,
-        "bow": 500
-    },
-    "training_ground": {
-        "next": 1645714840,
-        "param": {
-            "track": true,
-            "resize": 0.25
-        }
-    },
-    "gather_mint": {
-        "next": 1645679574,
-        "param": {
-            "levels": [
-                4
-            ],
-            "rtypes": [
-                "mint"
-            ],
-            "max_distance": 100,
-            "direct_send": 100,
-            "troop_size": 0,
-            "use_dragon": false,
-            "max_troops": 6,
-            "low_troop": true,
-            "track": true,
-            "resize": 0.3
-        },
-        "func": "farm_around"
     }
 }

@@ -1,88 +1,10 @@
 {
     "continue_bub": {
-        "next": 1645791216,
+        "next": 1645791219,
         "param": {
             "track": true,
             "resize": 0.25,
             "check_interval": 10800
-        }
-    },
-    "check_box": {
-        "next": 1645778490,
-        "param": {
-            "track": true,
-            "resize": 0.25
-        }
-    },
-    "get_discount": {
-        "next": 1645780874,
-        "param": {
-            "track": true,
-            "resize": 0.25
-        }
-    },
-    "daily_msg": {
-        "next": 1645817039,
-        "param": {
-            "track": true,
-            "resize": 0.25
-        }
-    },
-    "trade": {
-        "next": 1645778750,
-        "param": {
-            "track": true,
-            "resize": 0.25
-        }
-    },
-    "get_taven": {
-        "next": 1645777650,
-        "param": {
-            "track": true,
-            "resize": 0.25,
-            "leave_noclick": 1
-        }
-    },
-    "up_command": {
-        "next": 1645781260,
-        "param": {
-            "name": "russell",
-            "step_width": 3,
-            "max_try": 6,
-            "track": true,
-            "resize": 0.25,
-            "trigger": 120
-        },
-        "func": "upgrade_commanders"
-    },
-    "explore_drag": {
-        "next": 1645781496,
-        "param": {
-            "track": true,
-            "resize": 0.25,
-            "hours": 1,
-            "buy": 0,
-            "dragon_id": 2
-        }
-    },
-    "sell_quick_box": {
-        "next": 1645778531,
-        "param": {
-            "track": true,
-            "resize": 0.25,
-            "min_level": 21
-        }
-    },
-    "soldiers": {
-        "cav": 500,
-        "spe": 500,
-        "bow": 500
-    },
-    "training_ground": {
-        "next": 1645821665,
-        "param": {
-            "track": true,
-            "resize": 0.25
         }
     }
 }

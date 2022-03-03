@@ -1,6 +1,6 @@
 {
     "heal_500": {
-        "next": 1646281454,
+        "next": 1646282266,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -47,7 +47,7 @@
         }
     },
     "trade": {
-        "next": 1646281648,
+        "next": 1646280771,
         "param": {
             "track": true,
             "resize": 0.25
@@ -131,7 +131,7 @@
         "func": "upgrade_commanders"
     },
     "explore_drag": {
-        "next": 1646283121,
+        "next": 1646281076,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -155,7 +155,7 @@
         }
     },
     "schedule_leader": {
-        "next": 1646281737,
+        "next": 1646281037,
         "param": {
             "side": "left",
             "level": 4,
@@ -167,7 +167,7 @@
         }
     },
     "gather_mint": {
-        "next": 1646285107,
+        "next": 1646281335,
         "param": {
             "levels": [
                 4

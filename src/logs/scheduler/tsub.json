@@ -1,6 +1,6 @@
 {
     "heal_500": {
-        "next": 1646453682,
+        "next": 1646454148,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -73,21 +73,21 @@
         }
     },
     "get_amethyst": {
-        "next": 1646457368,
+        "next": 1646453226,
         "param": {
             "track": true,
             "resize": 0.3
         }
     },
     "get_dragonforged": {
-        "next": 1646457507,
+        "next": 1646453316,
         "param": {
             "track": true,
             "resize": 0.3
         }
     },
     "get_vip_shop": {
-        "next": 1646457597,
+        "next": 1646453406,
         "param": {
             "track": true,
             "resize": 0.3
@@ -153,7 +153,7 @@
         }
     },
     "schedule_leader": {
-        "next": 1646453997,
+        "next": 1646453284,
         "param": {
             "side": "left",
             "level": 4,

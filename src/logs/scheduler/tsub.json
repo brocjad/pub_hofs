@@ -9,14 +9,14 @@
         "func": "heal_max"
     },
     "continue_bub": {
-        "next": 1646990409,
+        "next": 1646921975,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "check_box": {
-        "next": 1646920499,
+        "next": 1646922201,
         "param": {
             "track": true,
             "resize": 0.25

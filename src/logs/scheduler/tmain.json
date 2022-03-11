@@ -1,68 +1,10 @@
 {
     "continue_bub": {
-        "next": 1646972300,
+        "next": 1646972301,
         "param": {
             "track": true,
             "resize": 0.25,
             "check_interval": 10800
-        }
-    },
-    "check_box": {
-        "next": 1646960563,
-        "param": {
-            "track": true,
-            "resize": 0.25
-        }
-    },
-    "get_discount": {
-        "next": 1646963847,
-        "param": {
-            "track": true,
-            "resize": 0.25
-        }
-    },
-    "daily_msg": {
-        "next": 1646999992,
-        "param": {
-            "track": true,
-            "resize": 0.25
-        }
-    },
-    "trade": {
-        "next": 1646961702,
-        "param": {
-            "track": true,
-            "resize": 0.25
-        }
-    },
-    "get_taven": {
-        "next": 1646964144,
-        "param": {
-            "track": true,
-            "resize": 0.25,
-            "leave_noclick": 1
-        }
-    },
-    "up_command": {
-        "next": 1646964155,
-        "param": {
-            "name": "russell",
-            "step_width": 3,
-            "max_try": 6,
-            "track": true,
-            "resize": 0.25,
-            "trigger": 120
-        },
-        "func": "upgrade_commanders"
-    },
-    "explore_drag": {
-        "next": 1646964344,
-        "param": {
-            "track": true,
-            "resize": 0.25,
-            "hours": 1,
-            "buy": 0,
-            "dragon_id": 2
         }
     }
 }

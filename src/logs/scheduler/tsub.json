@@ -33,7 +33,7 @@
         "bow": 500
     },
     "train_mil": {
-        "next": 1646994452,
+        "next": 1647000803,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -54,7 +54,7 @@
         }
     },
     "get_salary": {
-        "next": 1646994679,
+        "next": 1647043805,
         "param": {
             "track": true,
             "resize": 0.25

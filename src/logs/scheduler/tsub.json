@@ -1,6 +1,6 @@
 {
     "heal_500": {
-        "next": 1647052324,
+        "next": 1647052845,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -9,7 +9,7 @@
         "func": "heal_max"
     },
     "continue_bub": {
-        "next": 1647055272,
+        "next": 1647052852,
         "param": {
             "track": true,
             "resize": 0.25
@@ -75,14 +75,14 @@
         }
     },
     "get_amethyst": {
-        "next": 1647056010,
+        "next": 1647051981,
         "param": {
             "track": true,
             "resize": 0.3
         }
     },
     "get_dragonforged": {
-        "next": 1647056111,
+        "next": 1647052071,
         "param": {
             "track": true,
             "resize": 0.3

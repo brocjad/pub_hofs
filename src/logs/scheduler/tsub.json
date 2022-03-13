@@ -1,6 +1,6 @@
 {
     "heal_500": {
-        "next": 1647139062,
+        "next": 1647138689,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -9,21 +9,21 @@
         "func": "heal_max"
     },
     "continue_bub": {
-        "next": 1647139068,
+        "next": 1647216500,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "check_box": {
-        "next": 1647140312,
+        "next": 1647135800,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_discount": {
-        "next": 1647139131,
+        "next": 1647141199,
         "param": {
             "track": true,
             "resize": 0.25
@@ -33,7 +33,7 @@
         "bow": 500
     },
     "train_mil": {
-        "next": 1647139339,
+        "next": 1647141573,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -96,7 +96,7 @@
         }
     },
     "get_taven": {
-        "next": 1647138077,
+        "next": 1647138730,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -167,7 +167,7 @@
         }
     },
     "gather_mint": {
-        "next": 1647138191,
+        "next": 1647143019,
         "param": {
             "levels": [
                 4

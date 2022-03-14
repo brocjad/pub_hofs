@@ -44,7 +44,7 @@
         }
     },
     "up_command": {
-        "next": 1647293108,
+        "next": 1647296796,
         "param": {
             "name": "russell",
             "step_width": 3,
@@ -119,7 +119,7 @@
         }
     },
     "gather_mint": {
-        "next": 1647292873,
+        "next": 1647293131,
         "param": {
             "levels": [
                 4

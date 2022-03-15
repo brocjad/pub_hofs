@@ -42,5 +42,13 @@
             "resize": 0.25,
             "leave_noclick": 1
         }
+    },
+    "sell_quick_box": {
+        "next": 1647318962,
+        "param": {
+            "track": true,
+            "resize": 0.25,
+            "min_level": 21
+        }
     }
 }

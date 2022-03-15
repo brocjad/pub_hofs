@@ -1,81 +1,10 @@
 {
     "continue_bub": {
-        "next": 1647364997,
+        "next": 1647364998,
         "param": {
             "track": true,
             "resize": 0.25,
             "check_interval": 10800
-        }
-    },
-    "check_box": {
-        "next": 1647313800,
-        "param": {
-            "track": true,
-            "resize": 0.25
-        }
-    },
-    "get_discount": {
-        "next": 1647315977,
-        "param": {
-            "track": true,
-            "resize": 0.25
-        }
-    },
-    "daily_msg": {
-        "next": 1647352157,
-        "param": {
-            "track": true,
-            "resize": 0.25
-        }
-    },
-    "trade": {
-        "next": 1647313876,
-        "param": {
-            "track": true,
-            "resize": 0.25
-        }
-    },
-    "get_taven": {
-        "next": 1647312783,
-        "param": {
-            "track": true,
-            "resize": 0.25,
-            "leave_noclick": 1
-        }
-    },
-    "sell_quick_box": {
-        "next": 1647318962,
-        "param": {
-            "track": true,
-            "resize": 0.25,
-            "min_level": 21
-        }
-    },
-    "soldiers": {
-        "inf": 500,
-        "cav": 500,
-        "spe": 500,
-        "bow": 500
-    },
-    "train_mil": {
-        "next": 1647328567,
-        "param": {
-            "track": true,
-            "resize": 0.25,
-            "level": 1,
-            "soldiers": {
-                "inf": 500,
-                "cav": 500,
-                "spe": 500,
-                "bow": 500
-            }
-        }
-    },
-    "training_ground": {
-        "next": 1647357271,
-        "param": {
-            "track": true,
-            "resize": 0.25
         }
     }
 }

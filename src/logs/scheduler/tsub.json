@@ -1,6 +1,6 @@
 {
     "heal_500": {
-        "next": 1647398567,
+        "next": 1647398941,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -187,7 +187,7 @@
         "func": "farm_around"
     },
     "gather_minequar": {
-        "next": 1647401099,
+        "next": 1647397757,
         "param": {
             "levels": [
                 4

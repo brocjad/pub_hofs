@@ -92,7 +92,7 @@
         }
     },
     "gather_mint": {
-        "next": 1647467035,
+        "next": 1647473494,
         "param": {
             "levels": [
                 4
@@ -134,7 +134,7 @@
         "func": "farm_around"
     },
     "gather_quarmine": {
-        "next": 1647466881,
+        "next": 1647469982,
         "param": {
             "levels": [
                 5

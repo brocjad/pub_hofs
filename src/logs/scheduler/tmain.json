@@ -8,10 +8,57 @@
         }
     },
     "check_box": {
-        "next": 1647527130,
+        "next": 1647530771,
         "param": {
             "track": true,
             "resize": 0.25
+        }
+    },
+    "get_discount": {
+        "next": 1647530721,
+        "param": {
+            "track": true,
+            "resize": 0.25
+        }
+    },
+    "daily_msg": {
+        "next": 1647566857,
+        "param": {
+            "track": true,
+            "resize": 0.25
+        }
+    },
+    "trade": {
+        "next": 1647528563,
+        "param": {
+            "track": true,
+            "resize": 0.25
+        }
+    },
+    "get_taven": {
+        "next": 1647527463,
+        "param": {
+            "track": true,
+            "resize": 0.25,
+            "leave_noclick": 1
+        }
+    },
+    "explore_drag": {
+        "next": 1647528167,
+        "param": {
+            "track": true,
+            "resize": 0.25,
+            "hours": 1,
+            "buy": 0,
+            "dragon_id": 2
+        }
+    },
+    "sell_quick_box": {
+        "next": 1647556118,
+        "param": {
+            "track": true,
+            "resize": 0.25,
+            "min_level": 21
         }
     }
 }

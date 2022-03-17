@@ -1,6 +1,6 @@
 {
     "heal_500": {
-        "next": 1647527286,
+        "next": 1647530804,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -9,7 +9,7 @@
         "func": "heal_max"
     },
     "continue_bub": {
-        "next": 1647527295,
+        "next": 1647531282,
         "param": {
             "track": true,
             "resize": 0.25
@@ -187,7 +187,7 @@
         "func": "farm_around"
     },
     "gather_minequar": {
-        "next": 1647525224,
+        "next": 1647533323,
         "param": {
             "levels": [
                 4
@@ -207,7 +207,7 @@
         "func": "farm_around"
     },
     "gather_mine": {
-        "next": 1647525575,
+        "next": 1647533485,
         "param": {
             "levels": [
                 4
@@ -227,7 +227,7 @@
         "func": "farm_around"
     },
     "gather_lumb": {
-        "next": 1647525401,
+        "next": 1647533404,
         "param": {
             "levels": [
                 4

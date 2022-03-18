@@ -56,7 +56,7 @@
         "func": "upgrade_commanders"
     },
     "sell_quick_box": {
-        "next": 1647645314,
+        "next": 1647646574,
         "param": {
             "track": true,
             "resize": 0.25,

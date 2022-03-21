@@ -1,6 +1,6 @@
 {
     "heal_500": {
-        "next": 1647835213,
+        "next": 1647836698,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -9,21 +9,21 @@
         "func": "heal_max"
     },
     "continue_bub": {
-        "next": 1647842598,
+        "next": 1647836705,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "check_box": {
-        "next": 1647833615,
+        "next": 1647837050,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_discount": {
-        "next": 1647835122,
+        "next": 1647840402,
         "param": {
             "track": true,
             "resize": 0.25
@@ -33,7 +33,7 @@
         "bow": 500
     },
     "train_mil": {
-        "next": 1647835410,
+        "next": 1647840746,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -187,7 +187,7 @@
         "func": "farm_around"
     },
     "gather_minequar": {
-        "next": 1647840518,
+        "next": 1647834331,
         "param": {
             "levels": [
                 4

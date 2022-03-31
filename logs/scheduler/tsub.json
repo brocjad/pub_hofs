@@ -147,13 +147,6 @@
             "resize": 0.25
         }
     },
-    "training_ground": {
-        "next": 1647874989,
-        "param": {
-            "track": true,
-            "resize": 0.25
-        }
-    },
     "schedule_leader": {
         "next": 1647875220,
         "param": {

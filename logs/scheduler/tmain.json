@@ -1,0 +1,10 @@
+{
+    "continue_bub": {
+        "next": 1648771123,
+        "param": {
+            "track": true,
+            "resize": 0.25,
+            "check_interval": 10800
+        }
+    }
+}

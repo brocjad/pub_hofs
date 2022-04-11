@@ -161,7 +161,7 @@
         }
     },
     "gather_mint": {
-        "next": 1649645777,
+        "next": 1649654825,
         "param": {
             "levels": [
                 4
@@ -181,7 +181,7 @@
         "func": "farm_around"
     },
     "gather_minequar": {
-        "next": 1649645855,
+        "next": 1649649269,
         "param": {
             "levels": [
                 4

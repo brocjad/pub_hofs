@@ -141,7 +141,7 @@
         }
     },
     "get_vip_box": {
-        "next": 1650032204,
+        "next": 1650071999,
         "param": {
             "track": true,
             "resize": 0.25

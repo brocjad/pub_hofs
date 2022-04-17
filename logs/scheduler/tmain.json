@@ -1,6 +1,6 @@
 {
     "continue_bub": {
-        "next": 1650169172,
+        "next": 1650197135,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -8,35 +8,35 @@
         }
     },
     "check_box": {
-        "next": 1650171641,
+        "next": 1650166469,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_discount": {
-        "next": 1650169256,
+        "next": 1650171970,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "daily_msg": {
-        "next": 1650169365,
+        "next": 1650208015,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "trade": {
-        "next": 1650169382,
+        "next": 1650169777,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_taven": {
-        "next": 1650169385,
+        "next": 1650172253,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -44,7 +44,7 @@
         }
     },
     "up_command": {
-        "next": 1650166177,
+        "next": 1650170444,
         "param": {
             "name": "russell",
             "step_width": 3,

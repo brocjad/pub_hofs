@@ -98,7 +98,7 @@
         }
     },
     "get_taven": {
-        "next": 1650271157,
+        "next": 1650275154,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -106,7 +106,7 @@
         }
     },
     "get_alli_quest": {
-        "next": 1650283748,
+        "next": 1650271562,
         "param": {
             "track": true,
             "resize": 0.25

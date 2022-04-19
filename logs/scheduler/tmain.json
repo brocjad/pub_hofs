@@ -1,6 +1,6 @@
 {
     "continue_bub": {
-        "next": 1650374797,
+        "next": 1650342658,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -8,28 +8,28 @@
         }
     },
     "check_box": {
-        "next": 1650339551,
+        "next": 1650343010,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_discount": {
-        "next": 1650344960,
+        "next": 1650342726,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "daily_msg": {
-        "next": 1650381040,
+        "next": 1650342857,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "trade": {
-        "next": 1650342800,
+        "next": 1650340160,
         "param": {
             "track": true,
             "resize": 0.25
@@ -129,7 +129,7 @@
         "func": "farm_around"
     },
     "gather_qml": {
-        "next": 1650346259,
+        "next": 1650339885,
         "param": {
             "levels": [
                 5
@@ -151,7 +151,7 @@
         "func": "farm_around"
     },
     "gather_quarmine": {
-        "next": 1650346322,
+        "next": 1650339891,
         "param": {
             "levels": [
                 5

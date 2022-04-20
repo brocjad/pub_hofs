@@ -75,7 +75,7 @@
     },
     "soldiers": {},
     "train_mil": {
-        "next": 1650431998,
+        "next": 1650432918,
         "param": {
             "track": true,
             "resize": 0.25,

@@ -80,13 +80,12 @@
         "bow": 500
     },
     "train_mil": {
-        "next": 1650712602,
+        "next": 1650713140,
         "param": {
             "track": true,
             "resize": 0.25,
             "level": 1,
             "soldiers": {
-                "cav": 500,
                 "spe": 500,
                 "bow": 500
             }

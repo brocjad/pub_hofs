@@ -36,7 +36,7 @@
         }
     },
     "get_taven": {
-        "next": 1650709375,
+        "next": 1650715623,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -44,7 +44,7 @@
         }
     },
     "up_command": {
-        "next": 1650709378,
+        "next": 1650715682,
         "param": {
             "name": "russell",
             "step_width": 3,

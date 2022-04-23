@@ -1,6 +1,6 @@
 {
     "heal_500": {
-        "next": 1650686500,
+        "next": 1650687968,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -9,7 +9,7 @@
         "func": "heal_max"
     },
     "continue_bub": {
-        "next": 1650686961,
+        "next": 1650715928,
         "param": {
             "track": true,
             "resize": 0.25
@@ -85,7 +85,7 @@
         }
     },
     "get_dragonforged": {
-        "next": 1650691251,
+        "next": 1650683981,
         "param": {
             "track": true,
             "resize": 0.3
@@ -114,7 +114,7 @@
         }
     },
     "sell_quick_box": {
-        "next": 1650689789,
+        "next": 1650684179,
         "param": {
             "track": true,
             "resize": 0.25,

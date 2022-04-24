@@ -136,3 +136,47 @@ jobs:
           python --version
           sleep 21
           python run_daily_hof.py 3 
+
+  daily_farm_20:
+    # Name the Job
+    name: daily_farm_20
+    runs-on: ubuntu-18.04
+    timeout-minutes: 120
+
+
+    steps:
+      # Checks out a copy of your repository on the ubuntu-latest machine
+      - name: Check out my other private repo
+        uses: actions/checkout@v2
+        with:
+          repository: brokenjade3000/got_auto
+          token: ${{ secrets.BK3K_TOKEN }} # `GH_PAT` is a secret that contains your PAT
+          path: got_auto      
+
+      - name: set up python 3.6
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.6
+
+      - name: install packages
+        run: |
+          mv /home/runner/work/pub_hofs/pub_hofs/got_auto /home/runner/work/got_auto
+          cd /home/runner/work/got_auto
+          chmod 775 ./script/install.sh
+          ./script/install.sh
+      - name: Run daily_farm_3
+        env:
+          DEFAULT_BRANCH: main                   
+          HOF_REPO: ${{ secrets.HOF_REPO }}
+          HOF_HEADER: ${{ secrets.HOF_HEADER }}
+          MASTER_KEY: ${{ secrets.MASTER_KEY }}
+          LOG_TOKEN: ${{ secrets.LOG_TOKEN }}
+          GIT_REPO: ${{ secrets.GIT_REPO }}
+          GD_TOKEN: ${{ secrets.GD_TOKEN }}
+        run: |
+          pwd
+          cd /home/runner/work/got_auto/src
+          python --version
+          sleep 40
+          python run_daily_hof.py 20 
+

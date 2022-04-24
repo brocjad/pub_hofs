@@ -164,7 +164,7 @@ jobs:
           cd /home/runner/work/got_auto
           chmod 775 ./script/install.sh
           ./script/install.sh
-      - name: Run daily_farm_3
+      - name: Run daily_farm_20
         env:
           DEFAULT_BRANCH: main                   
           HOF_REPO: ${{ secrets.HOF_REPO }}

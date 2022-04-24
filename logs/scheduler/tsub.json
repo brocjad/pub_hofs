@@ -1,6 +1,6 @@
 {
     "heal_500": {
-        "next": 1650768779,
+        "next": 1650769111,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -99,7 +99,7 @@
         }
     },
     "get_taven": {
-        "next": 1650768901,
+        "next": 1650768637,
         "param": {
             "track": true,
             "resize": 0.25,

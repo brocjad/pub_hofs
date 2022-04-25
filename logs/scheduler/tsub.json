@@ -163,7 +163,7 @@
         }
     },
     "gather_mint": {
-        "next": 1650859633,
+        "next": 1650887888,
         "param": {
             "levels": [
                 4
@@ -174,7 +174,7 @@
             "max_distance": 110,
             "direct_send": 50,
             "troop_size": 0,
-            "use_dragon": true,
+            "use_dragon": false,
             "max_troops": 3,
             "low_troop": true,
             "track": true,

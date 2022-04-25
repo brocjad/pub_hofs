@@ -154,13 +154,14 @@
         "func": "farm_around"
     },
     "gather_quarmine": {
-        "next": 1650852042,
+        "next": 1650879922,
         "param": {
             "levels": [
                 5
             ],
             "rtypes": [
                 "mine",
+                "quar",
                 "lumb"
             ],
             "max_distance": 90,

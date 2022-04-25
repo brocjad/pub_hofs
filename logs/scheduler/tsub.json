@@ -1,6 +1,6 @@
 {
     "heal_500": {
-        "next": 1650927974,
+        "next": 1650928720,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -163,7 +163,7 @@
         }
     },
     "gather_mint": {
-        "next": 1650928159,
+        "next": 1650932400,
         "param": {
             "levels": [
                 4

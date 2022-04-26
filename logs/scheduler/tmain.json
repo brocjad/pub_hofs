@@ -1,6 +1,6 @@
 {
     "continue_bub": {
-        "next": 1650994443,
+        "next": 1650982524,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -8,7 +8,7 @@
         }
     },
     "check_box": {
-        "next": 1650979560,
+        "next": 1650982762,
         "param": {
             "track": true,
             "resize": 0.25
@@ -77,12 +77,14 @@
         "bow": 500
     },
     "train_mil": {
-        "next": 1650983773,
+        "next": 1650981411,
         "param": {
             "track": true,
             "resize": 0.25,
             "level": 1,
-            "soldiers": {}
+            "soldiers": {
+                "bow": 500
+            }
         }
     },
     "schedule_leader": {

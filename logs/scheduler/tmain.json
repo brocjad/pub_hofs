@@ -110,7 +110,7 @@
         }
     },
     "gather_mint": {
-        "next": 1650996640,
+        "next": 1651011796,
         "param": {
             "levels": [
                 4
@@ -122,8 +122,13 @@
             "direct_send": 100,
             "troop_size": 0,
             "use_dragon": false,
-            "max_troops": 6,
+            "max_troops": 3,
             "low_troop": true,
+            "etype": [
+                "forest",
+                "dancing_flower"
+            ],
+            "equip_id": 1,
             "track": true,
             "resize": 0.3
         },

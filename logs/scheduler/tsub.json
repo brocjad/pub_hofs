@@ -1,6 +1,6 @@
 {
     "heal_500": {
-        "next": 1651207216,
+        "next": 1651213634,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -221,7 +221,7 @@
         "func": "farm_around"
     },
     "gather_lumb": {
-        "next": 1651217051,
+        "next": 1651201357,
         "param": {
             "levels": [
                 4

@@ -1,6 +1,6 @@
 {
     "continue_bub": {
-        "next": 1651292752,
+        "next": 1651345310,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -8,14 +8,14 @@
         }
     },
     "check_box": {
-        "next": 1651295868,
+        "next": 1651289674,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_discount": {
-        "next": 1651292904,
+        "next": 1651294382,
         "param": {
             "track": true,
             "resize": 0.25
@@ -109,7 +109,7 @@
         }
     },
     "gather_mint": {
-        "next": 1651292474,
+        "next": 1651296706,
         "param": {
             "levels": [
                 4

@@ -1,6 +1,6 @@
 {
     "continue_bub": {
-        "next": 1651345310,
+        "next": 1651292752,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -8,21 +8,21 @@
         }
     },
     "check_box": {
-        "next": 1651289674,
+        "next": 1651295868,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_discount": {
-        "next": 1651294382,
+        "next": 1651292904,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "daily_msg": {
-        "next": 1651330427,
+        "next": 1651293132,
         "param": {
             "track": true,
             "resize": 0.25
@@ -109,7 +109,7 @@
         }
     },
     "gather_mint": {
-        "next": 1651296706,
+        "next": 1651292474,
         "param": {
             "levels": [
                 4

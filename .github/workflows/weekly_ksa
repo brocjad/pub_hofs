@@ -1,4 +1,4 @@
-name: run_sub
+name: weekly_ksa
 
 # Run this workflow every time a new commit pushed to your repository
 on:
@@ -10,7 +10,7 @@ jobs:
   # when a job name is not provided
   run_5k:
     # Name the Job
-    name: run_5k
+    name: weekly_ksa
     # Set the type of machine to run on
     runs-on: ubuntu-18.04
     timeout-minutes: 120
@@ -39,7 +39,7 @@ jobs:
           ./script/install.sh
 
       # Runs the Super-Linter action
-      - name: run_0
+      - name: weekly_ksa
         env:
           DEFAULT_BRANCH: main
           MASTER_KEY: ${{ secrets.MASTER_KEY}}

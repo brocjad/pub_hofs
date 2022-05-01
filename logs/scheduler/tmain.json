@@ -1,6 +1,6 @@
 {
     "continue_bub": {
-        "next": 1651386634,
+        "next": 1651386099,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -91,7 +91,7 @@
         }
     },
     "schedule_leader": {
-        "next": 1651386145,
+        "next": 1651385355,
         "param": {
             "side": "left",
             "level": 4,

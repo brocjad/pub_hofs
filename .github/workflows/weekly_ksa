@@ -1,0 +1,53 @@
+name: run_sub
+
+# Run this workflow every time a new commit pushed to your repository
+on:
+  schedule:
+    - cron: '5 7 * * 0'
+
+jobs:
+  # Set the job key. The key is displayed as the job name
+  # when a job name is not provided
+  run_5k:
+    # Name the Job
+    name: run_5k
+    # Set the type of machine to run on
+    runs-on: ubuntu-18.04
+    timeout-minutes: 120
+
+    steps:
+      - name: Check out my other private repo
+        uses: actions/checkout@v2
+        with:
+          repository: brokenjade3000/got_auto
+          token: ${{ secrets.BK3K_TOKEN }} # `GH_PAT` is a secret that contains your PAT
+          path: got_auto      
+
+      - name: set up python 3.6
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.6
+
+      - name: install packages
+        run: |
+          ls /home/runner/work/pub_hofs/pub_hofs/got_auto
+          pwd
+          ls /home/runner/work/pub_hofs/pub_hofs/got_auto/script
+          mv /home/runner/work/pub_hofs/pub_hofs/got_auto /home/runner/work/got_auto
+          cd /home/runner/work/got_auto
+          chmod 775 ./script/install.sh
+          ./script/install.sh
+
+      # Runs the Super-Linter action
+      - name: run_0
+        env:
+          DEFAULT_BRANCH: main
+          MASTER_KEY: ${{ secrets.MASTER_KEY}}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GIT_REPO: brocjad/pub_hof
+        run: |
+          pwd
+          cd /home/runner/work/got_auto/src
+          python --version
+          python run_ksa_weekly.py -1
+

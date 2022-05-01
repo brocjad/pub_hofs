@@ -48,4 +48,4 @@ jobs:
           pwd
           cd /home/runner/work/got_auto/src
           python --version
-          python run_ksa_weekly.py -1
+          python run_weekly_ksa.py -1

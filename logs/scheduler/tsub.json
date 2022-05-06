@@ -241,14 +241,8 @@
         "func": "farm_around"
     },
     "daily_farms": {
-        "finished": [
-            "mint",
-            "mine",
-            "quar",
-            "lumb",
-            "grain"
-        ],
-        "next": 1651846018,
-        "local": "05/06/2022 08:06:58"
+        "finished": [],
+        "next": 1651859653,
+        "local": "05/06/2022 11:54:13"
     }
 }

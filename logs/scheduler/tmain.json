@@ -56,7 +56,7 @@
         "func": "upgrade_commanders"
     },
     "explore_drag": {
-        "next": 1651984463,
+        "next": 1651988406,
         "param": {
             "track": true,
             "resize": 0.25,

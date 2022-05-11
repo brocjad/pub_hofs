@@ -1,6 +1,6 @@
 {
     "heal_500": {
-        "next": 1652242498,
+        "next": 1652243977,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -121,7 +121,7 @@
         }
     },
     "up_command": {
-        "next": 1652243924,
+        "next": 1652241475,
         "param": {
             "name": "robert",
             "step_width": 3,

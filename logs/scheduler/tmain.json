@@ -1,6 +1,6 @@
 {
     "continue_bub": {
-        "next": 1652326577,
+        "next": 1652330332,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -8,35 +8,35 @@
         }
     },
     "check_box": {
-        "next": 1652329351,
+        "next": 1652330658,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_discount": {
-        "next": 1652330216,
+        "next": 1652333971,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "daily_msg": {
-        "next": 1652330257,
+        "next": 1652334013,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "trade": {
-        "next": 1652327192,
+        "next": 1652330948,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_taven": {
-        "next": 1652330799,
+        "next": 1652334555,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -117,7 +117,7 @@
         "local": "05/07/2022 11:28:41"
     },
     "gather_mint": {
-        "next": 1652330960,
+        "next": 1652319271,
         "param": {
             "levels": [
                 4
@@ -125,19 +125,19 @@
             "rtypes": [
                 "mint"
             ],
-            "max_distance": 90,
-            "direct_send": 90,
+            "max_distance": 100,
+            "direct_send": 100,
             "troop_size": 0,
-            "low_troop": true,
             "use_dragon": false,
             "max_troops": 6,
+            "low_troop": true,
             "track": true,
             "resize": 0.3
         },
         "func": "farm_around"
     },
     "gather_qml": {
-        "next": 1652334552,
+        "next": 1652319270,
         "param": {
             "levels": [
                 5

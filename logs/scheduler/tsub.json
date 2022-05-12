@@ -1,6 +1,6 @@
 {
     "heal_500": {
-        "next": 1652359861,
+        "next": 1652365380,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -9,7 +9,7 @@
         "func": "heal_max"
     },
     "continue_bub": {
-        "next": 1652359981,
+        "next": 1652440875,
         "param": {
             "track": true,
             "resize": 0.25
@@ -167,7 +167,7 @@
         "local": "05/12/2022 08:29:25"
     },
     "gather_mint": {
-        "next": 1652368978,
+        "next": 1652361075,
         "param": {
             "levels": [
                 4

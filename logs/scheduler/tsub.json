@@ -1,6 +1,6 @@
 {
     "heal_500": {
-        "next": 1652326477,
+        "next": 1652331086,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -16,7 +16,7 @@
         }
     },
     "check_box": {
-        "next": 1652330852,
+        "next": 1652326860,
         "param": {
             "track": true,
             "resize": 0.25
@@ -121,7 +121,7 @@
         }
     },
     "up_command": {
-        "next": 1652333452,
+        "next": 1652315650,
         "param": {
             "name": "robert",
             "step_width": 3,
@@ -133,7 +133,7 @@
         "func": "upgrade_commanders"
     },
     "explore_drag": {
-        "next": 1652332236,
+        "next": 1652314124,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -143,14 +143,14 @@
         }
     },
     "get_vip_box": {
-        "next": 1652341267,
+        "next": 1652322902,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "schedule_leader": {
-        "next": 1652331061,
+        "next": 1652314465,
         "param": {
             "side": "left",
             "level": 4,

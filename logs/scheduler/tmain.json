@@ -1,6 +1,6 @@
 {
     "continue_bub": {
-        "next": 1652326577,
+        "next": 1652330332,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -8,35 +8,35 @@
         }
     },
     "check_box": {
-        "next": 1652329351,
+        "next": 1652332610,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_discount": {
-        "next": 1652330216,
+        "next": 1652333971,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "daily_msg": {
-        "next": 1652330257,
+        "next": 1652334013,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "trade": {
-        "next": 1652327192,
+        "next": 1652330948,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_taven": {
-        "next": 1652330799,
+        "next": 1652334555,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -44,7 +44,7 @@
         }
     },
     "up_command": {
-        "next": 1652330866,
+        "next": 1652334622,
         "param": {
             "name": "russell",
             "step_width": 3,
@@ -56,7 +56,7 @@
         "func": "upgrade_commanders"
     },
     "explore_drag": {
-        "next": 1652329221,
+        "next": 1652332977,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -66,7 +66,7 @@
         }
     },
     "sell_quick_box": {
-        "next": 1652329743,
+        "next": 1652333498,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -80,7 +80,7 @@
         "bow": 500
     },
     "train_mil": {
-        "next": 1652332040,
+        "next": 1652331705,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -117,7 +117,7 @@
         "local": "05/07/2022 11:28:41"
     },
     "gather_mint": {
-        "next": 1652335594,
+        "next": 1652319271,
         "param": {
             "levels": [
                 4
@@ -137,7 +137,7 @@
         "func": "farm_around"
     },
     "gather_qml": {
-        "next": 1652334552,
+        "next": 1652319270,
         "param": {
             "levels": [
                 5
@@ -159,7 +159,7 @@
         "func": "farm_around"
     },
     "gather_quarmine": {
-        "next": 1652335067,
+        "next": 1652319274,
         "param": {
             "levels": [
                 5

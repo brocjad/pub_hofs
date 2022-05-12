@@ -1,6 +1,6 @@
 {
     "heal_500": {
-        "next": 1652331086,
+        "next": 1652326477,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -9,21 +9,21 @@
         "func": "heal_max"
     },
     "continue_bub": {
-        "next": 1652331204,
+        "next": 1652326479,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "check_box": {
-        "next": 1652331529,
+        "next": 1652330852,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_discount": {
-        "next": 1652334843,
+        "next": 1652330173,
         "param": {
             "track": true,
             "resize": 0.25
@@ -121,7 +121,7 @@
         }
     },
     "up_command": {
-        "next": 1652315650,
+        "next": 1652333452,
         "param": {
             "name": "robert",
             "step_width": 3,
@@ -133,7 +133,7 @@
         "func": "upgrade_commanders"
     },
     "explore_drag": {
-        "next": 1652314124,
+        "next": 1652332236,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -143,14 +143,14 @@
         }
     },
     "get_vip_box": {
-        "next": 1652322902,
+        "next": 1652341267,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "schedule_leader": {
-        "next": 1652314465,
+        "next": 1652331061,
         "param": {
             "side": "left",
             "level": 4,
@@ -163,8 +163,8 @@
     },
     "daily_farms": {
         "finished": [],
-        "next": 1652311961,
-        "local": "05/11/2022 17:32:41"
+        "next": 1652332287,
+        "local": "05/11/2022 23:11:27"
     },
     "gather_mint": {
         "next": 1652315777,

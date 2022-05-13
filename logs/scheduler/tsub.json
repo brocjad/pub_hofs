@@ -161,12 +161,9 @@
         }
     },
     "daily_farms": {
-        "finished": [
-            "grain",
-            "mint"
-        ],
-        "next": 1652433955,
-        "local": "05/13/2022 03:25:55"
+        "finished": [],
+        "next": 1652441415,
+        "local": "05/13/2022 05:30:15"
     },
     "gather_mint": {
         "next": 1652441499,

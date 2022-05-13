@@ -1,6 +1,6 @@
 {
     "heal_500": {
-        "next": 1652449974,
+        "next": 1652451850,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -48,7 +48,7 @@
         }
     },
     "trade": {
-        "next": 1652451626,
+        "next": 1652447484,
         "param": {
             "track": true,
             "resize": 0.25

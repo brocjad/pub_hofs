@@ -1,6 +1,6 @@
 {
     "heal_500": {
-        "next": 1652510210,
+        "next": 1652510549,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -34,7 +34,7 @@
         "bow": 500
     },
     "train_mil": {
-        "next": 1652513852,
+        "next": 1652507369,
         "param": {
             "track": true,
             "resize": 0.25,

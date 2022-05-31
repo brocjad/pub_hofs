@@ -1,19 +1,19 @@
 {
     "continue_bub": {
-        "next": 1653968275,
+        "next": 1654041360,
         "param": {
             "track": true,
             "resize": 0.25
         },
-        "local": "05/30/2022 21:37:55"
+        "local": "05/31/2022 17:56:00"
     },
     "check_box": {
-        "next": 1653968365,
+        "next": 1653967579,
         "param": {
             "track": true,
             "resize": 0.25
         },
-        "local": "05/30/2022 21:39:25"
+        "local": "05/30/2022 21:26:19"
     },
     "get_discount": {
         "next": 1653963340,
@@ -81,7 +81,7 @@
         }
     },
     "explore_drag": {
-        "next": 1653971196,
+        "next": 1653968566,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -89,7 +89,7 @@
             "buy": 0,
             "dragon_id": 1
         },
-        "local": "05/30/2022 22:26:36"
+        "local": "05/30/2022 21:42:46"
     },
     "get_vip_box": {
         "next": 1654046399,

@@ -8,11 +8,12 @@
         "local": "05/31/2022 17:56:00"
     },
     "check_box": {
-        "next": 1653963534,
+        "next": 1653967579,
         "param": {
             "track": true,
             "resize": 0.25
-        }
+        },
+        "local": "05/30/2022 21:26:19"
     },
     "get_discount": {
         "next": 1653963340,

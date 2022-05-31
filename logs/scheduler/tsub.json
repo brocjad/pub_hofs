@@ -1,35 +1,33 @@
 {
     "continue_bub": {
-        "next": 1654041360,
+        "next": 1653969686,
         "param": {
             "track": true,
             "resize": 0.25
         },
-        "local": "05/31/2022 17:56:00"
+        "local": "05/30/2022 22:01:26"
     },
     "check_box": {
-        "next": 1653968402,
+        "next": 1653968365,
         "param": {
             "track": true,
             "resize": 0.25
         },
-        "local": "05/30/2022 21:40:02"
+        "local": "05/30/2022 21:39:25"
     },
     "get_discount": {
-        "next": 1653968872,
+        "next": 1653963340,
         "param": {
             "track": true,
             "resize": 0.25
-        },
-        "local": "05/30/2022 21:47:52"
+        }
     },
     "trade": {
-        "next": 1653977237,
+        "next": 1653964015,
         "param": {
             "track": true,
             "resize": 0.25
-        },
-        "local": "05/31/2022 00:07:17"
+        }
     },
     "get_salary": {
         "next": 1654042205,
@@ -39,12 +37,11 @@
         }
     },
     "get_bonus": {
-        "next": 1654042204,
+        "next": 1653963899,
         "param": {
             "track": true,
             "resize": 0.25
-        },
-        "local": "05/31/2022 18:10:04"
+        }
     },
     "get_knight": {
         "next": 1654003605,
@@ -61,33 +58,30 @@
         }
     },
     "get_taven": {
-        "next": 1653969536,
+        "next": 1653965809,
         "param": {
             "track": true,
             "resize": 0.25,
             "leave_noclick": 1
-        },
-        "local": "05/30/2022 21:58:56"
+        }
     },
     "get_alli_quest": {
-        "next": 1653985123,
+        "next": 1653963509,
         "param": {
             "track": true,
             "resize": 0.25
-        },
-        "local": "05/31/2022 02:18:43"
+        }
     },
     "sell_quick_box": {
-        "next": 1653969655,
+        "next": 1653966233,
         "param": {
             "track": true,
             "resize": 0.25,
             "min_level": 12
-        },
-        "local": "05/30/2022 22:00:55"
+        }
     },
     "explore_drag": {
-        "next": 1653968566,
+        "next": 1653971196,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -95,7 +89,7 @@
             "buy": 0,
             "dragon_id": 1
         },
-        "local": "05/30/2022 21:42:46"
+        "local": "05/30/2022 22:26:36"
     },
     "get_vip_box": {
         "next": 1654046399,
@@ -116,28 +110,5 @@
             "toadd_motiv": 0
         }
     },
-    "get_active_award": {
-        "next": 1653968681,
-        "local": "05/30/2022 21:44:41"
-    },
-    "auto_transport_rss": {
-        "next": 1653968759,
-        "local": "05/30/2022 21:45:59"
-    },
-    "get_alliance_chests": {
-        "next": 1653975111,
-        "local": "05/30/2022 23:31:51"
-    },
-    "bliz_elite_trial": {
-        "next": 1654054402,
-        "local": "05/31/2022 21:33:22"
-    },
-    "daily_msg": {
-        "next": 1654007641,
-        "local": "05/31/2022 08:34:01"
-    },
-    "upgrade_commanders": {
-        "next": 1653971921,
-        "local": "05/30/2022 22:38:41"
-    }
+    "get_active_award": {}
 }

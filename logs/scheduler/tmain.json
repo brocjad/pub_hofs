@@ -22,14 +22,14 @@
         }
     },
     "daily_msg": {
-        "next": 1654085969,
+        "next": 1654132939,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "trade": {
-        "next": 1654087254,
+        "next": 1654094626,
         "param": {
             "track": true,
             "resize": 0.25

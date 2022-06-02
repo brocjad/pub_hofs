@@ -1,6 +1,6 @@
 {
     "continue_bub": {
-        "next": 1654146123,
+        "next": 1654142560,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -8,35 +8,35 @@
         }
     },
     "check_box": {
-        "next": 1654147100,
+        "next": 1654145394,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_discount": {
-        "next": 1654146156,
+        "next": 1654146255,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "daily_msg": {
-        "next": 1654146184,
+        "next": 1654146297,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "trade": {
-        "next": 1654146714,
+        "next": 1654143232,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_taven": {
-        "next": 1654146717,
+        "next": 1654146840,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -44,7 +44,7 @@
         }
     },
     "up_command": {
-        "next": 1654146719,
+        "next": 1654146907,
         "param": {
             "name": "russell",
             "step_width": 3,
@@ -56,7 +56,7 @@
         "func": "upgrade_commanders"
     },
     "explore_drag": {
-        "next": 1654148670,
+        "next": 1654145263,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -120,7 +120,7 @@
         }
     },
     "gather_mint": {
-        "next": 1654135132,
+        "next": 1654150084,
         "param": {
             "levels": [
                 4
@@ -132,15 +132,20 @@
             "direct_send": 100,
             "troop_size": 0,
             "use_dragon": false,
-            "max_troops": 6,
+            "max_troops": 3,
             "low_troop": true,
+            "etype": [
+                "forest",
+                "dancing_flower"
+            ],
+            "equip_id": 1,
             "track": true,
             "resize": 0.3
         },
         "func": "farm_around"
     },
     "gather_qml": {
-        "next": 1654134445,
+        "next": 1654150597,
         "param": {
             "levels": [
                 5

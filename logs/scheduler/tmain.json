@@ -1,6 +1,6 @@
 {
     "continue_bub": {
-        "next": 1654142560,
+        "next": 1654146123,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -8,35 +8,35 @@
         }
     },
     "check_box": {
-        "next": 1654145394,
+        "next": 1654147100,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_discount": {
-        "next": 1654146255,
+        "next": 1654146156,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "daily_msg": {
-        "next": 1654146297,
+        "next": 1654146184,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "trade": {
-        "next": 1654143232,
+        "next": 1654146714,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_taven": {
-        "next": 1654146840,
+        "next": 1654146717,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -44,7 +44,7 @@
         }
     },
     "up_command": {
-        "next": 1654146907,
+        "next": 1654146719,
         "param": {
             "name": "russell",
             "step_width": 3,
@@ -56,7 +56,7 @@
         "func": "upgrade_commanders"
     },
     "explore_drag": {
-        "next": 1654145263,
+        "next": 1654148670,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -66,7 +66,7 @@
         }
     },
     "sell_quick_box": {
-        "next": 1654145785,
+        "next": 1654149191,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -120,7 +120,7 @@
         }
     },
     "gather_mint": {
-        "next": 1654147005,
+        "next": 1654135132,
         "param": {
             "levels": [
                 4
@@ -128,19 +128,19 @@
             "rtypes": [
                 "mint"
             ],
-            "max_distance": 90,
-            "direct_send": 90,
+            "max_distance": 100,
+            "direct_send": 100,
             "troop_size": 0,
-            "low_troop": true,
             "use_dragon": false,
             "max_troops": 6,
+            "low_troop": true,
             "track": true,
             "resize": 0.3
         },
         "func": "farm_around"
     },
     "gather_qml": {
-        "next": 1654150597,
+        "next": 1654134445,
         "param": {
             "levels": [
                 5

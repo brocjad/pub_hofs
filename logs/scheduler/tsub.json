@@ -109,7 +109,7 @@
         "local": "06/05/2022 07:28:51"
     },
     "schedule_leader": {
-        "next": 1654423572,
+        "next": 1654435459,
         "param": {
             "side": "right",
             "level": 4,
@@ -119,7 +119,7 @@
             "cost": 1682,
             "toadd_motiv": 0
         },
-        "local": "06/05/2022 04:06:12"
+        "local": "06/05/2022 07:24:19"
     },
     "get_active_award": {
         "next": 1654434816,

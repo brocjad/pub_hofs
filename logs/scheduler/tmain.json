@@ -15,7 +15,7 @@
         }
     },
     "get_discount": {
-        "next": 1655544801,
+        "next": 1655550679,
         "param": {
             "track": true,
             "resize": 0.25

@@ -1,6 +1,6 @@
 {
     "continue_bub": {
-        "next": 1655959648,
+        "next": 1655956247,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -8,35 +8,35 @@
         }
     },
     "check_box": {
-        "next": 1655960626,
+        "next": 1655959024,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_discount": {
-        "next": 1655959681,
+        "next": 1655959887,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "daily_msg": {
-        "next": 1655959709,
+        "next": 1655959928,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "trade": {
-        "next": 1655960240,
+        "next": 1655956864,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_taven": {
-        "next": 1655960243,
+        "next": 1655960471,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -44,7 +44,7 @@
         }
     },
     "up_command": {
-        "next": 1655960246,
+        "next": 1655960538,
         "param": {
             "name": "russell",
             "step_width": 3,
@@ -56,7 +56,7 @@
         "func": "upgrade_commanders"
     },
     "explore_drag": {
-        "next": 1655962196,
+        "next": 1655958893,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -92,7 +92,7 @@
         }
     },
     "schedule_leader": {
-        "next": 1655940274,
+        "next": 1655959743,
         "param": {
             "side": "right",
             "level": 4,
@@ -119,7 +119,7 @@
         }
     },
     "gather_mint": {
-        "next": 1655945582,
+        "next": 1655963713,
         "param": {
             "levels": [
                 4
@@ -131,15 +131,20 @@
             "direct_send": 100,
             "troop_size": 0,
             "use_dragon": false,
-            "max_troops": 6,
+            "max_troops": 3,
             "low_troop": true,
+            "etype": [
+                "forest",
+                "dancing_flower"
+            ],
+            "equip_id": 1,
             "track": true,
             "resize": 0.3
         },
         "func": "farm_around"
     },
     "gather_qml": {
-        "next": 1655947724,
+        "next": 1655964226,
         "param": {
             "levels": [
                 5

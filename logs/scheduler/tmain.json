@@ -1,6 +1,6 @@
 {
     "continue_bub": {
-        "next": 1655956247,
+        "next": 1655959648,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -8,28 +8,28 @@
         }
     },
     "check_box": {
-        "next": 1655959024,
+        "next": 1655959973,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_discount": {
-        "next": 1655959887,
+        "next": 1655959681,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "daily_msg": {
-        "next": 1655959928,
+        "next": 1655959709,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "trade": {
-        "next": 1655956864,
+        "next": 1655960240,
         "param": {
             "track": true,
             "resize": 0.25
@@ -92,7 +92,7 @@
         }
     },
     "schedule_leader": {
-        "next": 1655959743,
+        "next": 1655940274,
         "param": {
             "side": "right",
             "level": 4,
@@ -119,7 +119,7 @@
         }
     },
     "gather_mint": {
-        "next": 1655963713,
+        "next": 1655945582,
         "param": {
             "levels": [
                 4
@@ -131,13 +131,8 @@
             "direct_send": 100,
             "troop_size": 0,
             "use_dragon": false,
-            "max_troops": 3,
+            "max_troops": 6,
             "low_troop": true,
-            "etype": [
-                "forest",
-                "dancing_flower"
-            ],
-            "equip_id": 1,
             "track": true,
             "resize": 0.3
         },

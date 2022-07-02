@@ -70,5 +70,9 @@
     "check_midsummer": {
         "next": 1656799599,
         "local": "07/02/2022 16:06:39"
+    },
+    "upgrade_commanders": {
+        "next": 1656799792,
+        "local": "07/02/2022 16:09:52"
     }
 }

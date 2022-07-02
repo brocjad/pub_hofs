@@ -46,5 +46,9 @@
     "auto_transport_rss": {
         "next": 1656797345,
         "local": "07/02/2022 15:29:05"
+    },
+    "get_alliance_chests": {
+        "next": 1656797373,
+        "local": "07/02/2022 15:29:33"
     }
 }

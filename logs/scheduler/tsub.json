@@ -81,13 +81,13 @@
         "local": "07/02/2022 13:25:20"
     },
     "sell_quick_box": {
-        "next": 1656775948,
+        "next": 1656781373,
         "param": {
             "track": true,
             "resize": 0.25,
             "min_level": 12
         },
-        "local": "07/02/2022 09:32:28"
+        "local": "07/02/2022 11:02:53"
     },
     "explore_drag": {
         "next": 1656782726,

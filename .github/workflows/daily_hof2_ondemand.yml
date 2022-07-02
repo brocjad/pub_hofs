@@ -45,7 +45,7 @@ jobs:
           pwd
           cd /home/runner/work/got_auto/src
           python --version
-          python run_daily_hof.py 12,13
+          python run_daily_hof.py -i 12,13
 
 
  
@@ -88,7 +88,7 @@ jobs:
           pwd
           cd /home/runner/work/got_auto/src
           python --version
-          python run_daily_hof.py 14,15         
+          python run_daily_hof.py -i 14,15         
 
             
   run_1617:
@@ -129,7 +129,7 @@ jobs:
           pwd
           cd /home/runner/work/got_auto/src
           python --version
-          python run_daily_hof.py 16,17          
+          python run_daily_hof.py -i 16,17          
           
           
           
@@ -171,7 +171,7 @@ jobs:
           pwd
           cd /home/runner/work/got_auto/src
           python --version
-          python run_daily_hof.py 18,19           
+          python run_daily_hof.py -i 18,19           
           
           
 
@@ -213,5 +213,5 @@ jobs:
           pwd
           cd /home/runner/work/got_auto/src
           python --version
-          python run_daily_hof.py 20
+          python run_daily_hof.py -i 20
                

@@ -49,7 +49,7 @@ jobs:
           cd /home/runner/work/got_auto/src
           python --version
           sleep 0
-          python run_daily_hof.py 0 
+          python run_daily_hof.py -i 0 
 
   daily_farm_1:
     # Name the Job
@@ -92,7 +92,7 @@ jobs:
           cd /home/runner/work/got_auto/src
           python --version
           sleep 7
-          python run_daily_hof.py 1 
+          python run_daily_hof.py -i 1 
 
   daily_farm_3:
     # Name the Job
@@ -135,7 +135,7 @@ jobs:
           cd /home/runner/work/got_auto/src
           python --version
           sleep 21
-          python run_daily_hof.py 3 
+          python run_daily_hof.py -i 3 
 
   daily_farm_20:
     # Name the Job
@@ -178,5 +178,5 @@ jobs:
           cd /home/runner/work/got_auto/src
           python --version
           sleep 40
-          python run_daily_hof.py 20 
+          python run_daily_hof.py -i 20 
 

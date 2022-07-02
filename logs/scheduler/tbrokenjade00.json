@@ -70,5 +70,9 @@
     "upgrade_commanders": {
         "next": 1656801519,
         "local": "07/02/2022 16:38:39"
+    },
+    "sell_quick_box": {
+        "next": 1656823627,
+        "local": "07/02/2022 22:47:07"
     }
 }

@@ -64,13 +64,13 @@
         "local": "07/06/2022 19:19:59"
     },
     "get_taven": {
-        "next": 1657062676,
+        "next": 1657072776,
         "param": {
             "track": true,
             "resize": 0.25,
             "leave_noclick": 1
         },
-        "local": "07/05/2022 17:11:16"
+        "local": "07/05/2022 19:59:36"
     },
     "get_alli_quest": {
         "next": 1657075247,

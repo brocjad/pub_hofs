@@ -1,6 +1,6 @@
 {
     "continue_bub": {
-        "next": 1657166731,
+        "next": 1657176272,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -8,35 +8,35 @@
         }
     },
     "check_box": {
-        "next": 1657169586,
+        "next": 1657169440,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_discount": {
-        "next": 1657170372,
+        "next": 1657168906,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "daily_msg": {
-        "next": 1657166804,
+        "next": 1657208589,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "trade": {
-        "next": 1657167334,
+        "next": 1657170274,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_taven": {
-        "next": 1657170942,
+        "next": 1657169082,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -44,7 +44,7 @@
         }
     },
     "up_command": {
-        "next": 1657171008,
+        "next": 1657169084,
         "param": {
             "name": "russell",
             "step_width": 3,
@@ -56,7 +56,7 @@
         "func": "upgrade_commanders"
     },
     "explore_drag": {
-        "next": 1657169458,
+        "next": 1657169128,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -66,7 +66,7 @@
         }
     },
     "sell_quick_box": {
-        "next": 1657169979,
+        "next": 1657169131,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -77,7 +77,7 @@
         "bow": 500
     },
     "train_mil": {
-        "next": 1657172277,
+        "next": 1657169133,
         "param": {
             "track": true,
             "resize": 0.25,

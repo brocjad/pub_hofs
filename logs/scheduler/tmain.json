@@ -8,7 +8,7 @@
         }
     },
     "check_box": {
-        "next": 1657276277,
+        "next": 1657276235,
         "param": {
             "track": true,
             "resize": 0.25
@@ -56,7 +56,7 @@
         "func": "upgrade_commanders"
     },
     "explore_drag": {
-        "next": 1657287023,
+        "next": 1657276245,
         "param": {
             "track": true,
             "resize": 0.25,

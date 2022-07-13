@@ -182,5 +182,12 @@
             "resize": 0.3
         },
         "func": "farm_around"
+    },
+    "refresh_am": {
+        "next": 1657745988,
+        "param": {
+            "track": true,
+            "resize": 0.25
+        }
     }
 }

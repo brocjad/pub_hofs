@@ -108,15 +108,6 @@
             "min_motiv": 8300
         }
     },
-    "daily_farms": {
-        "finished": [],
-        "next": 1653073006,
-        "local": "05/07/2022 11:28:41",
-        "param": {
-            "track": true,
-            "resize": 0.3
-        }
-    },
     "gather_mint": {
         "next": 1656804572,
         "param": {

@@ -176,7 +176,7 @@
         "func": "farm_around"
     },
     "refresh_am": {
-        "next": 1658001657,
+        "next": 1658002475,
         "param": {
             "track": true,
             "resize": 0.25

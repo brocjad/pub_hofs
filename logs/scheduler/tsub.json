@@ -63,15 +63,6 @@
         },
         "local": "07/19/2022 17:04:16"
     },
-    "get_taven": {
-        "next": 1658272593,
-        "param": {
-            "track": true,
-            "resize": 0.25,
-            "leave_noclick": 1
-        },
-        "local": "07/19/2022 17:16:33"
-    },
     "get_alli_quest": {
         "next": 1658273534,
         "param": {
@@ -88,17 +79,6 @@
             "min_level": 12
         },
         "local": "07/19/2022 22:11:14"
-    },
-    "explore_drag": {
-        "next": 1658273014,
-        "param": {
-            "track": true,
-            "resize": 0.25,
-            "hours": 1,
-            "buy": 0,
-            "dragon_id": 1
-        },
-        "local": "07/19/2022 17:23:34"
     },
     "get_vip_box": {
         "next": 1658279999,
@@ -195,8 +175,8 @@
         "local": "07/19/2022 17:15:54"
     },
     "enter_code": {
-        "next": 1658273435,
-        "local": "07/19/2022 17:30:35"
+        "next": 1658275286,
+        "local": "07/19/2022 18:01:26"
     },
     "refresh_am": {
         "next": 1658273559,

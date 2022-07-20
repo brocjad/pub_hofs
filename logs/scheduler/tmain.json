@@ -35,14 +35,6 @@
             "resize": 0.25
         }
     },
-    "get_taven": {
-        "next": 1658274077,
-        "param": {
-            "track": true,
-            "resize": 0.25,
-            "leave_noclick": 1
-        }
-    },
     "up_command": {
         "next": 1658274158,
         "param": {
@@ -54,24 +46,6 @@
             "trigger": 120
         },
         "func": "upgrade_commanders"
-    },
-    "explore_drag": {
-        "next": 1658276130,
-        "param": {
-            "track": true,
-            "resize": 0.25,
-            "hours": 1,
-            "buy": 0,
-            "dragon_id": 2
-        }
-    },
-    "sell_quick_box": {
-        "next": 1658296631,
-        "param": {
-            "track": true,
-            "resize": 0.25,
-            "min_level": 21
-        }
     },
     "soldiers": {
         "spe": 500,

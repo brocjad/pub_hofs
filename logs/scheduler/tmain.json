@@ -153,5 +153,12 @@
             "track": true,
             "resize": 0.25
         }
+    },
+    "quick_sell": {
+        "next": 1658302480,
+        "param": {
+            "track": true,
+            "resize": 0.3
+        }
     }
 }

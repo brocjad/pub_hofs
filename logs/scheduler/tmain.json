@@ -8,7 +8,7 @@
         }
     },
     "check_box": {
-        "next": 1658282327,
+        "next": 1658283917,
         "param": {
             "track": true,
             "resize": 0.25
@@ -148,7 +148,7 @@
         "func": "farm_around"
     },
     "refresh_am": {
-        "next": 1658357273,
+        "next": 1658282626,
         "param": {
             "track": true,
             "resize": 0.25

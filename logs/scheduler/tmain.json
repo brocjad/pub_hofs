@@ -1,6 +1,6 @@
 {
     "continue_bub": {
-        "next": 1658385483,
+        "next": 1658761060,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -8,35 +8,35 @@
         }
     },
     "check_box": {
-        "next": 1658382380,
+        "next": 1658385380,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_discount": {
-        "next": 1658383800,
+        "next": 1658388764,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "daily_msg": {
-        "next": 1658383842,
+        "next": 1658424866,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "trade": {
-        "next": 1658380777,
+        "next": 1658386557,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "up_command": {
-        "next": 1658384440,
+        "next": 1658388972,
         "param": {
             "name": "russell",
             "step_width": 3,
@@ -48,11 +48,10 @@
         "func": "upgrade_commanders"
     },
     "soldiers": {
-        "spe": 500,
         "bow": 500
     },
     "train_mil": {
-        "next": 1658385070,
+        "next": 1658385597,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -66,7 +65,7 @@
         }
     },
     "schedule_leader": {
-        "next": 1658385532,
+        "next": 1658379725,
         "param": {
             "side": "right",
             "level": 4,
@@ -104,7 +103,7 @@
         "func": "farm_around"
     },
     "gather_qml": {
-        "next": 1658388626,
+        "next": 1658375734,
         "param": {
             "levels": [
                 5
@@ -155,14 +154,14 @@
         }
     },
     "quick_sell": {
-        "next": 1658384572,
+        "next": 1658385425,
         "param": {
             "track": true,
             "resize": 0.3
         }
     },
     "quick_explore": {
-        "next": 1658384550,
+        "next": 1658386004,
         "param": {
             "track": true,
             "resize": 0.3

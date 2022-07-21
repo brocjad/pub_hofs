@@ -1,6 +1,6 @@
 {
     "continue_bub": {
-        "next": 1658380159,
+        "next": 1658376357,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -8,21 +8,21 @@
         }
     },
     "check_box": {
-        "next": 1658380487,
+        "next": 1658378131,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_discount": {
-        "next": 1658383800,
+        "next": 1658380054,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "daily_msg": {
-        "next": 1658383842,
+        "next": 1658376488,
         "param": {
             "track": true,
             "resize": 0.25
@@ -84,7 +84,7 @@
         }
     },
     "gather_mint": {
-        "next": 1658372974,
+        "next": 1658384186,
         "param": {
             "levels": [
                 4
@@ -126,7 +126,7 @@
         "func": "farm_around"
     },
     "gather_quarmine": {
-        "next": 1658372939,
+        "next": 1658383666,
         "param": {
             "levels": [
                 5

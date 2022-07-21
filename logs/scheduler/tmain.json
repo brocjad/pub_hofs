@@ -1,6 +1,6 @@
 {
     "continue_bub": {
-        "next": 1658380159,
+        "next": 1658376357,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -8,35 +8,35 @@
         }
     },
     "check_box": {
-        "next": 1658381225,
+        "next": 1658378131,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_discount": {
-        "next": 1658383800,
+        "next": 1658380054,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "daily_msg": {
-        "next": 1658383842,
+        "next": 1658376488,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "trade": {
-        "next": 1658380777,
+        "next": 1658377018,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "up_command": {
-        "next": 1658384440,
+        "next": 1658380683,
         "param": {
             "name": "russell",
             "step_width": 3,
@@ -84,7 +84,7 @@
         }
     },
     "gather_mint": {
-        "next": 1658372974,
+        "next": 1658384186,
         "param": {
             "levels": [
                 4
@@ -104,7 +104,7 @@
         "func": "farm_around"
     },
     "gather_qml": {
-        "next": 1658375734,
+        "next": 1658384707,
         "param": {
             "levels": [
                 5
@@ -126,7 +126,7 @@
         "func": "farm_around"
     },
     "gather_quarmine": {
-        "next": 1658372939,
+        "next": 1658383666,
         "param": {
             "levels": [
                 5
@@ -155,14 +155,14 @@
         }
     },
     "quick_sell": {
-        "next": 1658384572,
+        "next": 1658380816,
         "param": {
             "track": true,
             "resize": 0.3
         }
     },
     "quick_explore": {
-        "next": 1658384550,
+        "next": 1658380794,
         "param": {
             "track": true,
             "resize": 0.3

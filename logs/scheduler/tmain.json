@@ -1,6 +1,6 @@
 {
     "continue_bub": {
-        "next": 1658381239,
+        "next": 1658380159,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -8,35 +8,35 @@
         }
     },
     "check_box": {
-        "next": 1658378131,
+        "next": 1658382380,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_discount": {
-        "next": 1658380054,
+        "next": 1658383800,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "daily_msg": {
-        "next": 1658384802,
+        "next": 1658383842,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "trade": {
-        "next": 1658381737,
+        "next": 1658380777,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "up_command": {
-        "next": 1658380683,
+        "next": 1658384440,
         "param": {
             "name": "russell",
             "step_width": 3,
@@ -52,7 +52,7 @@
         "bow": 500
     },
     "train_mil": {
-        "next": 1658377224,
+        "next": 1658385070,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -84,7 +84,7 @@
         }
     },
     "gather_mint": {
-        "next": 1658384186,
+        "next": 1658372974,
         "param": {
             "levels": [
                 4
@@ -104,7 +104,7 @@
         "func": "farm_around"
     },
     "gather_qml": {
-        "next": 1658384707,
+        "next": 1658375734,
         "param": {
             "levels": [
                 5
@@ -126,7 +126,7 @@
         "func": "farm_around"
     },
     "gather_quarmine": {
-        "next": 1658383666,
+        "next": 1658372939,
         "param": {
             "levels": [
                 5
@@ -155,14 +155,14 @@
         }
     },
     "quick_sell": {
-        "next": 1658380816,
+        "next": 1658384572,
         "param": {
             "track": true,
             "resize": 0.3
         }
     },
     "quick_explore": {
-        "next": 1658380794,
+        "next": 1658384550,
         "param": {
             "track": true,
             "resize": 0.3

@@ -1,6 +1,6 @@
 {
     "continue_bub": {
-        "next": 1658376357,
+        "next": 1658380159,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -126,7 +126,7 @@
         "func": "farm_around"
     },
     "gather_quarmine": {
-        "next": 1658383666,
+        "next": 1658372939,
         "param": {
             "levels": [
                 5

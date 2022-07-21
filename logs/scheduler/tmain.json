@@ -48,17 +48,15 @@
         "func": "upgrade_commanders"
     },
     "soldiers": {
-        "spe": 500,
         "bow": 500
     },
     "train_mil": {
-        "next": 1658401505,
+        "next": 1658402581,
         "param": {
             "track": true,
             "resize": 0.25,
             "level": 1,
             "soldiers": {
-                "spe": 500,
                 "bow": 500
             }
         }

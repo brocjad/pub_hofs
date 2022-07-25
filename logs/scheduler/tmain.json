@@ -1,6 +1,6 @@
 {
     "continue_bub": {
-        "next": 1658810726,
+        "next": 1658780595,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -154,7 +154,7 @@
         }
     },
     "quick_explore": {
-        "next": 1658784179,
+        "next": 1658780555,
         "param": {
             "track": true,
             "resize": 0.3

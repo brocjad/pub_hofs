@@ -47,11 +47,9 @@
         },
         "func": "upgrade_commanders"
     },
-    "soldiers": {
-        "bow": 500
-    },
+    "soldiers": {},
     "train_mil": {
-        "next": 1658709659,
+        "next": 1658722753,
         "param": {
             "track": true,
             "resize": 0.25,

@@ -1,6 +1,6 @@
 {
     "continue_bub": {
-        "next": 1658848467,
+        "next": 1658845291,
         "param": {
             "track": true,
             "resize": 0.25,
@@ -8,14 +8,14 @@
         }
     },
     "check_box": {
-        "next": 1658839725,
+        "next": 1658845925,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "get_discount": {
-        "next": 1658846610,
+        "next": 1658845338,
         "param": {
             "track": true,
             "resize": 0.25
@@ -127,7 +127,7 @@
         "func": "farm_around"
     },
     "gather_quarmine": {
-        "next": 1658846533,
+        "next": 1658845220,
         "param": {
             "levels": [
                 5
@@ -156,14 +156,14 @@
         }
     },
     "quick_sell": {
-        "next": 1658845275,
+        "next": 1658845134,
         "param": {
             "track": true,
             "resize": 0.3
         }
     },
     "quick_explore": {
-        "next": 1658848721,
+        "next": 1658845150,
         "param": {
             "track": true,
             "resize": 0.3

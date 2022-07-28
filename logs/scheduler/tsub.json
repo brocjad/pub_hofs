@@ -72,13 +72,13 @@
         "local": "07/28/2022 08:20:58"
     },
     "sell_quick_box": {
-        "next": 1659010628,
+        "next": 1659014758,
         "param": {
             "track": true,
             "resize": 0.25,
             "min_level": 12
         },
-        "local": "07/28/2022 06:17:08"
+        "local": "07/28/2022 07:25:58"
     },
     "get_vip_box": {
         "next": 1659015765,

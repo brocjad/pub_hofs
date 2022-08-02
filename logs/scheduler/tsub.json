@@ -56,12 +56,12 @@
         "local": "08/02/2022 18:09:59"
     },
     "get_amethyst": {
-        "next": 1659481671,
+        "next": 1659483274,
         "param": {
             "track": true,
             "resize": 0.3
         },
-        "local": "08/02/2022 17:07:51"
+        "local": "08/02/2022 17:34:34"
     },
     "get_alli_quest": {
         "next": 1659482010,

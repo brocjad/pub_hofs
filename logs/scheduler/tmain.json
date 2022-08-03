@@ -15,14 +15,14 @@
         }
     },
     "get_discount": {
-        "next": 1659523771,
+        "next": 1659522327,
         "param": {
             "track": true,
             "resize": 0.25
         }
     },
     "daily_msg": {
-        "next": 1659556172,
+        "next": 1659522388,
         "param": {
             "track": true,
             "resize": 0.25

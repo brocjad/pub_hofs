@@ -64,12 +64,12 @@
         "local": "08/02/2022 20:46:26"
     },
     "get_alli_quest": {
-        "next": 1659501344,
+        "next": 1659501370,
         "param": {
             "track": true,
             "resize": 0.25
         },
-        "local": "08/02/2022 22:35:44"
+        "local": "08/02/2022 22:36:10"
     },
     "sell_quick_box": {
         "next": 1659507677,
